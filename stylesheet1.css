@@ -126,10 +126,6 @@ body {
     text-align: center;
 }
 
-.contact_person p {
-    padding-left: 20px;
-}
-
 .photos_container li{
     float: left;
     list-style-type:none;
