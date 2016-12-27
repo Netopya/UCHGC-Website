@@ -60,6 +60,16 @@
                         <li ><a href="contact.php"><?php echo $contact_button[$refined_laguage]; ?></a></li>
                         <li ><a href="links.php"><?php echo $link_button[$refined_laguage]; ?></a></li>
                       </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $language_label[$refined_laguage];?> <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li onclick="language_changed(1)"><a href="#">English</a></li>
+                            <li onclick="language_changed(2)"><a href="#">Français</a></li>
+                            <li onclick="language_changed(3)"><a href="#">Український</a></li>
+                          </ul>
+                        </li>
+                      </ul>
                     </div><!-- /.navbar-collapse -->
                   </div><!-- /.container-fluid -->
                 </nav>

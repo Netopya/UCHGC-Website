@@ -1,8 +1,6 @@
-function language_changed()
+function language_changed(language)
 {
-    var language;
-       
-    language = document.getElementById('language_selector_selectbox').options[document.getElementById('language_selector_selectbox').selectedIndex].value;
+
     
         
     function setCookie(c_name,value,exdays)
