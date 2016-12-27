@@ -24,7 +24,7 @@ include("opening_php.php");
                                 <h1><?php echo $location_button[$refined_laguage]; ?></h1>
                             </div>
                             <address>
-                                <strong>MAILING NAME HERE</strong><br>
+                                <strong>Ukrainian Catholic Holy Ghost Church</strong><br>
                                 1795 Rue Grand Trunk<br>
                                 Montréal, QC, H3K 2J5
                             </address>
