@@ -1,13 +1,16 @@
 ﻿<?php
-    
 
     $pagebutton_id = 1;
+
+    include("opening_php.php");
+    
 ?><!DOCTYPE html>
 <html>
     <head>
         <title><?php echo $home_title[$refined_laguage]; ?></title>
-        <LINK REL=StyleSheet HREF="stylesheet1.css" TYPE="text/css">
+
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -25,14 +28,13 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="bootstrap.override.css">
+        
+        <LINK REL=StyleSheet HREF="stylesheet1.css" TYPE="text/css">
     </head>
 
 <body>
     
     <div id="container_main">
-    <?php
-    include("opening_php.php");
-    ?>
         <div class="navbar-wrapper">
             <div class="container">
                 <nav class="navbar navbar-default">
@@ -103,39 +105,44 @@
         <!-- END CAROUSEL -->
 
         <div id="webcontent_background">
-            <div id="webcontent_container">
-
-                <h1><?php echo $indexh[$refined_laguage]; ?></h1>
-
-                <div class="blog_post" id="schedual_container">
-                    <p><?php echo $schedual_text[$refined_laguage]; ?></p>
-
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="page-header">
+                            <h1><?php echo $indexh[$refined_laguage]; ?></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="jumbotron" id="schedual_container">
+                            <p><?php echo $schedual_text[$refined_laguage]; ?></p>
+                        </div>
+                    </div>
                 </div>
 
-
-                <div class="blog_post">
-
-                    <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
-                    <a href="images/xmas.jpg">
-                    <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
-                    <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
-                    <div class="clear_float"></div>
-
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
+                        <a href="images/xmas.jpg">
+                        <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
+                        <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
+                        <div class="clear_float"></div>
+                    </div>
                 </div>
 
-                <div class="blog_post">
-
-                    <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>
-                    <a href="images/kutia.jpg"><img style="float: right" src="images/thumbnails/thb_kutia.jpg" height="133" width="200"/></a>
-                    <p><?php echo $kutia_text[$refined_laguage]; ?></p>
-                    <div class="clear_float"></div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>
+                        <a href="images/kutia.jpg"><img style="float: right" src="images/thumbnails/thb_kutia.jpg" height="133" width="200"/></a>
+                        <p><?php echo $kutia_text[$refined_laguage]; ?></p>
+                        <div class="clear_float"></div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-            <div id="footer">
+        <div id="footer">
 
-            </div>
         </div>
     </div>
 </body>
