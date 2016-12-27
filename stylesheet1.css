@@ -1,0 +1,230 @@
+body {
+    
+    margin:0px;
+    background-color:#00366E;
+}
+
+#container_main {
+   
+    
+}
+
+#languagebar_container {
+    background-color:#1989FF;
+    
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#heading_container {
+    background-color:#00366E;
+       
+}
+
+#heading_content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+    padding-bottom: 25px;
+}
+
+#banner_container {
+    /*height:120px;*/
+}
+
+#banner_container h1 {
+    /*padding-top:40px;*/
+    margin:0px;
+    text-align: center;
+}
+
+#button_bar_container{
+    background-color:#1989FF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+   
+}
+
+.button_inbar{
+    
+    list-style-type:none;
+    float:left;
+    /*width:140px;*/
+    font-size:20px;
+    /*border:2px rgb(10,10,10) solid;*/
+    /*padding-top:5px;
+    padding-bottom:5px;
+    margin-top:5px;
+    margin-bottom:5px;*/
+   
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.spacer_inbar {
+    list-style-type:none;
+    float:left;
+    background-color: black;
+    width: 2px;
+    height: 42px;
+}
+
+.button_inbar:hover {
+    background-color:#65B0FF;
+}
+
+#page_button{
+    background-color:#65B0FF;
+}
+
+#button_bar_container a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#button_bar_container a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#button_bar_container ul{
+    /*width:368px;
+    margin-left:auto;
+    margin-right:auto;*/
+    height: 42px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.clear_float {
+    float: none;
+    clear: both;
+}
+
+#top_banner_img {
+    background-image: url("st_esprit_int1 - Copy.jpg");
+    /*width: 1000px;*/
+    height: 228px;
+}
+
+#webcontent_container {
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+    background-color:#FFFFFF;
+}
+
+.blog_post h1 {
+    font-size: 25px;
+}
+
+.blog_post p, #index_blog_post_sticky p{
+    text-indent: 20px;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+#schedual_container {
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+
+.blog_post #address {
+    text-indent: 0px;
+    padding-left: 50px;
+}
+
+#index_blog_post_sticky h1 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 2px #6E4600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6E4600;
+   
+}
+
+#map_container {
+    text-align: center;
+}
+
+.contact_person p {
+    padding-left: 20px;
+}
+
+.photos_container li{
+    float: left;
+    list-style-type:none;
+    width: 266px;
+    height: 245px;
+    text-align: center;
+}
+
+.photos_container ul{
+    margin-left: 1px;
+    padding: 0px;    
+}
+
+#priestimage {
+    float: right;
+    
+}
+
+#schedual_container {
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blog_post li {
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.nobulletli {
+    list-style-type:none;
+}
+
+#footer {
+    background-color:#00366E;
+    height: 20px;
+    
+   
+}
+
+#webcontent_background
+{
+    background-color: #FFFFFF;
+}
+
+#easter_scedule li{
+    width: 266px;
+    float: left;
+    list-style-type:none;
+    margin-bottom: 20px;
+}
+
+#easter_scedule {
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#easter_scedule b{
+    text-align: center;
+}
+
+.centeredpost {
+    text-indent: 0px;
+    text-align: center;
+}
