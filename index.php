@@ -18,6 +18,8 @@
 
         <meta name="keywords" content="Ukrainian,Catholic,Holy,Ghost,Church,Montreal,église,catholique,ukrainienne,Saint-Esprit,Montréal,Українська,Католицька,Церква,Святого,Духа,Монреалі">
 
+        <link rel="stylesheet" href="css/flags.css">
+        
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -62,11 +64,11 @@
                       </ul>
                       <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $language_label[$refined_laguage];?> <span class="caret"></span></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $language_label[$refined_laguage];?> <span class="flag flag-gb"></span> <span class="flag flag-fr"></span> <span class="flag flag-ua"></span> <span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                            <li onclick="language_changed(1)"><a href="#">English</a></li>
-                            <li onclick="language_changed(2)"><a href="#">Français</a></li>
-                            <li onclick="language_changed(3)"><a href="#">Український</a></li>
+                            <li onclick="language_changed(1)"><a href="#"><span class="flag flag-gb"></span> English</a></li>
+                            <li onclick="language_changed(2)"><a href="#"><span class="flag flag-fr"></span> Français</a></li>
+                            <li onclick="language_changed(3)"><a href="#"><span class="flag flag-ua"></span> Український</a></li>
                           </ul>
                         </li>
                       </ul>
