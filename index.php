@@ -17,16 +17,24 @@
     <div id="container_main">
 
         <!-- carousel begin -->
-        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+        <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="st_esprit_int1 - Copy.jpg" alt="...">
+              <img src="images/carousel/st_esprit_int1.jpg" alt="...">
+              <div class="carousel-caption">
+                <!--<h1></h1>
+                <p></br></p>-->
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/carousel/st_esprit.jpg" alt="...">
               <div class="carousel-caption">
                 <!--<h1></h1>
                 <p></br></p>-->

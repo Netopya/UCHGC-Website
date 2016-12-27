@@ -22,3 +22,15 @@
 		position:relative;
 	}
 }
+
+#main-carousel {
+	background-color:#5a5a5a;
+}
+
+.carousel-indicators li {
+	border: 1px solid #000000;
+}
+
+.carousel-indicators .active {
+	background-color:#000000;
+}

@@ -189,7 +189,7 @@ body {
 }
 
 #smalltopnavback {
-    background-image: url(images/st_esprit_int1.jpg);
+    background-image: url("../images/st_esprit_int1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 149px;
