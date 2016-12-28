@@ -109,7 +109,7 @@
                                         </form>
                                     <?php
                                 } else {
-                                    include("php/userinfo.php");
+                                    require_once("php/userinfo.php");
                                     $user = getUserInfo($_SESSION["userId"]);
                                     ?>
                                         <p>Welcome <?php echo $user["firstname"] . " " . $user["lastname"] . " (" . $user["username"] . ")"; ?></p>

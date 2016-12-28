@@ -27,8 +27,8 @@
                             <div class="page-header">
                                 <h1>Logout</h1>
                             </div>
-                            <p>You have been logged out</p>
-                            <a class="btn btn-default" href="index.php" role="button">Return to home</a>
+                            <p>You have been logged out</p><br>
+                            <a class="btn btn-default" href="index.php" role="button">Return to home</a><br><br>
                             <a class="btn btn-default" href="login.php" role="button">Log back in</a>
                         </div>
                     </div>

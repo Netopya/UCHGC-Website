@@ -25,6 +25,24 @@
                 <li <?php if($pagebutton_id == 7) { echo 'class="active"';}  ?>><a href="links.php"><?php echo $link_button[$refined_laguage]; ?></a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <?php
+                    if(isset($_SESSION["userId"]))
+                    {
+                        require_once("php/userinfo.php");
+                        
+                        $user = getUserInfo($_SESSION["userId"]);
+                        
+                        ?>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <?php echo $user["username"]; ?><span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="galleryEd.php">Gallery Editor</a></li>
+                                    <li><a href="logout.php">Logout</a></li>
+                                </ul>
+                            </li>
+                        <?php
+                    }                
+                ?>              
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $language_label[$refined_laguage];?>
                     <span class="hidden-sm"> <span class="flag flag-gb"></span> <span class="flag flag-fr"></span> <span class="flag flag-ua"></span></span> <span class="caret"></span></a>
