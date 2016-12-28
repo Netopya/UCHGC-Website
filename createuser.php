@@ -27,7 +27,11 @@
         $message .= " Invalid password ";
     }
     
-    $tmpHash = "";
+    if(!isset($_SESSION["userId"]))
+    {
+        $hasError = true;
+        $message .= " You must be logged in for this operation ";
+    }
     
     if($createAttempt && !$hasError)
     {
@@ -35,8 +39,6 @@
         require("php/dbconfig.php");
         
         $hash = password_hash($password, PASSWORD_DEFAULT);
-        
-        $tmpHash = $hash;
         
         // Create connection
         $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
@@ -75,7 +77,7 @@
         }
     }
     
-    if(!$createAttempt)
+    if(!$createAttempt && isset($_SESSION["userId"]))
     {
         $message .= "Ready to create user";
     }
@@ -83,7 +85,7 @@
 ?><!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $about_title[$refined_laguage]; ?></title>
+        <title>Create a user</title>
         <?php include("php/head.php"); ?>
     </head>
     <body>
@@ -108,29 +110,36 @@
                                     echo $message;
                                 ?>
                             </div>
-                            <form method="post">
-                              <div class="form-group <?php echo $hasError && $usernameError ? "has-error" : ""; ?>">
-                                <label class="control-label" for="inputUsername">Username</label>
-                                <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Username">
-                              </div>
-                              <div class="form-group <?php echo $hasError && $passwordError ? "has-error" : ""; ?>">
-                                <label class="control-label" for="inputPassword">Password (Optional)</label>
-                                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
-                              </div>
-                              <div class="form-group">
-                                <label class="control-label" for="inputFirstname">First Name (Optional)</label>
-                                <input type="text" class="form-control" id="inputFirstname" name="firstname" placeholder="First Name">
-                              </div>
-                              <div class="form-group">
-                                <label class="control-label" for="inputLastname">Last Name</label>
-                                <input type="text" class="form-control" id="inputLastname" name="lastname" placeholder="Last Name">
-                              </div>
-                              <div class="form-group">
-                                <label class="control-label" for="inputEmail">Email (Optional)</label>
-                                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
-                              </div>
-                              <button type="submit" class="btn btn-default">Submit</button>
-                            </form>
+                            <?php 
+                                if(isset($_SESSION["userId"]))
+                                {
+                                    ?>
+                                        <form method="post">
+                                          <div class="form-group <?php echo $hasError && $usernameError ? "has-error" : ""; ?>">
+                                            <label class="control-label" for="inputUsername">Username</label>
+                                            <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Username">
+                                          </div>
+                                          <div class="form-group <?php echo $hasError && $passwordError ? "has-error" : ""; ?>">
+                                            <label class="control-label" for="inputPassword">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="control-label" for="inputFirstname">First Name (Optional)</label>
+                                            <input type="text" class="form-control" id="inputFirstname" name="firstname" placeholder="First Name">
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="control-label" for="inputLastname">Last Name (Optional)</label>
+                                            <input type="text" class="form-control" id="inputLastname" name="lastname" placeholder="Last Name">
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="control-label" for="inputEmail">Email (Optional)</label>
+                                            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+                                          </div>
+                                          <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                    <?php
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>

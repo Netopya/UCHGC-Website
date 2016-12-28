@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     //might want to include a system that will override based on cookies and sessions
     
     if(isset($_COOKIE["language"]))
