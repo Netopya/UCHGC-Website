@@ -12,6 +12,39 @@
     <head>
         <title>Gallery Editor</title>
         <?php include("php/head.php"); ?>
+        <script>
+            function editGallery()
+            {
+                $.ajax({
+                    type: "POST",
+                    url: "php/creategallery.php",
+                    data: {
+                        "enname" : $("#en_name").val(),
+                        "frname" : $("#fr_name").val(),
+                        "ukname" : $("#uk_name").val(),
+                        "id" : <?php echo $id; ?>
+                    },
+                    beforeSend: function() {
+                        $("#titleSuccessAlert").hide();
+                        $("#titleErrorMessage").parent().hide();
+                    }
+                }).done(function(data){
+                    var reponse = JSON.parse(data);
+                    if(reponse["status"] === "success")
+                    {
+                        $("#titleSuccessAlert").show();
+                    }
+                    else
+                    {
+                        $("#titleErrorMessage").parent().show();
+                        $("#titleErrorMessage").html(reponse["errorMessage"]);
+                    }
+                }).fail(function(){
+                    $("#titleErrorMessage").parent().show();
+                    $("#titleErrorMessage").html("Could not connect to server");
+                });
+            }
+        </script>
     </head>
     <body>
         <?php include("php/navbar1.php"); ?>
@@ -61,7 +94,9 @@
                                             <a class="btn btn-default" href="galleryEd.php" role="button"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to gallery list</a>
                                             <br><br>
                                             <h2>Gallery Titles</h2>
-                                            <form class="form-horizontal">
+                                            <div class="alert alert-danger" role="alert" style="display:none;"><strong>An error has occurred: </strong><span id="titleErrorMessage"></span></div>
+                                            <div id="titleSuccessAlert" class="alert alert-success" role="alert" style="display:none;"><strong>Update successful</strong></div>
+                                            <form class="form-horizontal" onsubmit="editGallery(); return false;">
                                               <div class="form-group">
                                                 <label for="en_name" class="col-sm-3 control-label">English Title</label>
                                                 <div class="col-sm-9">

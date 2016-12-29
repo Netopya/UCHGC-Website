@@ -11,7 +11,8 @@
     $enname = isset($_POST['enname']) ? $_POST['enname'] : "";
     $frname = isset($_POST['frname']) ? $_POST['frname'] : "";
     $ukname = isset($_POST['ukname']) ? $_POST['ukname'] : "";
-    
+    $id = isset($_POST['id']) ? $_POST['id'] : "";
+
     $errorMessage = "";
     $lastId;
     
@@ -30,8 +31,16 @@
         
     if(empty($errorMessage))
     {
-        $stmt = $conn->prepare("INSERT INTO Galleries (name_en, name_fr, name_uk, userid) VALUES (?,?,?,?)");
-        $stmt->bind_param("ssss", $enname, $frname, $ukname, $_SESSION["userId"]);
+        if(empty($id))
+        {
+            $stmt = $conn->prepare("INSERT INTO Galleries (name_en, name_fr, name_uk, userid) VALUES (?,?,?,?)");
+            $stmt->bind_param("ssss", $enname, $frname, $ukname, $_SESSION["userId"]);
+        }
+        else
+        {
+            $stmt = $conn->prepare("UPDATE Galleries SET name_en=?, name_fr=?, name_uk=? WHERE id=?");
+            $stmt->bind_param("ssss", $enname, $frname, $ukname, $id);
+        }
         $success = $stmt->execute();
         
         if($success)
@@ -40,7 +49,7 @@
         }
         else
         {
-            $errorMessage .= " Could not add the gallery. ";
+            $errorMessage .= empty($id) ? " Could not add the gallery. " : " Could not update the gallery ";
         }
     }
     
