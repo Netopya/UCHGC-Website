@@ -21,7 +21,19 @@
                         "ukname" : $("#uk_name").val()
                     }
                 }).done(function(data){
-                    
+                    var reponse = JSON.parse(data);
+                    if(reponse["status"] === "success")
+                    {
+                        window.location.href = "galleryEditor.php?id=" + reponse["id"];
+                    }
+                    else
+                    {
+                        $("#alertErrorMessage").parent().show();
+                        $("#alertErrorMessage").html(reponse["errorMessage"]);
+                    }
+                }).fail(function(){
+                    $("#alertErrorMessage").parent().show();
+                    $("#alertErrorMessage").html("Could not connect to server");
                 });
             }
         
@@ -57,6 +69,7 @@
                                     }
                                     
                                     $stmt = $conn->prepare("SELECT id, name_en, name_fr, name_uk FROM Galleries");
+                                    $stmt->execute();
                                     $stmt->bind_result($id, $name_en, $name_fr, $name_uk);
                                     
                                     ?>
@@ -72,11 +85,15 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <?php
-                                                    while ($stmt->fetch()) {
-                                                        echo "<tr><th>" . $id . "</th><th>" . $name_en . "</th><th>" . $name_fr . "</th><th>" . $name_uk . "</th><th><span class=\"glyphicon glyphicon-pencil\" aria-hidden=\"true\"></span></th></tr>";
-                                                    }
-                                                ?>
+                                                <?php while ($stmt->fetch()) { ?>
+                                                    <tr>
+                                                        <th scope="row"><?php echo $id; ?></th>
+                                                        <td><?php echo $name_en; ?></td>
+                                                        <td><?php echo $name_fr; ?></td>
+                                                        <td><?php echo $name_uk; ?></td>
+                                                        <td><a class="btn btn-default" href="galleryEditor.php?id=<?php echo $id; ?>" role="button"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a></td>
+                                                    </tr>
+                                                <?php } ?>
                                             </tbody>
                                         </table>
                                         
@@ -87,9 +104,12 @@
                                             <div class="modal-content">
                                               <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                <h4 class="modal-title">Create a new gallery</h4>
+                                                <h4 class="modal-title">Create a new gallery <small>Provide a title in at least one language</small></h4>
                                               </div>
                                               <div class="modal-body">
+                                                <div class="alert alert-danger" style="display:none;" role="alert">
+                                                    <strong>An error has occurred: </strong><span id="alertErrorMessage"></span>
+                                                </div>
                                                 <form class="form-horizontal">
                                                   <div class="form-group">
                                                     <label for="en_name" class="col-sm-3 control-label">English Title</label>
