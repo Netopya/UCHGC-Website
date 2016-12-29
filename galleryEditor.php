@@ -27,6 +27,8 @@
                     beforeSend: function() {
                         $("#titleSuccessAlert").hide();
                         $("#titleErrorMessage").parent().hide();
+                        $(".disable-on-load").prop('disabled', true);
+                        $("#titleLoadingImg").show();
                     }
                 }).done(function(data){
                     var reponse = JSON.parse(data);
@@ -42,6 +44,9 @@
                 }).fail(function(){
                     $("#titleErrorMessage").parent().show();
                     $("#titleErrorMessage").html("Could not connect to server");
+                }).always(function() {
+                    $(".disable-on-load").prop('disabled', false);
+                    $("#titleLoadingImg").hide();
                 });
             }
         </script>
@@ -95,29 +100,30 @@
                                             <br><br>
                                             <h2>Gallery Titles</h2>
                                             <div class="alert alert-danger" role="alert" style="display:none;"><strong>An error has occurred: </strong><span id="titleErrorMessage"></span></div>
-                                            <div id="titleSuccessAlert" class="alert alert-success" role="alert" style="display:none;"><strong>Update successful</strong></div>
+                                            <div id="titleSuccessAlert" class="alert alert-success" role="alert" style="display:none;"><button type="button" class="close" aria-label="Close" onclick="$(this).parent().hide()"><span aria-hidden="true">&times;</span></button><strong>Update successful</strong></div>
                                             <form class="form-horizontal" onsubmit="editGallery(); return false;">
                                               <div class="form-group">
                                                 <label for="en_name" class="col-sm-3 control-label">English Title</label>
                                                 <div class="col-sm-9">
-                                                  <input type="text" class="form-control" id="en_name" placeholder="Title" value="<?php echo $name_en; ?>">
+                                                  <input type="text" class="form-control disable-on-load" id="en_name" placeholder="Title" value="<?php echo $name_en; ?>">
                                                 </div>
                                               </div>
                                               <div class="form-group">
                                                 <label for="fr_name" class="col-sm-3 control-label">French Title</label>
                                                 <div class="col-sm-9">
-                                                  <input type="text" class="form-control" id="fr_name" placeholder="Title" value="<?php echo $name_fr; ?>">
+                                                  <input type="text" class="form-control disable-on-load" id="fr_name" placeholder="Title" value="<?php echo $name_fr; ?>">
                                                 </div>
                                               </div>
                                               <div class="form-group">
                                                 <label for="uk_name" class="col-sm-3 control-label">Ukrainian Title</label>
                                                 <div class="col-sm-9">
-                                                  <input type="text" class="form-control" id="uk_name" placeholder="Title" value="<?php echo $name_uk; ?>">
+                                                  <input type="text" class="form-control disable-on-load" id="uk_name" placeholder="Title" value="<?php echo $name_uk; ?>">
                                                 </div>
                                               </div>
                                               <div>
                                                 <div class="col-sm-offset-3 col-sm-9">
-                                                  <button type="submit" class="btn btn-default">Update</button>
+                                                  <button type="submit" class="btn btn-default disable-on-load">Update</button>
+                                                  <img id="titleLoadingImg" src="images/loading.gif" style="display:none;"/>
                                                 </div>
                                               </div>
                                             </form>
