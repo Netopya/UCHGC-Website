@@ -9,6 +9,23 @@
     <head>
         <title>Gallery Editor</title>
         <?php include("php/head.php"); ?>
+        <script>
+            function submitNewGallery()
+            {
+                $.ajax({
+                    type: "POST",
+                    url: "php/creategallery.php",
+                    data: {
+                        "enname" : $("#en_name").val(),
+                        "frname" : $("#fr_name").val(),
+                        "ukname" : $("#uk_name").val()
+                    }
+                }).done(function(data){
+                    
+                });
+            }
+        
+        </script>
     </head>
     <body>
         <?php include("php/navbar1.php"); ?>
@@ -62,7 +79,45 @@
                                                 ?>
                                             </tbody>
                                         </table>
-                                        <a class="btn btn-success" href="#" role="button">Create new gallery <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                                        
+                                        <a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#createmodal">Create new gallery <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                                        
+                                        <div id="createmodal" class="modal fade" tabindex="-1" role="dialog">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title">Create a new gallery</h4>
+                                              </div>
+                                              <div class="modal-body">
+                                                <form class="form-horizontal">
+                                                  <div class="form-group">
+                                                    <label for="en_name" class="col-sm-3 control-label">English Title</label>
+                                                    <div class="col-sm-9">
+                                                      <input type="text" class="form-control" id="en_name" placeholder="Title">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label for="fr_name" class="col-sm-3 control-label">French Title</label>
+                                                    <div class="col-sm-9">
+                                                      <input type="text" class="form-control" id="fr_name" placeholder="Title">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label for="uk_name" class="col-sm-3 control-label">Ukrainian Title</label>
+                                                    <div class="col-sm-9">
+                                                      <input type="text" class="form-control" id="uk_name" placeholder="Title">
+                                                    </div>
+                                                  </div>
+                                                </form>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary" onclick="submitNewGallery()">Create</button>
+                                              </div>
+                                            </div><!-- /.modal-content -->
+                                          </div><!-- /.modal-dialog -->
+                                        </div><!-- /.modal -->
                                     <?php
                                 }
                             ?>
