@@ -49,6 +49,23 @@
                     $("#titleLoadingImg").hide();
                 });
             }
+            
+            function listPendingImages()
+            {
+                var fileList = $("#fileinput")[0].files;
+                
+                $("#uploadImageList").empty();
+                
+                if(fileList.length === 0)
+                    $("#uploadImageListTitle").hide();
+                else
+                    $("#uploadImageListTitle").show();
+                
+                for(var i = 0; i < fileList.length; i++)
+                {
+                    $("#uploadImageList").append("<li>" + fileList[i].name + "</li>");
+                }
+            }
         </script>
     </head>
     <body>
@@ -120,14 +137,33 @@
                                                   <input type="text" class="form-control disable-on-load" id="uk_name" placeholder="Title" value="<?php echo $name_uk; ?>">
                                                 </div>
                                               </div>
-                                              <div>
+                                              <div class="form-group">
                                                 <div class="col-sm-offset-3 col-sm-9">
-                                                  <button type="submit" class="btn btn-default disable-on-load">Update</button>
+                                                  <button type="submit" class="btn btn-primary disable-on-load">Update</button>
                                                   <img id="titleLoadingImg" src="images/loading.gif" style="display:none;"/>
                                                 </div>
                                               </div>
                                             </form>
                                             <h2>Gallery Images</h2>
+                                            <form class="form-horizontal" action="file-upload.php" method="post" enctype="multipart/form-data">
+                                                <div class="form-group">
+                                                    <label for="fileinput" class="col-sm-3 control-label">Add Images:</label>
+                                                    <div class="col-sm-9">
+                                                        <label class="btn btn-default btn-file">
+                                                            <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp Select Images <input type="file" name="userfiles" id="fileinput" style="display: none;" multiple onchange="listPendingImages();">
+                                                        </label>
+                                                        <div id="uploadImageListTitle" style="display:none;"><br>Selected Images:
+                                                        </div>
+                                                        <ul id="uploadImageList">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-offset-3 col-sm-9">
+                                                        <input type="submit" class="btn btn-primary" value="Upload images" />
+                                                    </div>
+                                                </div>
+                                            </form>
                                         <?php
                                     }
                                 }
