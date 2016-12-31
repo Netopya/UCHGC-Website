@@ -82,7 +82,31 @@
                     data: data,
                     cache: false,
                     contentType: false,
-                    processData: false
+                    processData: false,
+                    beforeSend: function() {
+                        var alert = $("#photoAlert");
+                        alert.hide();
+                        alert.removeClass();
+                        alert.addClass("alert");
+                        $("#successImages").empty();
+                        $("#errorImages").empty();
+                        $("#photoAlertSuccessMessageContainer").hide();
+                        $("#photoAlertErrorMessageContainer").hide();
+                    }
+                }).done(function(data){
+                    var reponse = JSON.parse(data);
+                    if(reponse["status"] === "error")
+                    {
+                        $("#photoAlert").addClass("alert-danger");
+                        $("#photoAlert").show();
+                        $("#errorImages").append("<li>" + reponse["errorMessage"] + "</li>");
+                        $("#photoAlertErrorMessageContainer").show();
+                    }
+                    else
+                    {
+                        $("#titleErrorMessage").parent().show();
+                        $("#titleErrorMessage").html(reponse["errorMessage"]);
+                    }
                 });
                 
             }
@@ -165,6 +189,17 @@
                                               </div>
                                             </form>
                                             <h2>Gallery Images</h2>
+                                            <div id="photoAlert" class="alert" role="alert" style="display:none;">
+                                                <button type="button" class="close" aria-label="Close" onclick="$(this).parent().hide()"><span aria-hidden="true">&times;</span></button>
+                                                <div id="photoAlertSuccessMessageContainer">
+                                                    <strong>The following images were successfully uploaded:</strong>
+                                                    <ul id="successImages"></ul>
+                                                </div>
+                                                <div id="photoAlertErrorMessageContainer">
+                                                    <strong>The following errors have occurred: </strong>
+                                                    <ul id="errorImages"></ul>
+                                                </div>
+                                            </div>
                                             <form class="form-horizontal" enctype="multipart/form-data" onsubmit="uploadImages(); return false;">
                                                 <div class="form-group">
                                                     <label for="fileinput" class="col-sm-3 control-label">Add Images:</label>

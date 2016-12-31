@@ -2,22 +2,62 @@
 
     session_start();
     
+    function dieError($message)
+    {
+        die(json_encode(array(
+            "status" => "error",
+            "errorMessage" => $message
+        )));
+    }
+    
+    
     if(!isset($_SESSION["userId"]))
     {
-        die("Illegal operation");
+        dieError("Could not authenticate");
     }
 
     if(!isset($_FILES['userfiles']))
     {
-        die(json_encode(array(
-            "status" => "error",
-            "errorMessage" => "No Files sent"
-        )));
+        dieError("No files sent");
     }
     
+    if(!isset($_POST["id"]))
+    {
+        dieError("No gallery specified");
+    }
+    
+    $dirtyId = $_POST["id"];
+    
+    require("dbconfig.php");
+
+    // Create connection
+    $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
+
+    // Check connection
+    if ($conn->connect_error) {
+        ob_end_clean();
+        dieError("Could not connect to the database");
+    }
+    
+    $stmt = $conn->prepare("SELECT id FROM Galleries WHERE id = ?");
+    $stmt->bind_param("s", $dirtyId);
+    $stmt->execute();
+    $stmt->bind_result($cleanId);
+    $stmt->store_result();
+    
+    if($stmt->num_rows == 0)
+    {
+        dieError("Could not find the required gallery");
+    }
+
     // Count # of uploaded files in array
     $total = count($_FILES['userfiles']['name']);
 
+    if($total == 0)
+    {
+        dieError("No files sent");
+    }
+    
     // Loop through each file
     for($i=0; $i<$total; $i++) {
       //Get the temp file path
