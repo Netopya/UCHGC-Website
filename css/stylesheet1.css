@@ -195,3 +195,14 @@ body {
     height: 149px;
     background-position: center center;
 }
+
+.galleryCarousel .carousel-inner div {
+    height: 500px !important;
+}
+
+.galleryCarousel .carousel-inner img {
+    max-height: 100% !important;
+}
+.galleryCarousel {
+    background-color:#5a5a5a;
+}
