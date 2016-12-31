@@ -66,6 +66,26 @@
                     $("#uploadImageList").append("<li>" + fileList[i].name + "</li>");
                 }
             }
+            
+            function uploadImages()
+            {
+                var data = new FormData();
+                jQuery.each(jQuery('#fileinput')[0].files, function(i, file) {
+                    data.append('userfiles[]', file);
+                });
+                
+                data.append('id', <?php echo $id; ?>);
+                
+                $.ajax({
+                    type: "POST",
+                    url: "php/galleryUpload.php",
+                    data: data,
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+                
+            }
         </script>
     </head>
     <body>
@@ -145,7 +165,7 @@
                                               </div>
                                             </form>
                                             <h2>Gallery Images</h2>
-                                            <form class="form-horizontal" action="file-upload.php" method="post" enctype="multipart/form-data">
+                                            <form class="form-horizontal" enctype="multipart/form-data" onsubmit="uploadImages(); return false;">
                                                 <div class="form-group">
                                                     <label for="fileinput" class="col-sm-3 control-label">Add Images:</label>
                                                     <div class="col-sm-9">
