@@ -68,6 +68,8 @@
         //Setup our new file path
         $newFilePath = "uploadFiles/" . $_FILES['userfiles']['name'][$i];
 
+        // Handle error case where directory doesn't exist and this would print an error!
+        
         //Upload the file into the temp dir
         if(move_uploaded_file($tmpFilePath, $newFilePath)) {
 
