@@ -96,8 +96,8 @@
         
         //Upload the file into the temp dir
         if(move_uploaded_file($tmpFilePath, $fullPath)) {
-            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_lrg.jpg", 75, 1900, 500);
-            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_thb.jpg", 60, 355, 200);
+            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_lrg.jpg", 75, 500, 1900);
+            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_thb.jpg", 60, 200, 355);
           //Handle other code here
             
         }
