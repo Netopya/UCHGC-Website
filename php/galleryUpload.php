@@ -69,6 +69,8 @@
         mkdir($dir);
     }
 
+    require("myresize.php");
+    
     // Loop through each file
     for($i=0; $i<$total; $i++) {
       //Get the temp file path
@@ -90,10 +92,12 @@
         $imageId = $conn->insert_id;
         
         $fullName = $fileName . "_" . $imageId . "." . $ext;
-
+        $fullPath = $dir . $fullName;
+        
         //Upload the file into the temp dir
-        if(move_uploaded_file($tmpFilePath, $dir . $fullName)) {
-
+        if(move_uploaded_file($tmpFilePath, $fullPath)) {
+            resizeImage($fullPath, $dir . $fileName . "_lrg_" . $imageId . ".jpg", 90, 500, 1900);
+            resizeImage($fullPath, $dir . $fileName . "_thb_" . $imageId . ".jpg", 90, 355, 200);
           //Handle other code here
             
         }
