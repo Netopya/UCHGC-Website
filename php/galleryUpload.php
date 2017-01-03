@@ -91,13 +91,13 @@
         
         $imageId = $conn->insert_id;
         
-        $fullName = $fileName . "_" . $imageId . "." . $ext;
+        $fullName = $imageId . "_" . $fileName . "_full." . $ext;
         $fullPath = $dir . $fullName;
         
         //Upload the file into the temp dir
         if(move_uploaded_file($tmpFilePath, $fullPath)) {
-            resizeImage($fullPath, $dir . $fileName . "_lrg_" . $imageId . ".jpg", 90, 500, 1900);
-            resizeImage($fullPath, $dir . $fileName . "_thb_" . $imageId . ".jpg", 90, 355, 200);
+            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_lrg.jpg", 75, 1900, 500);
+            resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_thb.jpg", 60, 355, 200);
           //Handle other code here
             
         }

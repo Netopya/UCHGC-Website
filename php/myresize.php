@@ -2,7 +2,7 @@
 
 function autoResize($oldWidth, $oldHeight, $newWidth, $newHeight)
 {
-    if ($oldHeight < $oldWidth)
+    /*if ($oldHeight < $oldWidth)
     {
         // *** Image to be resized is wider (landscape)
         $dimensionsArray = getSizeByFixedWidth($oldWidth, $oldHeight, $newWidth, $newHeight);
@@ -32,9 +32,18 @@ function autoResize($oldWidth, $oldHeight, $newWidth, $newHeight)
             $optimalWidth = $newWidth;
             $optimalHeight= $newHeight;
         }
-    }
+    }*/
     
-    return array('optimalWidth' => $optimalWidth, 'optimalHeight' => $optimalHeight);
+    //http://stackoverflow.com/questions/3008772/how-to-smart-resize-a-displayed-image-to-original-aspect-ratio
+    
+    $original_ratio = $oldWidth / $oldHeight;
+    $designer_ratio = $newWidth / $newHeight;
+    if ($original_ratio > $designer_ratio)
+        $newHeight = $newWidth / $original_ratio;
+    else
+        $newWidth = $newHeight * $original_ratio;
+    
+    return array('optimalWidth' => $newWidth, 'optimalHeight' => $newHeight);
 }
 
 function getSizeByFixedWidth($oldWidth, $oldHeight, $newWidth, $newHeight)
