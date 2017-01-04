@@ -43,7 +43,7 @@
         $stmt->bind_result($id, $imagename, $extension);
         
         $images = array();
-        $dir = "/gallery_images/" . $galId . "/";
+        $dir = "gallery_images/" . $galId . "/";
         
         
         while ($stmt->fetch()) {

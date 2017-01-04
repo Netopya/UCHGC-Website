@@ -206,3 +206,16 @@ body {
 .galleryCarousel {
     background-color:#5a5a5a;
 }
+
+.smallGalleryImageList {
+    padding:0px;   
+}
+
+.smallGalleryImageList li {
+    list-style-type:none;
+    float:left;
+}
+
+#noImagesMessage {
+    display: none;
+}
