@@ -76,80 +76,7 @@
                 
                 data.append('id', <?php echo $id; ?>);
                 
-                var alert = $("#photoAlert");
-                alert.hide();
-                alert.removeClass();
-                alert.addClass("alert");
-                $("#successImages").empty();
-                $("#errorImages").empty();
-                $("#photoAlertSuccessMessageContainer").hide();
-                $("#photoAlertErrorMessageContainer").hide();
-                
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function() {
-                    if (this.readyState == 4 && this.status == 200) {
-                        //document.getElementById("demo").innerHTML = this.responseText;
-                        
-                        var reponse = JSON.parse(this.responseText);
-                    
-                        $("#photoAlert").show();
-                        
-                        if(reponse["status"] === "error")
-                        {
-                            $("#photoAlert").addClass("alert-danger");
-                            $("#errorImages").append("<li>" + reponse["errorMessage"] + "</li>");
-                            $("#photoAlertErrorMessageContainer").show();
-                        }
-                        else
-                        {                        
-                            if(reponse["status"] === "success")
-                            {
-                                $("#photoAlert").addClass("alert-success");
-                                $("#photoAlertSuccessMessageContainer").show();
-                                
-                                for(var i = 0; i < reponse["successes"].length; i++)
-                                {
-                                    $("#successImages").append("<li>" + reponse["successes"][i] + "</li>");
-                                }
-                            }
-                            else if (reponse["successes"].length === 0)
-                            {
-                                $("#photoAlert").addClass("alert-danger");
-                                $("#photoAlertErrorMessageContainer").show();
-                                
-                                for(var i = 0; i < reponse["errors"].length; i++)
-                                {
-                                    $("#errorImages").append("<li>" + reponse["errors"][i]["error"] + ": " + reponse["errors"][i]["file"] + "</li>");
-                                }
-                            }
-                            else
-                            {
-                                $("#photoAlert").addClass("alert-warning");
-                                $("#photoAlertSuccessMessageContainer").show();
-                                $("#photoAlertErrorMessageContainer").show();
-                                
-                                for(var i = 0; i < reponse["successes"].length; i++)
-                                {
-                                    $("#successImages").append("<li>" + reponse["successes"][i] + "</li>");
-                                }
-                                
-                                for(var i = 0; i < reponse["errors"].length; i++)
-                                {
-                                    $("#errorImages").append("<li>" + reponse["errors"][i]["error"] + ": " + reponse["errors"][i]["file"] + "</li>");
-                                }
-                            }
-                        }
-                        
-                        $("#imageUploadForm")[0].reset();
-                        listPendingImages();
-                        
-                        listGalleryImages();
-                    };
-                };
-                
-                xhttp.open("POST", "php/galleryUpload.php", true);
-                xhttp.send(data);
-                /*$.ajax({
+                $.ajax({
                     type: "POST",
                     url: "php/galleryUpload.php",
                     data: data,
@@ -221,7 +148,7 @@
                     listPendingImages();
                     
                     listGalleryImages();
-                });*/
+                });
                 
             }
             
