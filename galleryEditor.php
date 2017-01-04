@@ -95,18 +95,57 @@
                     }
                 }).done(function(data){
                     var reponse = JSON.parse(data);
+                    
+                    $("#photoAlert").show();
+                    
                     if(reponse["status"] === "error")
                     {
                         $("#photoAlert").addClass("alert-danger");
-                        $("#photoAlert").show();
                         $("#errorImages").append("<li>" + reponse["errorMessage"] + "</li>");
                         $("#photoAlertErrorMessageContainer").show();
                     }
                     else
-                    {
-                        $("#titleErrorMessage").parent().show();
-                        $("#titleErrorMessage").html(reponse["errorMessage"]);
+                    {                        
+                        if(reponse["status"] === "success")
+                        {
+                            $("#photoAlert").addClass("alert-success");
+                            $("#photoAlertSuccessMessageContainer").show();
+                            
+                            for(var i = 0; i < reponse["successes"].length; i++)
+                            {
+                                $("#successImages").append("<li>" + reponse["successes"][i] + "</li>");
+                            }
+                        }
+                        else if (reponse["successes"].length === 0)
+                        {
+                            $("#photoAlert").addClass("alert-danger");
+                            $("#photoAlertErrorMessageContainer").show();
+                            
+                            for(var i = 0; i < reponse["errors"].length; i++)
+                            {
+                                $("#errorImages").append("<li>" + reponse["errors"][i]["error"] + ": " + reponse["errors"][i]["file"] + "</li>");
+                            }
+                        }
+                        else
+                        {
+                            $("#photoAlert").addClass("alert-warning");
+                            $("#photoAlertSuccessMessageContainer").show();
+                            $("#photoAlertErrorMessageContainer").show();
+                            
+                            for(var i = 0; i < reponse["successes"].length; i++)
+                            {
+                                $("#successImages").append("<li>" + reponse["successes"][i] + "</li>");
+                            }
+                            
+                            for(var i = 0; i < reponse["errors"].length; i++)
+                            {
+                                $("#errorImages").append("<li>" + reponse["errors"][i]["error"] + ": " + reponse["errors"][i]["file"] + "</li>");
+                            }
+                        }
                     }
+                    
+                    $("#imageUploadForm")[0].reset();
+                    listPendingImages();
                 });
                 
             }
@@ -200,7 +239,7 @@
                                                     <ul id="errorImages"></ul>
                                                 </div>
                                             </div>
-                                            <form class="form-horizontal" enctype="multipart/form-data" onsubmit="uploadImages(); return false;">
+                                            <form id="imageUploadForm" class="form-horizontal" enctype="multipart/form-data" onsubmit="uploadImages(); return false;">
                                                 <div class="form-group">
                                                     <label for="fileinput" class="col-sm-3 control-label">Add Images:</label>
                                                     <div class="col-sm-9">

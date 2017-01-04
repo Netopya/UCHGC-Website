@@ -69,6 +69,9 @@
         mkdir($dir);
     }
 
+    $successImages = array();
+    $errorImages = array();
+    
     require("myresize.php");
     
     // Loop through each file
@@ -80,14 +83,27 @@
       if ($tmpFilePath != ""){
         //Setup our new file path
         $filePath = $_FILES['userfiles']['name'][$i];
-        $ext = strtolower (pathinfo($filePath, PATHINFO_EXTENSION));
+        $ext = strtolower (pathinfo($filePath, PATHINFO_EXTENSION));        
+
         $fileName = pathinfo($_FILES['userfiles']['name'][$i], PATHINFO_FILENAME);
         $fileName = preg_replace('/\s+/', '', $fileName);
         // Handle error case where directory doesn't exist and this would print an error!
         
+        if(!preg_match('/jpg|jpeg|png|gif|bmp/i',$ext))
+        {
+            array_push($errorImages, array( "file" => $_FILES['userfiles']['name'][$i], "error" => "Unsupported image file"));
+            continue;
+        }
+        
         $stmt = $conn->prepare("INSERT INTO GalleryImages (gallery_id, imagename, extension, userid) VALUES (?,?,?,?)");
         $stmt->bind_param("ssss", $cleanId, $fileName, $ext, $_SESSION["userId"]);
         $success = $stmt->execute();
+        
+        if(!$success)
+        {
+            array_push($errorImages, array( "file" => $fileName, "error" => "Could not add image to database"));
+            continue;
+        }
         
         $imageId = $conn->insert_id;
         
@@ -98,14 +114,19 @@
         if(move_uploaded_file($tmpFilePath, $fullPath)) {
             resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_lrg.jpg", 75, 500, 1900);
             resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_thb.jpg", 60, 200, 355);
-          //Handle other code here
             
+            array_push($successImages, $fileName);            
         }
         else
         {
-            //TODO: Create some sort of soft error handling
-            dieError("Could not upload image: " . $fileName);
+            array_push($errorImages, array( "file" => $fileName, "error" => "Could not upload image"));
         }
       }
     }
+    
+    echo json_encode(array(
+            "status" => count($errorImages) == 0 ? "success" : "warning",
+            "successes" => $successImages,
+            "errors" => $errorImages
+        ));
 ?>
