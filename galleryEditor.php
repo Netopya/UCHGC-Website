@@ -149,6 +149,11 @@
                 });
                 
             }
+            
+            function listGalleryImages()
+            {
+                
+            }
         </script>
     </head>
     <body>
@@ -258,6 +263,9 @@
                                                     </div>
                                                 </div>
                                             </form>
+                                            <div>
+                                                
+                                            </div>
                                         <?php
                                     }
                                 }
