@@ -152,8 +152,30 @@
             
             function listGalleryImages()
             {
-                
+                $.ajax({
+                    type: "POST",
+                    url: "php/listGalImagesJson.php",
+                    data: {
+                        "id" : <?php echo $id; ?>
+                    }
+                }).done(function(data){
+                    var response = JSON.parse(data);
+                    
+                    if(response["status"] === "success")
+                    {
+                        $("#imageListDisplay").empty();
+                        
+                        for(var i = 0; i < response["images"].length; i++)
+                        {
+                            $("#imageListDisplay").append("<li><img src=\"" + response["images"][i]["full"] + "\"/></li>");
+                        }
+                    }
+                });
             }
+            
+            $(function() {
+                listGalleryImages();
+            });
         </script>
     </head>
     <body>
@@ -264,7 +286,8 @@
                                                 </div>
                                             </form>
                                             <div>
-                                                
+                                                <ul id="imageListDisplay">
+                                                </ul>
                                             </div>
                                         <?php
                                     }
