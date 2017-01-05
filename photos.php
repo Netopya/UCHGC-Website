@@ -46,7 +46,49 @@ include("opening_php.php");
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1">
                             <h1><?php echo $photos_button[$refined_laguage];  ?></h1>
-                            <p>Under construction</p>
+                            <?php
+                                    require("php/dbconfig.php");
+        
+                                    // Create connection
+                                    $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
+                                    
+                                    // Check connection
+                                    if ($conn->connect_error) {
+                                        echo("Database connection failed: " . $conn->connect_error);
+                                    }
+                                    
+                                    $stmt = $conn->prepare("SELECT Galleries.id, name_en, name_fr, name_uk, imagename, GalleryImages.id FROM Galleries LEFT JOIN GalleryImages ON Galleries.thumbnail_img=GalleryImages.id");
+                                    $stmt->execute();
+                                    $stmt->bind_result($id, $name_en, $name_fr, $name_uk, $imagename, $imageid);
+                                    
+                                    $i = 0;
+                                    
+                                    echo '<div class="row">';
+                                    
+                                    while ($stmt->fetch()) {
+                                        if($i != 0 && $i % 3 == 0)
+                                        {
+                                            echo '</div><div class="row">';
+                                        }
+                                        
+                                        $titles = array($name_en, $name_fr, $name_uk);
+                                        
+                                        ?>
+                                            <div class="col-xs-4">
+                                                <a href="<?php echo "galleryView.php?id=" . $id; ?>" class="thumbnail">
+                                                    <img src="<?php echo "gallery_images/" . $id . "/" . $imageid . "_" . $imagename . "_thb.jpg";?>">
+                                                    <div class="caption">
+                                                        <h3><?php echo $titles[$refined_laguage]; ?></h3>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        
+                                        <?php
+                                        $i++;
+                                    }
+                                    
+                                    echo '</div>'
+                            ?>
                         </div>
                     </div>
                 </div>
