@@ -18,7 +18,7 @@
 
     if(!isset($_FILES['userfiles']))
     {
-        dieError("No files sent");
+        dieError("No files sent, or the total size of all files exceeded 32MB");
     }
     
     if(!isset($_POST["id"]))

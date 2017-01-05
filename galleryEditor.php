@@ -174,7 +174,7 @@
                         
                         for(var i = 0; i < response["images"].length; i++)
                         {
-                            $("#imageListDisplay").append("<li><img src=\"" + response["images"][i]["thb"] + "\"/></li>");
+                            $("#imageListDisplay").append("<li><div class=\"well well-sm\"><div class=\"thb_container\"><img class=\"img-responsive\" src=\"" + response["images"][i]["thb"] + "\"/></div><button type=\"button\" class=\"btn btn-danger\" aria-label=\"Delete\"><span class=\"glyphicon glyphicon-trash\" aria-hidden=\"true\"></span></button><button type=\"button\" class=\"btn btn-default\" aria-label=\"Make Preview\"><span class=\"glyphicon glyphicon-eye-close\" aria-hidden=\"true\"></span></button></div></li>");
                         }
                     }
                 });

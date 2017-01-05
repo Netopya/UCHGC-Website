@@ -214,8 +214,23 @@ body {
 .smallGalleryImageList li {
     list-style-type:none;
     float:left;
+    padding:0px 5px 0px 5px;
+}
+
+.smallGalleryImageList li .well {
+    width:200px;
 }
 
 #noImagesMessage {
     display: none;
+}
+
+.thb_container {
+    height:120px;
+    overflow:none;
+    margin-bottom:5px;
+}
+
+.smallGalleryImageList .btn {
+    margin:0px 5px 0px 5px;
 }
