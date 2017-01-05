@@ -13,7 +13,6 @@
         <title>Gallery Editor</title>
         <?php include("php/head.php"); ?>
         <script>
-            var thumbnail_img;
         
             function editGallery()
             {
@@ -174,35 +173,55 @@
                         else
                             $("#noImagesMessage").hide();
                         
-                        $("#imageListDisplay").append("<div class=\"row\">");
-                        
+                        var thumbnail_img = response["thumbnail"];
+                        var thumbnail_button;
+
                         for(var i = 0; i < response["images"].length; i++)
                         {
-                            if(i !== 0 && i % 3 == 0)
-                                $("#imageListDisplay").append("</div><div class=\"row\">");
+                            if(i % 3 == 0)
+                                $("#imageListDisplay").append("<div class=\"row\"></div>");
                                 
-                            $("#imageListDisplay").append("<div class=\"col-xs-4\"><div class=\"thumbnail\"><img class=\"img-responsive\" src=\"" + response["images"][i]["thb"] + "\"/><div class=\"caption\"><button type=\"button\" class=\"btn btn-danger\" aria-label=\"Delete\" title=\"Delete image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-trash\" aria-hidden=\"true\"></span></button><button onclick=\"toggleThumbnail(" + response["images"][i]["id"] + ", this)\" type=\"button\" class=\"btn btn-default thumbnail-button\" aria-label=\"Make Preview\" title=\"Set preview image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-eye-close\" aria-hidden=\"true\"></span></button></div></div></div>");
+                            $("#imageListDisplay > div:nth-child(" + (Math.floor(i / 3) + 1) + ")").append("<div class=\"col-xs-6 col-sm-4\"><div class=\"thumbnail\"><img class=\"img-responsive\" src=\"" + response["images"][i]["thb"] + "\"/><div class=\"caption\"><button type=\"button\" class=\"btn btn-danger\" aria-label=\"Delete\" title=\"Delete image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-trash\" aria-hidden=\"true\"></span></button><button onclick=\"toggleThumbnail(" + response["images"][i]["id"] + ", this, true)\" type=\"button\" class=\"btn btn-default thumbnail-button\" aria-label=\"Make Preview\" title=\"Set preview image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-eye-close\" aria-hidden=\"true\"></span></button></div></div></div>");
+                            
+                            if(thumbnail_img === response["images"][i]["id"])
+                            {
+                                thumbnail_button = $("#imageListDisplay > div:nth-child(" + (Math.floor(i / 3) + 1) + ") > div:last-child .thumbnail-button");
+                            }
                         }
-                        
-                        thumbnail_img = response["thumbnail"];
-                        
-                        $("#imageListDisplay").append("</div>");
+
                         $("#imageListDisplay .btn").tooltip();
+                        
+                        if(thumbnail_button !== undefined)
+                        {
+                            toggleThumbnail(thumbnail_img, thumbnail_button, false);
+                        }
                     }
                 });
             }
             
-            function toggleThumbnail(id, button) {
+            function toggleThumbnail(id, button, submit) {
+
                 var oldButton = $(".thumbnail-button.btn-primary");
-                oldButton.removeClass("btn-primary");
+                oldButton.removeClass("btn-primary").addClass("btn-default");
                 oldButton.prop("title", "Set preview image").tooltip('fixTitle');
-                oldButton.children(".glyphicon").removeClass("glyphicon-eye-open");
-                oldButton.children(".glyphicon").addClass("glyphicon-eye-close");
-                $(button).removeClass("btn-default");
-                $(button).addClass("btn-primary");
-                $(button).prop("title","Selected thumbnail image").tooltip('fixTitle').tooltip('show');
-                $(button).children(".glyphicon").addClass("glyphicon-eye-open");
-                $(button).children(".glyphicon").removeClass("glyphicon-eye-close");
+                oldButton.children(".glyphicon").removeClass("glyphicon-eye-open").addClass("glyphicon-eye-close");
+                $(button).removeClass("btn-default").addClass("btn-primary");
+                $(button).prop("title","Selected thumbnail image").tooltip('fixTitle')
+                $(button).children(".glyphicon").removeClass("glyphicon-eye-close").addClass("glyphicon-eye-open");
+                
+                if(submit)
+                {
+                    $.ajax({
+                        type: "POST",
+                        url: "php/setPreview.php",
+                        data: {
+                            "id" : <?php echo $id; ?>,
+                            "imgid" : id
+                        }
+                    });
+                    
+                    $(button).tooltip('show');
+                }
             }
             
             $(function() {

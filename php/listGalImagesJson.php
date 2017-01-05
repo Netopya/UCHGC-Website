@@ -1,10 +1,17 @@
 <?php
+    session_start();
+
     function dieError($message)
     {
         die(json_encode(array(
             "status" => "error",
             "errorMessage" => $message
         )));
+    }
+    
+    if(!isset($_SESSION["userId"]))
+    {
+        dieError("Illegal operation");
     }
     
     if(!isset($_POST['id']))
@@ -21,7 +28,7 @@
 
     // Check connection
     if ($conn->connect_error) {
-        return false;
+        dieError("Could not connect to database");
     }
     
     $stmt = $conn->prepare("SELECT id, thumbnail_img FROM Galleries WHERE id = ?");
