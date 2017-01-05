@@ -172,10 +172,18 @@
                         else
                             $("#noImagesMessage").hide();
                         
+                        $("#imageListDisplay").append("<div class=\"row\">");
+                        
                         for(var i = 0; i < response["images"].length; i++)
                         {
-                            $("#imageListDisplay").append("<li><div class=\"well well-sm\"><div class=\"thb_container\"><img class=\"img-responsive\" src=\"" + response["images"][i]["thb"] + "\"/></div><button type=\"button\" class=\"btn btn-danger\" aria-label=\"Delete\"><span class=\"glyphicon glyphicon-trash\" aria-hidden=\"true\"></span></button><button type=\"button\" class=\"btn btn-default\" aria-label=\"Make Preview\"><span class=\"glyphicon glyphicon-eye-close\" aria-hidden=\"true\"></span></button></div></li>");
+                            if(i !== 0 && i % 3 == 0)
+                                $("#imageListDisplay").append("</div><div class=\"row\">");
+                                
+                            $("#imageListDisplay").append("<div class=\"col-xs-4\"><div class=\"thumbnail\"><img class=\"img-responsive\" src=\"" + response["images"][i]["thb"] + "\"/><div class=\"caption\"><button type=\"button\" class=\"btn btn-danger\" aria-label=\"Delete\" title=\"Delete image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-trash\" aria-hidden=\"true\"></span></button><button type=\"button\" class=\"btn btn-default\" aria-label=\"Make Preview\" title=\"Set preview image\" data-placement=\"bottom\"><span class=\"glyphicon glyphicon-eye-close\" aria-hidden=\"true\"></span></button></div></div></div>");
                         }
+                        
+                        $("#imageListDisplay").append("</div>");
+                        $("#imageListDisplay .btn").tooltip();
                     }
                 });
             }
@@ -295,8 +303,8 @@
                                             <h3>Images</h2>
                                             <div>
                                                 <div id="noImagesMessage">No images</div>
-                                                <ul id="imageListDisplay" class="smallGalleryImageList">
-                                                </ul>
+                                                <div id="imageListDisplay">
+                                                </div>
                                             </div>
                                         <?php
                                     }
