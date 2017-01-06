@@ -39,7 +39,7 @@ function resizeImage($originalImage, $outputImage, $quality, $desiredHeight, $de
     $rs_height = $optimalDimensions['optimalHeight'];
     
     $img_base = imagecreatetruecolor($rs_width, $rs_height);
-    imagecopyresized($img_base, $imageTmp, 0, 0, 0, 0, $rs_width, $rs_height, $width, $height);
+    imagecopyresampled($img_base, $imageTmp, 0, 0, 0, 0, $rs_width, $rs_height, $width, $height);
 
     // quality is a value from 0 (worst) to 100 (best)
     imagejpeg($img_base, $outputImage, $quality);
