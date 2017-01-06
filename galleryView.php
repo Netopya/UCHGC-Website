@@ -82,7 +82,7 @@
                                     $titles = array($name_en, $name_fr, $name_uk);
                                     ?>
                                     <br>
-                                    <a class="btn btn-default" href="galleryEd.php" role="button"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to gallery list</a>
+                                    <a class="btn btn-default" href="photos.php" role="button"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to gallery list</a>
                                     <div class="page-header">
                                         <h1><?php echo $titles[$refined_laguage]; ?></h1>
                                     </div>
