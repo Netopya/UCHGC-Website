@@ -74,7 +74,7 @@ include("opening_php.php");
                                         $titles = array($name_en, $name_fr, $name_uk);
                                         
                                         ?>
-                                            <div class="col-xs-4">
+                                            <div class="col-sm-4 col-xs-12">
                                                 <a href="<?php echo "galleryView.php?id=" . $id; ?>" class="thumbnail">
                                                     <img src="<?php echo "gallery_images/" . $id . "/" . $imageid . "_" . $imagename . "_thb.jpg";?>">
                                                     <div class="caption">
