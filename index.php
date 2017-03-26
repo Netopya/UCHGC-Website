@@ -71,8 +71,8 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
+                
+                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -89,7 +89,31 @@
                         <p><?php echo $kutia_text[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
+                </div>-->
+                
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $lent2013_title[$refined_laguage]; ?></h1>
+                        <p style="text-indent: 0px;text-align: center;"><?php echo $lent2013_text[$refined_laguage]; ?></p>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $e_t[$refined_laguage]; ?></h1>
+                        <ul id="easter_scedule">
+                           <li><center><b><?php echo $e_2d[$refined_laguage]; ?></b></center></br><?php echo $e_2t[$refined_laguage]; ?></li>
+                           <li><center><b><?php echo $e_3d[$refined_laguage]; ?></b></center></br><?php echo $e_3t[$refined_laguage]; ?></li>
+                           <li><center><b><?php echo $e_4d[$refined_laguage]; ?></b></center></br><?php echo $e_4t[$refined_laguage]; ?></li>
+                           <li><center><b><?php echo $e_5d[$refined_laguage]; ?></b></center></br><?php echo $e_5t[$refined_laguage]; ?></li>
+                           <li><center><b><?php echo $e_6d[$refined_laguage]; ?></b></center></br><?php echo $e_6t[$refined_laguage]; ?></li>
+                           <li><a href="images/C2011TorEasterAround-the-World-012.jpg"><img src="images/thumbnails/thb_C2011TorEasterAround-the-World-012.jpg"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
+                
             </div>
         </div>
         <div id="footer">

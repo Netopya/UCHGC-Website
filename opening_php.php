@@ -350,19 +350,19 @@
     $link3 = array("Ukrainian Time<br/>Ukrainian radio program in Montreal, Canada","Le Temps Ukrainien<br/>Émission radiophonique ukrainienne à Montréal, Canada","Український Час<br/>Українськa радіопрограмa в Монреалі, Канада");
 
     $lent2013_title = array("Lenten Mission","Le recueillement du carême","Великопостні Реколекції");
-    $lent2013_text = array("Schedule of Lenten Mission in our parish:<br/>Thursday April 10th - 7pm<br/>Friday April 11th – 10am<br/>Saturday April 12th – 10am<br/>Our guest speaker will be Rev. Jaroslaw Pivtorak","Le recueillement du carême dans notre paroisse aura lieu selon l'horaire suivant:<br/>Jeudi 10 avril - 19:00<br/>Vendredi 11 avril – 10:00<br/>Samedi 12 avril 10:00<br/>Le recueillement va se faire par le père Jaroslaw Pivtorak","Великопостні Реколекції в нашій парафії відбудуться за наступним розпорядком:<br/>четвер 10 квітня - 7 год. Вечора<br/>пятниця 11 квітня - 10  год.рано<br/>Субота 12 квітня - 10 год.рано.<br/>Реколекції буде провадити о. Ярослав Півторак");
+    $lent2013_text = array("Schedule of Lenten Mission in our parish:<br/>Thursday March 30th - 7pm<br/>Friday March 31st – 10am<br/>Saturday April 1st – 10am<br/>Our guest speaker will be Fr. Ivan Hnativ","Le recueillement du carême dans notre paroisse aura lieu selon l'horaire suivant:<br/>Jeudi 30 mars - 19:00<br/>Vendredi 31 mars – 10:00<br/>Samedi 1 avril 10:00<br/>Le recueillement va se faire par le père Ivan Hnativ","Великопостні Реколекції в нашій парафії відбудуться за наступним розпорядком:<br/>четвер 30 березень - 7 год. Вечора<br/>пятниця 31 березень - 10  год.рано<br/>Субота 1 квітня - 10 год.рано.<br/>Реколекції буде провадити о. Іваном Гнамівим");
 
     $e_t = array("Easter Weekend Schedule","Calendrier de la fin de semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Thursday, April 28th<br/>5:00 PM","Jeudi le 28 avril</br>17:00h","ЧЕТВЕР,28 квітня</br>17:00");
+    $e_2d = array("Thursday, April 14th<br/>5:00 PM","Jeudi le 14 avril</br>17:00h","ЧЕТВЕР,14 квітня</br>17:00");
     $e_2t = array("Reading of the 12 Gospels...the Passion of Christ","La lecture des 12 évangiles ... la Passion du Christ","Утрення Страстей (читання 12 Євангелій )");
-    $e_3d = array("Friday, April 29th<br/>5:00 PM","Vendredi le 29 avril</br>17:00","П‘ЯТНИЦЯ, 29 квітня</br>17:00");
+    $e_3d = array("Friday, April 15th<br/>5:00 PM","Vendredi le 15 avril</br>17:00","П‘ЯТНИЦЯ, 15 квітня</br>17:00");
     $e_3t = array("Vespers,  procession with \"Plashchanycia\""," Vêpres, procession avec «Plashchanycia»","Вечірня   з виносом  Плащениці");
-    $e_4d = array("Saturday, April 30th<br/>5:00 PM","Samedi le 30 avril<br/>17:00h","СУБОТА, 30 квітня<br/>17:00");
+    $e_4d = array("Saturday, April 16th<br/>5:00 PM","Samedi le 16 avril<br/>17:00h","СУБОТА, 16 квітня<br/>17:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, May 1st<br/>Ressurection of Our Lord","Dimanche le 1 mai</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 1 травня</br>Воскресіння Господнє – Пасха");
+    $e_5d = array("Sunday, April 17th<br/>Ressurection of Our Lord","Dimanche le 17 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 17 квітня</br>Воскресіння Господнє – Пасха");
     $e_5t = array("7:15 AM - Ressurectional Matins</br>8:00 AM - Paschal Divine Liturgy","7:15 - Résurrection Matins</br>8:00 -- Liturgie divine Pascale","7:15 Надгробне.  Утрення</br>8:00 Пасхальна Служба Божа");
-    $e_6d = array("Monday, May 2nd<br/>9:00 AM","Lundi le 2 mai</br>9:00h","ПОНЕДІЛОК, 2 травня</br>9:00");
+    $e_6d = array("Monday, April 18th<br/>9:00 AM","Lundi le 18 avril</br>9:00h","ПОНЕДІЛОК, 18 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
     $eb_h = array("Easter Banquet","Banquet Pâques","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ");
