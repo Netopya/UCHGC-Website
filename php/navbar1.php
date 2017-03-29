@@ -49,7 +49,7 @@
                   <ul class="dropdown-menu">
                     <li onclick="language_changed(1)"><a href="#"><span class="flag flag-gb"></span> English</a></li>
                     <li onclick="language_changed(2)"><a href="#"><span class="flag flag-fr"></span> Français</a></li>
-                    <li onclick="language_changed(3)"><a href="#"><span class="flag flag-ua"></span> Український</a></li>
+                    <li onclick="language_changed(3)"><a href="#"><span class="flag flag-ua"></span> Українська</a></li>
                   </ul>
                 </li>
               </ul>
