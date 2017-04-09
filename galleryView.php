@@ -89,7 +89,7 @@
                                    
                                     <?php
                                     
-                                    $stmt = $conn->prepare("SELECT id, imagename, extension FROM GalleryImages WHERE gallery_id = ?");
+                                    $stmt = $conn->prepare("SELECT id, imagename, extension FROM GalleryImages WHERE gallery_id = ? ORDER BY id");
                                     $stmt->bind_param("s", $cleanid);
                                     $stmt->execute();
                                     $stmt->bind_result($imageid, $imagename, $extension);

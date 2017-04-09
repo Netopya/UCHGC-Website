@@ -57,7 +57,7 @@ include("opening_php.php");
                                         echo("Database connection failed: " . $conn->connect_error);
                                     }
                                     
-                                    $stmt = $conn->prepare("SELECT Galleries.id, name_en, name_fr, name_uk, imagename, GalleryImages.id FROM Galleries LEFT JOIN GalleryImages ON Galleries.thumbnail_img=GalleryImages.id");
+                                    $stmt = $conn->prepare("SELECT Galleries.id, name_en, name_fr, name_uk, imagename, GalleryImages.id FROM Galleries LEFT JOIN GalleryImages ON Galleries.thumbnail_img=GalleryImages.id ORDER BY Galleries.id DESC");
                                     $stmt->execute();
                                     $stmt->bind_result($id, $name_en, $name_fr, $name_uk, $imagename, $imageid);
                                     
