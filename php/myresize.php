@@ -44,7 +44,8 @@ function resizeImage($originalImage, $outputImage, $quality, $desiredHeight, $de
     // quality is a value from 0 (worst) to 100 (best)
     imagejpeg($img_base, $outputImage, $quality);
     imagedestroy($imageTmp);
-
+    imagedestroy($img_base);
+    
     return 1;
 }
 

@@ -112,6 +112,44 @@
         
         //Upload the file into the temp dir
         if(move_uploaded_file($tmpFilePath, $fullPath)) {
+        
+            $exif = exif_read_data($fullPath);
+            $ort = $exif['Orientation'];
+            
+            if (preg_match('/jpg|jpeg/i',$ext))
+                $imageTmp=imagecreatefromjpeg($fullPath);
+            else if (preg_match('/png/i',$ext))
+                $imageTmp=imagecreatefrompng($fullPath);
+            else if (preg_match('/gif/i',$ext))
+                $imageTmp=imagecreatefromgif($fullPath);
+            else if (preg_match('/bmp/i',$ext))
+                $imageTmp=imagecreatefrombmp($fullPath);
+            else
+            {
+                array_push($errorImages, array( "file" => $fileName, "error" => "Could not upload image"));
+                continue;
+            }
+        
+            array_push($errorImages, array( "file" => $fileName, "error" => "Has orientation" . $ort));
+        
+            switch($ort) {
+                case 3:
+                    $imageTmp = imagerotate($imageTmp, 180, 0);
+                    imagejpeg($imageTmp);
+                    break;
+                case 6:
+                    $imageTmp = imagerotate($imageTmp, -90, 0);
+                    imagejpeg($imageTmp);
+                    break;
+                case 8:
+                    $imageTmp = imagerotate($imageTmp, 90, 0);
+                    imagejpeg($imageTmp);
+                    break;
+            }
+            
+            
+            imagedestroy($imageTmp);
+            
             resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_lrg.jpg", 90, 500, 1900);
             resizeImage($fullPath, $dir . $imageId . "_" . $fileName . "_thb.jpg", 75, 200, 355);
             
