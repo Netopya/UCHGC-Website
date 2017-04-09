@@ -91,12 +91,12 @@
                     </div>
                 </div>-->
                 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $lent2013_title[$refined_laguage]; ?></h1>
                         <p style="text-indent: 0px;text-align: center;"><?php echo $lent2013_text[$refined_laguage]; ?></p>
                     </div>
-                </div>
+                </div>-->
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
@@ -122,10 +122,12 @@
                         </div>
                     </div>
                 </div>
-                
-                
-                
-                
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
+                        <p><?php echo $eb_t[$refined_laguage]; ?></p>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="footer">

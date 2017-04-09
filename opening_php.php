@@ -366,7 +366,7 @@
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
     $eb_h = array("Easter Banquet","Banquet Pâques","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ");
-    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 15th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 15 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 15 травня по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
+    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 7th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 7 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 7 травня по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
 	$gr2013_content = array("Sunday, June 19, 2015 at 2:00 p.m at the Notre-Dame-des-Neiges Cemetery. Procession from the administration building to the Ukrainian monument","Dimanche 19 juin, 2015 à 14 h au cimetière Notre-Dame-des-Neiges. Procession du bâtiment de l'administration au monument ukrainien","Неділя, 19 червня 2015 о. 2:00 на цвинтарі. Процесія від і адміністрації будинок до українського пам'ятник");
