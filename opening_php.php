@@ -260,23 +260,23 @@
         
     );
     
-    $xmas2013_title = array("Christmas January 2017 Liturgies","Liturgies de Noël Janvier 2017","Різдвяні 2017 січня літургії");
+    $xmas2013_title = array("Christmas January 2018 Liturgies","Liturgies de Noël Janvier 2018","Різдвяні 2018 січня літургії");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Friday 6 - Christmas Eve
+            <li class=\"nobulletli\">Saturday 6 - Christmas Eve
                 <ul>
                     <li>9:40pm - Vespers</li>
                     <li>10:00pm - Christmas Divine Liturgy</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Saturday 7 - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Sunday 7 - Nativity of Jesus Christ
                 <ul>
                     <li>9:00am - Christmas  Divine Liturgy</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Sunday 8 - Synaxis of the Mother of God
+            <li class=\"nobulletli\">Monday 8 - Synaxis of the Mother of God
                 <ul>
                     <li>9:00am - Divine Liturgy</li>
                 </ul>
@@ -284,20 +284,20 @@
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Vendredi le 6 - Réveillon de Noël
+            <li class=\"nobulletli\">Samedi le 6 - Réveillon de Noël
                 <ul>
                     <li>21h40 - Vêpres</li>
                     <li>22h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Samedi le 7 - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Dimanche le 7 - Nativité de Jésus-Christ
                 <ul>
                     <li>9h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Dimanche le 8 - Synaxe de la Mère de Dieu
+            <li class=\"nobulletli\">Lundi le 8 - Synaxe de la Mère de Dieu
                 <ul>
                     <li>9h00 - Liturgie Divine</li>
                 </ul>
@@ -305,20 +305,20 @@
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Пятниця 6 - Недільна Служба Божа
+            <li class=\"nobulletli\">Субота 6 - Недільна Служба Божа
                 <ul>
                     <li>21:40 - Повечір'я</li>
                     <li>22:00 - Святкова Служба  Божа</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Субота 7 - Різво Христове
+            <li class=\"nobulletli\">Неділя 7 - Різво Христове
                 <ul>
                     <li>9:00 - Святкова Служба Божа</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Неділя 8 - Собор Пресвятої Богородиці
+            <li class=\"nobulletli\">Понеділок 8 - Собор Пресвятої Богородиці
                 <ul>
                     <li>9:00 - Святкова   Служба  Божа</li>
                 </ul>
@@ -327,11 +327,11 @@
         </ul>"
     );
     
-    $kutia_title = array("Our traditional Kutia 2017","Notre Kutia traditionnelle 2017","Наша спільна парафіяльна Кутя 2017");
+    $kutia_title = array("Our traditional Kutia 2018","Notre Kutia traditionnelle 2018","Наша спільна парафіяльна Кутя 2018");
     $kutia_text = array(
-    "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <b>Sunday, Jan 15th</b>; on that day Divine Liturgy will begin at 11:00 am",
-    "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <b>dimanche 15 janvier</b>, ce jour-là la Divine Liturgie débutera à 11h00",
-    "Відвудетьс по Службі Божій в Неділю, 15 січня 2014. В цей день Служба Божа почнеться о 11.00 год."
+    "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <b>Sunday, Jan 21st</b>; on that day Divine Liturgy will begin at 11:00 am",
+    "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <b>dimanche 21 janvier</b>, ce jour-là la Divine Liturgie débutera à 11h00",
+    "Відвудетьс по Службі Божій в Неділю, 21 січня 2014. В цей день Служба Божа почнеться о 11.00 год."
                   
                     
                         );
