@@ -275,13 +275,6 @@
                     <li>9:00am - Christmas  Divine Liturgy</li>
                 </ul>
             </li>
-            <br>
-            <li class=\"nobulletli\">Monday 8 - Synaxis of the Mother of God
-                <ul>
-                    <li>9:00am - Divine Liturgy</li>
-                </ul>
-            
-            </li>
         </ul>"
         ,"<ul>
             <li class=\"nobulletli\">Samedi le 6 - Réveillon de Noël
@@ -296,13 +289,6 @@
                     <li>9h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
-            <br>
-            <li class=\"nobulletli\">Lundi le 8 - Synaxe de la Mère de Dieu
-                <ul>
-                    <li>9h00 - Liturgie Divine</li>
-                </ul>
-            
-            </li>
         </ul>"
         ,"<ul>
             <li class=\"nobulletli\">Субота 6 - Недільна Служба Божа
@@ -316,13 +302,6 @@
                 <ul>
                     <li>9:00 - Святкова Служба Божа</li>
                 </ul>
-            </li>
-            <br>
-            <li class=\"nobulletli\">Понеділок 8 - Собор Пресвятої Богородиці
-                <ul>
-                    <li>9:00 - Святкова   Служба  Божа</li>
-                </ul>
-          
             </li>
         </ul>"
     );
