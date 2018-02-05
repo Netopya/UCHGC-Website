@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <div class="jumbotron" id="schedual_container">
-                            <p><?php echo $schedual_text[$refined_laguage]; ?></p>
+                            <p><?php echo $schedual_text_new[$refined_laguage]; ?></p>
                         </div>
                     </div>
                 </div>
