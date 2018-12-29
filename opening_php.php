@@ -261,50 +261,50 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>February - 11:00am</li><li>March - 9:00am</li><li>April - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Février - 11h</li><li>Mars - 9h</li><li>Avril - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Лютий – 11 година</li><li>березеь – 9 година</li><li>квітень – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>January - 9:00am</li><li>February - 11:00am</li><li>March - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Janvier - 9h</li><li>Février - 11h</li><li>Mars - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>січень – 9 година</li><li>лютого – 11 година</li><li>березеь – 9 година</li><li>і так далі</li></ul>"
 	);
     
-    $xmas2013_title = array("Christmas January 2018 Liturgies","Liturgies de Noël Janvier 2018","Різдвяні 2018 січня літургії");
+    $xmas2013_title = array("Christmas January 2019 Liturgies","Liturgies de Noël Janvier 2019","Різдвяні 2019 січня літургії");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Saturday 6 - Christmas Eve
+            <li class=\"nobulletli\">Sunday 6 - Christmas Eve
                 <ul>
-                    <li>9:40pm - Vespers</li>
+                    <!--<li>9:40pm - Vespers</li>-->
                     <li>10:00pm - Christmas Divine Liturgy</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Sunday 7 - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Monday 7 - Nativity of Jesus Christ
                 <ul>
                     <li>9:00am - Christmas  Divine Liturgy</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Samedi le 6 - Réveillon de Noël
+            <li class=\"nobulletli\">Dimanche le 6 - Réveillon de Noël
                 <ul>
-                    <li>21h40 - Vêpres</li>
+                    <!--<li>21h40 - Vêpres</li>-->
                     <li>22h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Dimanche le 7 - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Lundi le 7 - Nativité de Jésus-Christ
                 <ul>
                     <li>9h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Субота 6 - Недільна Служба Божа
+            <li class=\"nobulletli\">Неділя 6 - Недільна Служба Божа
                 <ul>
-                    <li>21:40 - Повечір'я</li>
+                    <!--<li>21:40 - Повечір'я</li>-->
                     <li>22:00 - Святкова Служба  Божа</li>
                 </ul>
             </li>
             <br>
-            <li class=\"nobulletli\">Неділя 7 - Різво Христове
+            <li class=\"nobulletli\">понеділок 7 - Різво Христове
                 <ul>
                     <li>9:00 - Святкова Служба Божа</li>
                 </ul>
@@ -312,11 +312,11 @@
         </ul>"
     );
     
-    $kutia_title = array("Our traditional Kutia 2018","Notre Kutia traditionnelle 2018","Наша спільна парафіяльна Кутя 2018");
+    $kutia_title = array("Our traditional Kutia 2019","Notre Kutia traditionnelle 2019","Наша спільна парафіяльна Кутя 2019");
     $kutia_text = array(
-    "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <b>Sunday, Jan 21st</b>; on that day Divine Liturgy will begin at 11:00 am",
-    "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <b>dimanche 21 janvier</b>, ce jour-là la Divine Liturgie débutera à 11h00",
-    "Відвудетьс по Службі Божій в Неділю, 21 січня 2014. В цей день Служба Божа почнеться о 11.00 год."
+    "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <b>Sunday, Jan 27th</b>; on that day Divine Liturgy will begin at 11:00 am",
+    "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <b>dimanche 27 janvier</b>, ce jour-là la Divine Liturgie débutera à 11h00",
+    "Відвудетьс по Службі Божій в Неділю, 27 січня 2014. В цей день Служба Божа почнеться о 11.00 год."
                   
                     
                         );
