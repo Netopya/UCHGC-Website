@@ -271,7 +271,7 @@
         "<ul>
             <li class=\"nobulletli\">Sunday 6 - Christmas Eve
                 <ul>
-                    <!--<li>9:40pm - Vespers</li>-->
+                    <li>9:40pm - Vespers</li>
                     <li>10:00pm - Christmas Divine Liturgy</li>
                 </ul>
             </li>
@@ -285,7 +285,7 @@
         ,"<ul>
             <li class=\"nobulletli\">Dimanche le 6 - Réveillon de Noël
                 <ul>
-                    <!--<li>21h40 - Vêpres</li>-->
+                    <li>21h40 - Vêpres</li>
                     <li>22h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
@@ -299,7 +299,7 @@
         ,"<ul>
             <li class=\"nobulletli\">Неділя 6 - Недільна Служба Божа
                 <ul>
-                    <!--<li>21:40 - Повечір'я</li>-->
+                    <li>21:40 - Повечір'я</li>
                     <li>22:00 - Святкова Служба  Божа</li>
                 </ul>
             </li>
@@ -339,19 +339,19 @@
 
     $e_t = array("Easter Weekend Schedule","Calendrier de la fin de semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Thursday, April 5th<br/>5:00 PM","Jeudi le 5 avril</br>17:00h","ЧЕТВЕР,5 квітня</br>17:00");
+    $e_2d = array("Thursday, April 25th<br/>5:00 PM","Jeudi le 25 avril</br>17:00h","ЧЕТВЕР,25 квітня</br>17:00");
     $e_2t = array("Reading of the 12 Gospels...the Passion of Christ","La lecture des 12 évangiles ... la Passion du Christ","Утрення Страстей (читання 12 Євангелій )");
-    $e_3d = array("Friday, April 6th<br/>5:00 PM","Vendredi le 6 avril</br>17:00","П‘ЯТНИЦЯ, 6 квітня</br>17:00");
+    $e_3d = array("Friday, April 26th<br/>5:00 PM","Vendredi le 26 avril</br>17:00","П‘ЯТНИЦЯ, 26 квітня</br>17:00");
     $e_3t = array("Vespers,  procession with \"Plashchanycia\""," Vêpres, procession avec «Plashchanycia»","Вечірня   з виносом  Плащениці");
-    $e_4d = array("Saturday, April 7th<br/>5:00 PM","Samedi le 7 avril<br/>17:00h","СУБОТА, 7 квітня<br/>17:00");
+    $e_4d = array("Saturday, April 27th<br/>5:00 PM","Samedi le 27 avril<br/>17:00h","СУБОТА, 27 квітня<br/>17:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, April 8th<br/>Ressurection of Our Lord","Dimanche le 8 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 8 квітня</br>Воскресіння Господнє – Пасха");
+    $e_5d = array("Sunday, April 28th<br/>Ressurection of Our Lord","Dimanche le 28 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 28 квітня</br>Воскресіння Господнє – Пасха");
     $e_5t = array("7:15 AM - Ressurectional Matins</br>8:00 AM - Paschal Divine Liturgy","7:15 - Résurrection Matins</br>8:00 -- Liturgie divine Pascale","7:15 Надгробне.  Утрення</br>8:00 Пасхальна Служба Божа");
-    $e_6d = array("Monday, April 9th<br/>9:00 AM","Lundi le 9 avril</br>9:00h","ПОНЕДІЛОК, 9 квітня</br>9:00");
+    $e_6d = array("Monday, April 29th<br/>9:00 AM","Lundi le 29 avril</br>9:00h","ПОНЕДІЛОК, 29 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
     $eb_h = array("Easter Banquet","Banquet Pâques","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ");
-    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, April 22nd, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 22 avril, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 22 квітня по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
+    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 5th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 5 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 5 травень по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
 	$gr2013_content = array("Sunday, June 19, 2015 at 2:00 p.m at the Notre-Dame-des-Neiges Cemetery. Procession from the administration building to the Ukrainian monument","Dimanche 19 juin, 2015 à 14 h au cimetière Notre-Dame-des-Neiges. Procession du bâtiment de l'administration au monument ukrainien","Неділя, 19 червня 2015 о. 2:00 на цвинтарі. Процесія від і адміністрації будинок до українського пам'ятник");
