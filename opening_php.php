@@ -261,9 +261,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>December - 11:00am</li><li>January - 9:00am</li><li>February - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Décembre - 11h</li><li>Janvier - 9h</li><li>Février - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Грудень – 11 година</li><li>січень – 9 година</li><li>лютого – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>March - 9:00am</li><li>April - 11:00am</li><li>May - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mars - 9h</li><li>Avril - 11h</li><li>Mai - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березень – 9 година</li><li>Квітень – 11 година</li><li>травень – 9 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Christmas December 2019 Liturgies","Liturgies de Noël Décembre 2019","Різдвяні 2019 Грудень літургії");
@@ -413,6 +413,99 @@
           Реколекції  буде  провадити  о. <strong>Роман Лагола</strong></p>
     ");
 	
+	
+	$corona_title = array("Coronavirus Updates", "Mises à jour du coronavirus", "Згідно деректив та порад з причини коронавірусу");
+	
+	$corona_content = array("
+		<p>
+			In accordance with the directives and advice with regard to the coronavirus:<br>
+			<strong>Attendance at Sunday and Holyday Liturgies is not obligatory during this period</strong>, but up to your own personal discretion. Liturgies are not cancelled.</br>
+			Liturgies are celebrated without distribution of Holy Communion</br><br>
+			<strong>CANCELLED</strong>
+			<ul>
+				<li>Gatherings at the hall (coffee after Mass, bazaars, meetings, Bingo, \"pysanky\" courses)</li>
+				<li>Lenten retreats</li>
+				<li>Kissing of Icons</li>
+			</ul>
+			Advice</br>
+			<ul>
+				<li>do not greet each other with hand shakes</li>
+				<li>as much as possible sit at a distance from each other in church</li>
+				<li>wash hands frequently</li>
+				<li>avoid places where there are crowds of people</li>
+			</ul>
+			Heed medical advice as to how to protect yourself from contacting the virus</br>
+			Fulfill the regulations of the government which will help with overcoming the pandemic in the shortest possible time
+		</p>
+	", "
+		<p>
+			<strong>La participation aux liturgies n'est pas obligatoire au cours de cette période</strong> et elles sont à votre propre discrétion personnelle. Les liturgies ne sont pas annulées.</br>
+			Les liturgies sont célébrées sans distribution de la sainte communion</br><br>
+			<strong>ANNULÉ</strong>
+			<ul>
+				<li>Rassemblements dans la salle (café après la messe, bazars, réunions, bingo, Cours «pysanky»)</li>
+				<li>Retraites de carême</li>
+				<li>Baiser d'icônes</li>
+			</ul>
+			Conseils</br>
+			<ul>
+				<li>ne vous saluez pas avec des poignées de main autant que possible</li>
+				<li>asseyez-vous à distance les uns des autres à l'église</li>
+				<li>laver-vous les mains fréquemment</li>
+				<li>éviter les endroits où il y a des foules de gens</li>
+			</ul>
+			Tenez compte des conseils médicaux pour vous protéger contre les contacts avec le virus</br>
+			Respecter les réglementations du gouvernement qui aideront à vaincre la pandémie dans les plus brefs délais.
+		</p>
+	", "
+		<p>
+			<strong>Відвідування недільних і святкових богослужінь – не є на цей період під обов»язком</strong>, а -  на власну  відповідальність. Проте самі Богослужби не відміняються</br>
+			Богослужіння відбуваються без роздачі св.Причастя</br><br>
+			<strong>Відміняються</strong>
+			<ul>
+				<li>зібрання на залі     ( кава, базарі,збори, бінго, курс писанкарства .. )</li>
+				<li>реколекції</li>
+				<li>цілування ікон</li>
+			</ul>
+			порада</br>
+			<ul>
+				<li>не вітатися за руку</li>
+				<li>При можливості у храмі сідати віддалік один від одного</li>
+				<li>Часто мити руки</li>
+				<li>уникати місць,  де є скупчення людей</li>
+			</ul>
+			Дослухатися до лікарських порад  щодо захисту від вірусу</br>
+			Виконувати  вказівки уряду, що можуть поступити найближчим часом відносно  поборення пандемії.
+		</p>
+	");
+	
+	$prayer1_title = array("Prayer of Pope Francis","Prayer of Pope Francis","Молитва папи Фрациска");
+	
+	$prayer1_content = array("
+		<p>
+			O Mary, you shine continuously on our journey as a sign of salvation and hope.<br>
+			We entrust ourselves to you, Health of the Sick.  At the foot of the Cross you participated in Jesus' pain, with steadfast faith.  You, Salvation of the human race, know what we need.<br>
+			We are certain that you will provide, so that, as you did at Cana of Galilee, joy and feasting might return after this moment of trial.<br>
+			Help us, Mother of Divine Love, to conform ourselves to the Father’s will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.<br>
+			We seek refuge under your protection, O holy Mother of God.  Do not despise pur pleas – we who are put to the test – and deliver us from every danger, O glorious and blessed Virgin. Amen.
+		</p>
+	","
+		<p>
+			O Mary, you shine continuously on our journey as a sign of salvation and hope.<br>
+			We entrust ourselves to you, Health of the Sick.  At the foot of the Cross you participated in Jesus' pain, with steadfast faith.  You, Salvation of the human race, know what we need.<br>
+			We are certain that you will provide, so that, as you did at Cana of Galilee, joy and feasting might return after this moment of trial.<br>
+			Help us, Mother of Divine Love, to conform ourselves to the Father’s will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.<br>
+			We seek refuge under your protection, O holy Mother of God.  Do not despise pur pleas – we who are put to the test – and deliver us from every danger, O glorious and blessed Virgin. Amen.
+		</p>
+	","
+		<p>
+			Маріє, Ти завжди освітлюєш нашу дорогу і стаєш на ній знаком спасіння і надії.<br>
+			Матір Божа, довіряємось Тобі. Ти — Зцілення Хворих. Ти була близько під Хрестом і бачила біль Ісуса, але зберегла сильну віру. Ти — Спасіння людського роду, Ти знаєш, чого ми потребуємо.<br>
+			Уповаємо, що Ти відповіси на наші прохання, щоб ми, подібно як у Кані Галілейській, могли радісно святкувати, коли час випробування закінчиться.<br>
+			Мати Божої Любові, допоможи нам зрозуміти волю Отця і чинити те, що каже нам Ісус. Він бо взяв на себе наші страждання й також несе наші турботи, щоби привести нас, через Хрест, до радості Воскресіння,<br>
+			Шукаємо притулку у Тебе і Твоєї опіки, о Пресвята Матір Бога. Не погордуй нашими благаннями — зокрема у час, коли ми піддані випробуванню, — і визволи нас від усякої небезпеки, о славна і благословенна Діво.     амінь.
+		</p>
+	");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>
