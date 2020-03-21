@@ -414,68 +414,28 @@
     ");
 	
 	
-	$corona_title = array("Coronavirus Updates", "Mises à jour du coronavirus", "Згідно деректив та порад з причини коронавірусу");
+	$corona_title = array("Coronavirus Updates (2020-03-21)", "Mises à jour du coronavirus (2020-03-21)", "Згідно деректив та порад з причини коронавірусу (2020-03-21)");
 	
 	$corona_content = array("
-		<p>
-			In accordance with the directives and advice with regard to the coronavirus:<br>
-			<strong>Attendance at Sunday and Holyday Liturgies is not obligatory during this period</strong>, but up to your own personal discretion. Liturgies are not cancelled.</br>
-			Liturgies are celebrated without distribution of Holy Communion</br><br>
-			<strong>CANCELLED</strong>
-			<ul>
-				<li>Gatherings at the hall (coffee after Mass, bazaars, meetings, Bingo, \"pysanky\" courses)</li>
-				<li>Lenten retreats</li>
-				<li>Kissing of Icons</li>
-			</ul>
-			Advice</br>
-			<ul>
-				<li>do not greet each other with hand shakes</li>
-				<li>as much as possible sit at a distance from each other in church</li>
-				<li>wash hands frequently</li>
-				<li>avoid places where there are crowds of people</li>
-			</ul>
-			Heed medical advice as to how to protect yourself from contacting the virus</br>
-			Fulfill the regulations of the government which will help with overcoming the pandemic in the shortest possible time
+		<p class=\"corona_update\">
+			Because of the spread of the coronavirus, the church is closed.<br>
+			But the Divine services are held behind closed doors by the priest and cantors.<br>
+			We continue to pray for your health and well-being.<br>
+			We apologize for the inconvenience.
 		</p>
 	", "
-		<p>
-			<strong>La participation aux liturgies n'est pas obligatoire au cours de cette période</strong> et elles sont à votre propre discrétion personnelle. Les liturgies ne sont pas annulées.</br>
-			Les liturgies sont célébrées sans distribution de la sainte communion</br><br>
-			<strong>ANNULÉ</strong>
-			<ul>
-				<li>Rassemblements dans la salle (café après la messe, bazars, réunions, bingo, Cours «pysanky»)</li>
-				<li>Retraites de carême</li>
-				<li>Baiser d'icônes</li>
-			</ul>
-			Conseils</br>
-			<ul>
-				<li>ne vous saluez pas avec des poignées de main autant que possible</li>
-				<li>asseyez-vous à distance les uns des autres à l'église</li>
-				<li>laver-vous les mains fréquemment</li>
-				<li>éviter les endroits où il y a des foules de gens</li>
-			</ul>
-			Tenez compte des conseils médicaux pour vous protéger contre les contacts avec le virus</br>
-			Respecter les réglementations du gouvernement qui aideront à vaincre la pandémie dans les plus brefs délais.
+		<p class=\"corona_update\">
+			En raison de la propagation du coronavirus, l'église est fermée.<br>
+			Mais les services divins sont tenus à huis clos par le prêtre et les chantres.<br>
+			Nous continuons de prier pour votre santé et votre bien-être.<br>
+			Nous nous excusons pour le dérangement.
 		</p>
 	", "
-		<p>
-			<strong>Відвідування недільних і святкових богослужінь – не є на цей період під обов»язком</strong>, а -  на власну  відповідальність. Проте самі Богослужби не відміняються</br>
-			Богослужіння відбуваються без роздачі св.Причастя</br><br>
-			<strong>Відміняються</strong>
-			<ul>
-				<li>зібрання на залі     ( кава, базарі,збори, бінго, курс писанкарства .. )</li>
-				<li>реколекції</li>
-				<li>цілування ікон</li>
-			</ul>
-			порада</br>
-			<ul>
-				<li>не вітатися за руку</li>
-				<li>При можливості у храмі сідати віддалік один від одного</li>
-				<li>Часто мити руки</li>
-				<li>уникати місць,  де є скупчення людей</li>
-			</ul>
-			Дослухатися до лікарських порад  щодо захисту від вірусу</br>
-			Виконувати  вказівки уряду, що можуть поступити найближчим часом відносно  поборення пандемії.
+		<p class=\"corona_update\">
+			З причини поширення коронавірусу церква є зачинена.<br>
+			Але Богослужіння відбуваються за зачиненеми дверима священиком і дяками.<br>
+			Ми продовжуємо молитися за ваше здоров»я і благополуччя.<br>
+			Вибачаємося за незручності.
 		</p>
 	");
 	
