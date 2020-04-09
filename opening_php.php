@@ -466,6 +466,8 @@
 			Шукаємо притулку у Тебе і Твоєї опіки, о Пресвята Матір Бога. Не погордуй нашими благаннями — зокрема у час, коли ми піддані випробуванню, — і визволи нас від усякої небезпеки, о славна і благословенна Діво.     амінь.
 		</p>
 	");
+	
+	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday ","Prière pour la bénédiction des «Loza» le dimanche des Rameaux","молитва на освячення лози в Квітну Неділю");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>
