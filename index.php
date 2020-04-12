@@ -91,6 +91,12 @@
                         <?php echo $corona_content[$refined_laguage]; ?>
                     </div>
                 </div>
+				
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1">
+						<img class="img-responsive" src="images/Котик001.jpg"/>
+					</div>
+				</div>
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">

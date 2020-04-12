@@ -467,7 +467,7 @@
 		</p>
 	");
 	
-	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday ","Prière pour la bénédiction des «Loza» le dimanche des Rameaux","молитва на освячення лози в Квітну Неділю");
+	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday (2020-04-12)","Prière pour la bénédiction des «Loza» le dimanche des Rameaux (2020-04-12)","молитва на освячення лози в Квітну Неділю (2020-04-12)");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>
