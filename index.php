@@ -74,8 +74,7 @@
 				
 				<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <!-- <p><?php echo $eastergreeting_content[$refined_laguage]; ?></p>-->
-						<p style="font-size: 20px;text-align: center;">Всіх моїх парафіян сердечно вітаю зі святом Пасхи Христової. Нехай радість цього великого свята, незважаючи на суворі виклики сьогодення, завітає у ваші домівки і принесе вам надію на скоре закінчення наших випробовувань. Нехай воскреслий Ісус укріпить вашу віру і охоронить всіх вас і ваші родини від усякої хвороби і всякої скорботи. Мир вам ! Христос Воскрес !</p>
+                        <p style="font-size: 20px;text-align: center;"><?php echo $eastergreeting_content[$refined_laguage]; ?></p>
                     </div>
                 </div>
 
