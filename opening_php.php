@@ -472,6 +472,10 @@
 	$paska_video = array("Тhe blessing of the \"Paska\" Holy Ghost Church (2020-04-18)","La bénédiction des «Paska» Èglise Saint-Esprit (2020-04-18)","свячення Пасок . Парафія Святого Духа (2020-04-18)");
 	
 	$eastergreeting_content = array("Sincere Greetings to all my parishioners on the occasion of Christ's Resurrection - Pascha!  May the joy of this great Holy Day, in spite the current severe circumstances, visit your home and bring you hope for a speedy end to all our trials.  May the Risen Christ strengthen your Faith and protect all of you and your families from all sickness and sorrow.  Peace to all!  CHRYSTOS VOSKRES!","Salutations sincères à tous mes paroissiens à l'occasion de la résurrection du Christ - Pascha! Puisse la joie de ce grand Jour Saint, malgré les circonstances graves actuelles, visiter votre maison et vous apporter l'espoir d'une fin rapide à toutes nos épreuves. Que le Christ ressuscité renforce votre foi et vous protège, vous et vos familles, de toutes les maladies et de la douleur. Paix à tous! CHRYSTOS VOSKRES!","Всіх моїх парафіян сердечно вітаю зі святом Пасхи Христової. Нехай радість цього великого свята, незважаючи на суворі виклики сьогодення, завітає у ваші домівки і принесе вам надію на скоре закінчення наших випробовувань. Нехай воскреслий Ісус укріпить вашу віру і охоронить всіх вас і ваші родини від усякої хвороби і всякої скорботи. Мир вам ! Христос Воскрес !");
+	
+	$prayer2_title = array("The Order of Prayer of the Domestic Church on Ascension", "L'Ordre de prière de l'Église domestique à l'Ascension", "Молитовний чин Домашньої Церкви на Вознесіння");
+	
+	$gr2020 = array("Green Holidays Information","Informations sur la fête du dimanche vert","Зелені свята - звернення");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>

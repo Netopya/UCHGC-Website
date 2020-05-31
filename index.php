@@ -74,40 +74,38 @@
 				
 				<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <p style="font-size: 20px;text-align: center;"><?php echo $eastergreeting_content[$refined_laguage]; ?></p>
+                        <h1><?php echo $corona_title[$refined_laguage]; ?></h1>
+                        <?php echo $corona_content[$refined_laguage]; ?>
                     </div>
                 </div>
-
+				
+				<!--<div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <p style="font-size: 20px;text-align: center;"><?php echo $eastergreeting_content[$refined_laguage]; ?></p>
+                    </div>
+                </div>-->
+				
 				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h1><?php echo $paska_video[$refined_laguage] ;?></h1>
-						<div class="row">
-							<div class="col-md-10 col-md-offset-1">
-								<div class="embed-responsive embed-responsive-16by9">
-									<iframe width="853" height="480" src="//www.youtube.com/embed/N6uCIS8fUa4" frameborder="0" allowfullscreen></iframe>
-								</div>
-							</div>
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $gr2020[$refined_laguage]; ?></h1>
+                        <div>
+							<p>Дорогі у Христі брати і сестри!  Наближається свято П»ятидесятниці  ( Зелені Свята) .  Зазвичай кожного року ми  тиждень перед цими святами служили персональні Панахидки на гробах наших померлих, а на саме свято  мали  загальні молитви перед головним пам»ятником і над могилами наших померлих священиків.</p>
+							<p>Але цього року сталася в світі велика біда, - пандемія коронавірусу забрала життя сотень тисяч людей у цілому світі і продовжує свою нищівну справу. Всі, незважаючи на вік, знаходяться в зоні великих ризиків.</p>
+							<p>Тому ми, священики Монтреальського деканату, порадившись поміж собою, прийшли до порозуміння, що ми не маємо права підставляти під загрозу ваше здоров»я і , можливо, навіть життя та скликати вас на традиційні багатолюдні святкування. Тому ми вирішили, що всі молитовні відправи, котрі ми зазвичай мали на цвинтарі, перенести до наших храмів, в котрих Дух Святий в особивий спосіб перебуває.</p>
+							<p>Кожен з нас у свято П»ятидесятниці по святковій Службі Божій відправить загальну Панахиду за померлих парафіян. Хто б з наших вірних побажав, щоб за його  померлих молилися поіменно, може, склавши  невеличку пожертву, подати записку з іменами вашому о.Пароху.</p>
+							<p>В такий простий і достойний спосіб ми зможемо виконати свій християнський молитовний обов»язок щодо наших померлих родичів та членів наших родин.</p>
+							<p>Нехай Всемилостивий Господь упокоїть душі їх у своїм Небеснім Царстві, а нас збереже від усякої хвороби і всякої журби та нещастя.</p>
+							<p style="text-align:right;">Ваші душпастирі: о.Ігор Ощіпко, о.Ярослав Півторак, о. Назар Юрів, о.Володимир Вітт.</p>
 						</div>
-					</div>
+                    </div>
                 </div>
 				
 				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h1><?php echo $vine_video[$refined_laguage] ;?></h1>
-						<div class="row">
-							<div class="col-md-10 col-md-offset-1">
-								<div class="embed-responsive embed-responsive-16by9">
-									<iframe width="853" height="480" src="//www.youtube.com/embed/95yu_cD5vwU" frameborder="0" allowfullscreen></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-                </div>
-                
-				<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $corona_title[$refined_laguage]; ?></h1>
-                        <?php echo $corona_content[$refined_laguage]; ?>
+                        <h1><?php echo $prayer2_title[$refined_laguage]; ?></h1>
+                        <p style="text-align: center;margin-bottom: 40px;">
+							<a class="btn btn-default" href="attachments/МОЛИТОВНИЙ ЧИН ДОМАШНЬОЇ ЦЕРКВИ НА ВОЗНЕСІННЯ.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>  МОЛИТОВНИЙ ЧИН ДОМАШНЬОЇ ЦЕРКВИ НА ВОЗНЕСІННЯ.pdf</a>
+						</p>
                     </div>
                 </div>
 				
