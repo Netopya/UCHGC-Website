@@ -474,6 +474,10 @@
 	$eastergreeting_content = array("Sincere Greetings to all my parishioners on the occasion of Christ's Resurrection - Pascha!  May the joy of this great Holy Day, in spite the current severe circumstances, visit your home and bring you hope for a speedy end to all our trials.  May the Risen Christ strengthen your Faith and protect all of you and your families from all sickness and sorrow.  Peace to all!  CHRYSTOS VOSKRES!","Salutations sincères à tous mes paroissiens à l'occasion de la résurrection du Christ - Pascha! Puisse la joie de ce grand Jour Saint, malgré les circonstances graves actuelles, visiter votre maison et vous apporter l'espoir d'une fin rapide à toutes nos épreuves. Que le Christ ressuscité renforce votre foi et vous protège, vous et vos familles, de toutes les maladies et de la douleur. Paix à tous! CHRYSTOS VOSKRES!","Всіх моїх парафіян сердечно вітаю зі святом Пасхи Христової. Нехай радість цього великого свята, незважаючи на суворі виклики сьогодення, завітає у ваші домівки і принесе вам надію на скоре закінчення наших випробовувань. Нехай воскреслий Ісус укріпить вашу віру і охоронить всіх вас і ваші родини від усякої хвороби і всякої скорботи. Мир вам ! Христос Воскрес !");
 	
 	$prayer2_title = array("The Order of Prayer of the Domestic Church on Ascension", "L'Ordre de prière de l'Église domestique à l'Ascension", "Молитовний чин Домашньої Церкви на Вознесіння");
+	$prayer3_title = array("The Order of Prayer of the Domestic Church: A Prayer to Christ the Saviour", "L'Ordre de prière de l'Église domestique: une prière au Christ Sauveur", "Молитовний чин Домашньої Церкви: Молебень до Христа Спасителя");
+	$prayer4_title = array("The Order of Prayer of the Domestic Church: The Third Hour on Pentecost Sunday", "L'ordre de prière de l'Église domestique: la troisième heure le dimanche de la Pentecôte", "Молитовний чин Домашньої Церкви: Третій час на Зіслання Св. Духа");
+	
+	
 	
 	$gr2020 = array("Green Holidays Information","Informations sur la fête du dimanche vert","Зелені свята - звернення");
 ?>

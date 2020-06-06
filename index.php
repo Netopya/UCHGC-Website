@@ -110,6 +110,24 @@
                 </div>
 				
 				<div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $prayer3_title[$refined_laguage]; ?></h1>
+                        <p style="text-align: center;margin-bottom: 40px;">
+							<a class="btn btn-default" href="attachments/2020 Order of Prayer A MOLEBEN TO CHRIST THE SAVIOUR.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>  2020 Order of Prayer A MOLEBEN TO CHRIST THE SAVIOUR.pdf</a>
+						</p>
+                    </div>
+                </div>
+				
+				<div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $prayer4_title[$refined_laguage]; ?></h1>
+                        <p style="text-align: center;margin-bottom: 40px;">
+							<a class="btn btn-default" href="attachments/2020 Order of Prayer of the Domestic Church - THE THIRD HOUR ON PENTECOST SUNDAY.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>  2020 Order of Prayer of the Domestic Church - THE THIRD HOUR ON PENTECOST SUNDAY.pdf</a>
+						</p>
+                    </div>
+                </div>
+				
+				<div class="row">
 					<div class="col-lg-10 col-lg-offset-1">
 						<img class="img-responsive" src="images/Котик001.jpg"/>
 					</div>
