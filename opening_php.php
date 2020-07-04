@@ -414,30 +414,23 @@
     ");
 	
 	
-	$corona_title = array("Coronavirus Updates (2020-03-21)", "Mises à jour du coronavirus (2020-03-21)", "Згідно деректив та порад з причини коронавірусу (2020-03-21)");
+	$corona_title = array("Coronavirus Updates (2020-07-03)", "Mises à jour du coronavirus (2020-07-03)", "Згідно деректив та порад з причини коронавірусу (2020-07-03)");
 	
 	$corona_content = array("
 		<p class=\"corona_update\">
-			Because of the spread of the coronavirus, the church is closed.<br>
-			But the Divine services are held behind closed doors by the priest and cantors.<br>
-			We continue to pray for your health and well-being.<br>
-			We apologize for the inconvenience.
+			Our church will be open as of Sunday, July 5h for 9:00 AM Liturgy.  Please arrive 15-20 min. beforehand in order to register before entering church. You can print, fill out, and bring the following screening form to register ahead of time.
 		</p>
 	", "
 		<p class=\"corona_update\">
-			En raison de la propagation du coronavirus, l'église est fermée.<br>
-			Mais les services divins sont tenus à huis clos par le prêtre et les chantres.<br>
-			Nous continuons de prier pour votre santé et votre bien-être.<br>
-			Nous nous excusons pour le dérangement.
+			Notre église sera ouverte à partir du dimanche 5 juillet. La messe va être célébrée à 9h00. Veuillez arriver 15-20 min. à l'avance afin de vous inscrire avant d'entrer dans l'église. Vous pouvez imprimer, remplir et apporter le formulaire de présélection suivant pour vous inscrire à l'avance.
 		</p>
 	", "
 		<p class=\"corona_update\">
-			З причини поширення коронавірусу церква є зачинена.<br>
-			Але Богослужіння відбуваються за зачиненеми дверима священиком і дяками.<br>
-			Ми продовжуємо молитися за ваше здоров»я і благополуччя.<br>
-			Вибачаємося за незручності.
+			Наш храм буде відкритий сеї неділі (05-07). Літургія в 9 год. рано.  Треба прийти до храму дещо раніше, оскільке біля дверей буде провадитися реєстрація і можливо створиться черга.
 		</p>
 	");
+	
+	$screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
 	
 	$prayer1_title = array("Prayer of Pope Francis","Prayer of Pope Francis","Молитва папи Фрациска");
 	
