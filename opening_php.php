@@ -473,6 +473,8 @@
 	
 	
 	$gr2020 = array("Green Holidays Information","Informations sur la fête du dimanche vert","Зелені свята - звернення");
+	
+	$presentation1_title = array("Canadian National Youth Committee of UGCC presents", "Le Comité national canadien des jeunes de l'UGCC présente", "Canadian National Youth Committee of UGCC presents");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>

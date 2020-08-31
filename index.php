@@ -82,6 +82,15 @@
                     </div>
                 </div>
 				
+				<div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $presentation1_title[$refined_laguage]; ?></h1>
+                        <p style="text-align: center;margin-bottom: 40px;">
+							<a class="btn btn-default" href="attachments/Viter Na - Dii Flyer -4.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>  Time of Possibilities.pdf</a>
+						</p>
+                    </div>
+                </div>
+				
 				<!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <p style="font-size: 20px;text-align: center;"><?php echo $eastergreeting_content[$refined_laguage]; ?></p>
