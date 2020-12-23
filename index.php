@@ -71,6 +71,24 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
+                        <?php echo $corona2_content[$refined_laguage]; ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
+                        <a href="images/xmas.jpg">
+                        <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
+                        <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
+                        <div class="clear_float"></div>
+                    </div>
+                </div>
+
 				
 				<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -97,7 +115,7 @@
                     </div>
                 </div>-->
 				
-				<div class="row">
+				<!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2020[$refined_laguage]; ?></h1>
                         <div>
@@ -110,7 +128,7 @@
 							<p style="text-align:right;">Ваші душпастирі: о.Ігор Ощіпко, о.Ярослав Півторак, о. Назар Юрів, о.Володимир Вітт.</p>
 						</div>
                     </div>
-                </div>
+                </div> -->
 				
 				<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -152,16 +170,7 @@
                     </div>
                 </div>
 
-                <!--<div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
-                        <a href="images/xmas.jpg">
-                        <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
-                        <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
-                        <div class="clear_float"></div>
-                    </div>
-                </div>
-
+                <!--
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>

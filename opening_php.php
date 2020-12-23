@@ -261,31 +261,76 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>March - 9:00am</li><li>April - 11:00am</li><li>May - 9:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mars - 9h</li><li>Avril - 11h</li><li>Mai - 9h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березень – 9 година</li><li>Квітень – 11 година</li><li>травень – 9 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>December - 11:00am</li><li>January - 9:00am</li><li>February - 11:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Décembre - 11h</li><li>Janvier - 9h</li><li>Février - 11h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Грудень – 11 година</li><li>Квітень – 9 година</li><li>Лютий – 11 година</li><li>і так далі</li></ul>"
 	);
     
-    $xmas2013_title = array("Christmas December 2019 Liturgies","Liturgies de Noël Décembre 2019","Різдвяні 2019 Грудень літургії");
+    $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Wednesday 25 - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Friday 25 December - Nativity of Jesus Christ
                 <ul>
                     <li>11:00am - Christmas Divine Liturgy</li>
                 </ul>
             </li>
-        </ul>"
-        ,"<ul>
-            <li class=\"nobulletli\">Mercredi le 25 - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Friday 1 January - New Year
                 <ul>
-                    <li>11h00 - Divine Liturgie de Noël</li>
+                    <li>9:00am - St. Basil the Great</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Wednesday 6 January
+                <ul>
+                    <li>9:00am - Epiphany</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Thursday 7 January
+                <ul>
+                    <li>9:00am - Julian Calender Christmas</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Середа 25 - Різво Христове
+            <li class=\"nobulletli\">Vendredi le 25 Décembre - Nativité de Jésus-Christ
+                <ul>
+                    <li>11h00 - Divine Liturgie de Noël</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Vendredi le 1 Janvier - Nouvel An
+                <ul>
+                    <li>9h00 - Saint Basile le Grand</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Mercredi le 6 Janvier
+                <ul>
+                    <li>9h00 - Épiphanie</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Jeudi le 7 Janvier
+                <ul>
+                    <li>9h00 - Noël du calendrier julien</li>
+                </ul>
+            </li>
+        </ul>"
+        ,"<ul>
+            <li class=\"nobulletli\">П’ятниця 25 Грудень - Різво Христове
                 <ul>
                     <li>11:00 - Святкова Служба Божа</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">П’ятниця 1 Січня - Новий Рік
+                <ul>
+                    <li>9:00 - Св. Василія Великого</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Середа 6 Січня
+                <ul>
+                    <li>9:00 - Богоявлення</li>
+                </ul>
+            </li>
+            <li class=\"nobulletli\">Четвер 7 Січня
+                <ul>
+                    <li>9:00 - Різдво за  Юліанським календарем</li>
                 </ul>
             </li>
         </ul>"
@@ -430,7 +475,39 @@
 		</p>
 	");
 	
-	$screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
+    $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
+    
+    $corona2_title = array("Coronavirus Updates (2020-12-22)", "Mises à jour du coronavirus (2020-12-22)", "Згідно деректив та порад з причини коронавірусу (2020-12-22)");
+
+    $corona2_content = array("
+        <p class=\"corona_update\">
+            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
+            Going over this limit puts us at risk of incurring 
+            a fine of 6 000$ per person.
+            For this reason after we have reached this number 
+            our front door will be locked.
+            We ask for your understanding and apologize for 
+            any inconvenience.
+        </p>
+    ", "
+        <p class=\"corona_update\">
+            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
+            Dépasser cette limite nous expose à un risque
+            une amende de 6 000 $ par personne.
+            Pour cette raison, après avoir atteint ce nombre
+            notre porte d'entrée sera verrouillée.
+            Nous vous demandons votre compréhension et nous nous excusons
+            tout les inconvénients.
+        </p>
+    ", "
+        <p class=\"corona_update\">
+            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
+            Перевищення цього ліміту нам загрожує штраф – 
+            6 тисяч доларів за кожну особу.
+            Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
+            Просимо вашого вирозуміння і дуже вибачаємося за незручність.        
+        </p>
+    ");
 	
 	$prayer1_title = array("Prayer of Pope Francis","Prayer of Pope Francis","Молитва папи Фрациска");
 	
