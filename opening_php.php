@@ -477,35 +477,28 @@
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2020-12-22)", "Mises à jour du coronavirus (2020-12-22)", "Згідно деректив та порад з причини коронавірусу (2020-12-22)");
+    $corona2_title = array("Coronavirus Updates (2021-01-07)", "Mises à jour du coronavirus (2021-01-07)", "Згідно деректив та порад з причини коронавірусу (2021-01-07)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
-            Going over this limit puts us at risk of incurring 
-            a fine of 6 000$ per person.
-            For this reason after we have reached this number 
-            our front door will be locked.
-            We ask for your understanding and apologize for 
-            any inconvenience.
+            Because of the spread of the coronavirus, the church is closed.<br>
+            But the Divine services are held behind closed doors by the priest and cantors.<br>
+            We continue to pray for your health and well-being.<br>
+            We apologize for the inconvenience.
         </p>
     ", "
         <p class=\"corona_update\">
-            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
-            Dépasser cette limite nous expose à un risque
-            une amende de 6 000 $ par personne.
-            Pour cette raison, après avoir atteint ce nombre
-            notre porte d'entrée sera verrouillée.
-            Nous vous demandons votre compréhension et nous nous excusons
-            tout les inconvénients.
+            En raison de la propagation du coronavirus, l'église est fermée.<br>
+            Mais les services divins sont tenus à huis clos par le prêtre et les chantres.<br>
+            Nous continuons de prier pour votre santé et votre bien-être.<br>
+            Nous nous excusons pour le dérangement.
         </p>
     ", "
         <p class=\"corona_update\">
-            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
-            Перевищення цього ліміту нам загрожує штраф – 
-            6 тисяч доларів за кожну особу.
-            Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
-            Просимо вашого вирозуміння і дуже вибачаємося за незручність.        
+            З причини поширення коронавірусу церква є зачинена.<br>
+            Але Богослужіння відбуваються за зачиненеми дверима священиком і дяками.<br>
+            Ми продовжуємо молитися за ваше здоров»я і благополуччя.<br>
+            Вибачаємося за незручності.
         </p>
     ");
 	
