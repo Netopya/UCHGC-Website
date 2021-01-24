@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -87,7 +87,7 @@
                         <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
-                </div>
+                </div>-->
 
 				
 				<div class="row">
@@ -96,15 +96,6 @@
                         <?php echo $corona_content[$refined_laguage]; ?>
 						<p style="text-align:center;">
 							<a class="btn btn-default" href="attachments/анкета.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> <?php echo $screen_form[$refined_laguage]; ?></a>
-						</p>
-                    </div>
-                </div>
-				
-				<div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $presentation1_title[$refined_laguage]; ?></h1>
-                        <p style="text-align: center;margin-bottom: 40px;">
-							<a class="btn btn-default" href="attachments/Viter Na - Dii Flyer -4.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>  Time of Possibilities.pdf</a>
 						</p>
                     </div>
                 </div>
