@@ -90,7 +90,7 @@
                 </div>-->
 
 				
-				<div class="row">
+				<!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona_title[$refined_laguage]; ?></h1>
                         <?php echo $corona_content[$refined_laguage]; ?>
@@ -98,7 +98,7 @@
 							<a class="btn btn-default" href="attachments/анкета.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> <?php echo $screen_form[$refined_laguage]; ?></a>
 						</p>
                     </div>
-                </div>
+                </div>-->
 				
 				<!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
