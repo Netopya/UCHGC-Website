@@ -459,46 +459,53 @@
     ");
 	
 	
-	$corona_title = array("Coronavirus Updates (2020-07-03)", "Mises à jour du coronavirus (2020-07-03)", "Згідно деректив та порад з причини коронавірусу (2020-07-03)");
+	$corona_title = array("Coronavirus Updates (2021-01-24)", "Mises à jour du coronavirus (2021-01-24)", "Згідно деректив та порад з причини коронавірусу (2021-01-24)");
 	
 	$corona_content = array("
 		<p class=\"corona_update\">
-			Our church will be open as of Sunday, July 5h for 9:00 AM Liturgy.  Please arrive 15-20 min. beforehand in order to register before entering church. You can print, fill out, and bring the following screening form to register ahead of time.
+			Our church will be open as of Sunday, January 31st for 9:00 AM Liturgy.  Please arrive 15-20 min. beforehand in order to register before entering church. You can print, fill out, and bring the following screening form to register ahead of time.
 		</p>
 	", "
 		<p class=\"corona_update\">
-			Notre église sera ouverte à partir du dimanche 5 juillet. La messe va être célébrée à 9h00. Veuillez arriver 15-20 min. à l'avance afin de vous inscrire avant d'entrer dans l'église. Vous pouvez imprimer, remplir et apporter le formulaire de présélection suivant pour vous inscrire à l'avance.
+			Notre église sera ouverte à partir du dimanche 31 janvrier. La messe va être célébrée à 9h00. Veuillez arriver 15-20 min. à l'avance afin de vous inscrire avant d'entrer dans l'église. Vous pouvez imprimer, remplir et apporter le formulaire de présélection suivant pour vous inscrire à l'avance.
 		</p>
 	", "
 		<p class=\"corona_update\">
-			Наш храм буде відкритий сеї неділі (05-07). Літургія в 9 год. рано.  Треба прийти до храму дещо раніше, оскільке біля дверей буде провадитися реєстрація і можливо створиться черга.
+			Наш храм буде відкритий сеї неділі (31-01). Літургія в 9 год. рано.  Треба прийти до храму дещо раніше, оскільке біля дверей буде провадитися реєстрація і можливо створиться черга.
 		</p>
 	");
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2021-01-07)", "Mises à jour du coronavirus (2021-01-07)", "Згідно деректив та порад з причини коронавірусу (2021-01-07)");
+    $corona2_title = array("Coronavirus Updates (2021-01-24)", "Mises à jour du coronavirus (2021-01-24)", "Згідно деректив та порад з причини коронавірусу (2021-01-24)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            Because of the spread of the coronavirus, the church is closed.<br>
-            But the Divine services are held behind closed doors by the priest and cantors.<br>
-            We continue to pray for your health and well-being.<br>
-            We apologize for the inconvenience.
+            Because of the pandemic we are permitted to have a maximum of 10 persons in church during Liturgy.
+            Going over this limit puts us at risk of incurring 
+            a fine of 6 000$ per person.
+            For this reason after we have reached this number 
+            our front door will be locked.
+            We ask for your understanding and apologize for 
+            any inconvenience.
         </p>
     ", "
         <p class=\"corona_update\">
-            En raison de la propagation du coronavirus, l'église est fermée.<br>
-            Mais les services divins sont tenus à huis clos par le prêtre et les chantres.<br>
-            Nous continuons de prier pour votre santé et votre bien-être.<br>
-            Nous nous excusons pour le dérangement.
+            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 10 personnes à l'église pendant la liturgie.
+            Dépasser cette limite nous expose à un risque
+            une amende de 6 000 $ par personne.
+            Pour cette raison, après avoir atteint ce nombre
+            notre porte d'entrée sera verrouillée.
+            Nous vous demandons votre compréhension et nous nous excusons
+            tout les inconvénients.
         </p>
     ", "
         <p class=\"corona_update\">
-            З причини поширення коронавірусу церква є зачинена.<br>
-            Але Богослужіння відбуваються за зачиненеми дверима священиком і дяками.<br>
-            Ми продовжуємо молитися за ваше здоров»я і благополуччя.<br>
-            Вибачаємося за незручності.
+            З причини епідемії  нам дозволено мати в храмі максимально 10 осіб в час Богослужіння.
+            Перевищення цього ліміту нам загрожує штраф – 
+            6 тисяч доларів за кожну особу.
+            Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
+            Просимо вашого вирозуміння і дуже вибачаємося за незручність.
         </p>
     ");
 	
