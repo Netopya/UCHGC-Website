@@ -551,7 +551,11 @@
 	
 	$gr2020 = array("Green Holidays Information","Informations sur la fête du dimanche vert","Зелені свята - звернення");
 	
-	$presentation1_title = array("Canadian National Youth Committee of UGCC presents", "Le Comité national canadien des jeunes de l'UGCC présente", "Canadian National Youth Committee of UGCC presents");
+    $presentation1_title = array("Canadian National Youth Committee of UGCC presents", "Le Comité national canadien des jeunes de l'UGCC présente", "Canadian National Youth Committee of UGCC presents");
+    
+    $lent2021_title = array("Lenten Mission 2021","Le recueillement du carême 2021","Великопостні Реколекції 2021");
+    $lent2021_image = array("http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20-%20Metropolitan%20Gudziak%20-%20Ukrainian%20-%20JPEG%20-%20Feb%2027,%202021.jpg");
+    $lent2021_form = array("Lenten Mission Schedule","L'horaire du recueillement du carême","Великопостні Реколекції");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>

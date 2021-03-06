@@ -74,6 +74,20 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $lent2021_title[$refined_laguage]; ?></h1>
+                        <div style="text-align:center;margin-bottom: 16px;">
+                            <a href="http://uchgc.com/images/LENTEN%20MISSION%20with%20METROPOLITAN%20GUDZIAK%20(organised%20by%20Eparchy%20and%20Toronto%20and%20Eastern%20Canada)-%20Feb%2026,%202021.pdf">
+                                <img style="max-width: 100%;" src="<?php echo $lent2021_image[$refined_laguage]; ?>" />
+                            </a>
+                        </div>
+                        <p style="text-align:center;">
+							<a class="btn btn-default" href="http://uchgc.com/images/LENTEN%20MISSION%20with%20METROPOLITAN%20GUDZIAK%20(organised%20by%20Eparchy%20and%20Toronto%20and%20Eastern%20Canada)-%20Feb%2026,%202021.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> <?php echo $lent2021_form[$refined_laguage]; ?></a>
+						</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona_title[$refined_laguage]; ?></h1>
                         <?php echo $corona_content[$refined_laguage]; ?>
 						<p style="text-align:center;">

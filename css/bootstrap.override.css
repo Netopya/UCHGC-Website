@@ -34,3 +34,7 @@
 .carousel-indicators .active {
 	background-color:#000000;
 }
+
+.btn {
+	white-space: normal;
+}
