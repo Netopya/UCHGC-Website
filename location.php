@@ -23,11 +23,26 @@ include("opening_php.php");
                             <div class="page-header">
                                 <h1><?php echo $location_button[$refined_laguage]; ?></h1>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-md-6">
                             <address>
                                 <strong>Ukrainian Catholic Holy Ghost Church</strong><br>
                                 1795 Rue Grand Trunk<br>
                                 Montréal, QC, H3K 2J5
                             </address>
+                        </div>
+                        <div class="col-lg-5 col-md-6">
+                            <address>
+                                <strong><?php echo $map_mailing_title[$refined_laguage]; ?></strong><br>
+                                1770 Rue Centre<br>
+                                Montréal, QC, H3K 1H7
+                            </address>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
                             <div id="map_container">
                             <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=<?php echo $map_source; ?>></iframe>
                             <br />

@@ -74,6 +74,8 @@
     $links_title = array("Ukrainian Catholic Holy Ghost Church - Links","L'église catholique ukrainienne Saint-Esprit - Liens","Українська католицька Церква Святого Духа - лінк");
     
     $language_urlprefix = array("en","fr","uk");
+
+    $map_mailing_title = array("Mailing Address", "Addresse Postal", "поштова адреса");
     
     $map_source = '"https://maps.google.com/maps?q=1795+Rue+Grand+Trunk,+Montr%C3%A9al,+QC,+Canada&amp;sll=45.482238,-73.561086&amp;hl='.$language_urlprefix[$refined_laguage].'&amp;ie=UTF8&amp;hq=&amp;hnear=1795+Rue+Grand+Trunk,+Montr%C3%A9al,+Qu%C3%A9bec+H3K+2J5,+Canada&amp;t=m&amp;ll=45.482236,-73.561084&amp;spn=0.007522,0.014999&amp;z=16&amp;iwloc=A&amp;output=embed"';
     
