@@ -479,11 +479,11 @@
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2021-01-24)", "Mises à jour du coronavirus (2021-01-24)", "Згідно деректив та порад з причини коронавірусу (2021-01-24)");
+    $corona2_title = array("Coronavirus Updates (2021-03-21)", "Mises à jour du coronavirus (2021-03-21)", "Згідно деректив та порад з причини коронавірусу (2021-03-21)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            Because of the pandemic we are permitted to have a maximum of 10 persons in church during Liturgy.
+            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
             Going over this limit puts us at risk of incurring 
             a fine of 6 000$ per person.
             For this reason after we have reached this number 
@@ -493,7 +493,7 @@
         </p>
     ", "
         <p class=\"corona_update\">
-            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 10 personnes à l'église pendant la liturgie.
+            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
             Dépasser cette limite nous expose à un risque
             une amende de 6 000 $ par personne.
             Pour cette raison, après avoir atteint ce nombre
@@ -503,7 +503,7 @@
         </p>
     ", "
         <p class=\"corona_update\">
-            З причини епідемії  нам дозволено мати в храмі максимально 10 осіб в час Богослужіння.
+            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
             Перевищення цього ліміту нам загрожує штраф – 
             6 тисяч доларів за кожну особу.
             Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
