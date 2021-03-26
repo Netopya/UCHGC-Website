@@ -539,7 +539,7 @@
 		</p>
 	");
 	
-	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday (2020-04-12)","Prière pour la bénédiction des «Loza» le dimanche des Rameaux (2020-04-12)","молитва на освячення лози в Квітну Неділю (2020-04-12)");
+	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday (2021-03-28)","Prière pour la bénédiction des «Loza» le dimanche des Rameaux (2021-03-28)","молитва на освячення лози в Квітну Неділю (2021-03-28)");
 	
 	$paska_video = array("Тhe blessing of the \"Paska\" Holy Ghost Church (2020-04-18)","La bénédiction des «Paska» Èglise Saint-Esprit (2020-04-18)","свячення Пасок . Парафія Святого Духа (2020-04-18)");
 	
