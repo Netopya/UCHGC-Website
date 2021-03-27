@@ -74,15 +74,6 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $vine_video[$refined_laguage]; ?></h1>
-                        <div style="text-align: center;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xS0Bbd0AhRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
                         <?php echo $corona2_content[$refined_laguage]; ?>
                     </div>
@@ -90,15 +81,36 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $lent2021_title[$refined_laguage]; ?></h1>
-                        <div style="text-align:center;margin-bottom: 16px;">
-                            <a href="http://uchgc.com/images/LENTEN%20MISSION%20with%20METROPOLITAN%20GUDZIAK%20(organised%20by%20Eparchy%20and%20Toronto%20and%20Eastern%20Canada)-%20Feb%2026,%202021.pdf">
-                                <img style="max-width: 100%;" src="<?php echo $lent2021_image[$refined_laguage]; ?>" />
-                            </a>
+                        <h1><?php echo $e_t[$refined_laguage]; ?></h1>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <center><b><?php echo $e_2d[$refined_laguage]; ?></b></center></br><?php echo $e_2t[$refined_laguage]; ?>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <center><b><?php echo $e_3d[$refined_laguage]; ?></b></center></br><?php echo $e_3t[$refined_laguage]; ?>
+                            </div>
+                            <!-- <div class="col-md-4 col-sm-6">
+                                <center><b><?php echo $e_4d[$refined_laguage]; ?></b></center></br><?php echo $e_4t[$refined_laguage]; ?>
+                            </div> -->
+                            <div class="col-md-4 col-sm-6">
+                                <center><b><?php echo $e_5d[$refined_laguage]; ?></b></center></br><?php echo $e_5t[$refined_laguage]; ?>
+                            </div>
+                            <!-- <div class="col-md-4 col-sm-6">
+                                <center><b><?php echo $e_6d[$refined_laguage]; ?></b></center></br><?php echo $e_6t[$refined_laguage]; ?>
+                            </div> -->
+                            <div class="col-md-4 col-sm-6">
+                                <center><a href="images/C2011TorEasterAround-the-World-012.jpg"><img src="images/thumbnails/thb_C2011TorEasterAround-the-World-012.jpg"/></a></center>
+                            </div>
                         </div>
-                        <p style="text-align:center;">
-							<a class="btn btn-default" href="http://uchgc.com/images/LENTEN%20MISSION%20with%20METROPOLITAN%20GUDZIAK%20(organised%20by%20Eparchy%20and%20Toronto%20and%20Eastern%20Canada)-%20Feb%2026,%202021.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> <?php echo $lent2021_form[$refined_laguage]; ?></a>
-						</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $vine_video[$refined_laguage]; ?></h1>
+                        <div style="text-align: center;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xS0Bbd0AhRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
 
@@ -200,31 +212,7 @@
                         <p style="text-indent: 0px;text-align: center;"><?php echo $lent2013_text[$refined_laguage]; ?></p>
                     </div>
                 </div>-->
-                <!--<div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $e_t[$refined_laguage]; ?></h1>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <center><b><?php echo $e_2d[$refined_laguage]; ?></b></center></br><?php echo $e_2t[$refined_laguage]; ?>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <center><b><?php echo $e_3d[$refined_laguage]; ?></b></center></br><?php echo $e_3t[$refined_laguage]; ?>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <center><b><?php echo $e_4d[$refined_laguage]; ?></b></center></br><?php echo $e_4t[$refined_laguage]; ?>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <center><b><?php echo $e_5d[$refined_laguage]; ?></b></center></br><?php echo $e_5t[$refined_laguage]; ?>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <center><b><?php echo $e_6d[$refined_laguage]; ?></b></center></br><?php echo $e_6t[$refined_laguage]; ?>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <center><a href="images/C2011TorEasterAround-the-World-012.jpg"><img src="images/thumbnails/thb_C2011TorEasterAround-the-World-012.jpg"/></a></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $eb_h[$refined_laguage]; ?></h1>

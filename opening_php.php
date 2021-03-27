@@ -263,9 +263,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>December - 11:00am</li><li>January - 9:00am</li><li>February - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Décembre - 11h</li><li>Janvier - 9h</li><li>Février - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Грудень – 11 година</li><li>Січня – 9 година</li><li>Лютий – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>March - 9:00am</li><li>April - 11:00am</li><li>May - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mars - 9h</li><li>Avril - 11h</li><li>Mai - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березня – 9 година</li><li>Квітня – 11 година</li><li>Травень – 11 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
@@ -365,14 +365,14 @@
 
     $e_t = array("Easter Weekend Schedule","Calendrier de la fin de semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Thursday, April 25th<br/>5:00 PM","Jeudi le 25 avril</br>17:00h","ЧЕТВЕР,25 квітня</br>17:00");
-    $e_2t = array("Reading of the 12 Gospels...the Passion of Christ","La lecture des 12 évangiles ... la Passion du Christ","Утрення Страстей (читання 12 Євангелій )");
-    $e_3d = array("Friday, April 26th<br/>5:00 PM","Vendredi le 26 avril</br>17:00","П‘ЯТНИЦЯ, 26 квітня</br>17:00");
-    $e_3t = array("Vespers,  procession with \"Plashchanycia\""," Vêpres, procession avec «Plashchanycia»","Вечірня   з виносом  Плащениці");
+    $e_2d = array("Sunday, March 28th<br/>9:00 AM","Dimanche le 28 mars</br>9:00h","НЕДІЛЯ,25 березня</br>9:00");
+    $e_2t = array("Divine Liturgy and blessing of \"Loza\"","Liturgie divine et la bénédiction des «Loza»","Святкова Служба Божа і освячення лози");
+    $e_3d = array("Friday, April 2nd<br/>5:00 PM","Vendredi le 2 avril</br>17:00","П‘ЯТНИЦЯ, 2 квітня</br>17:00");
+    $e_3t = array("Vespers,  procession with \"Plashchanycia\"<br>(<strong>attention</strong>: kissing and touching of \"Plashchanytsia\" is not allowed)"," Vêpres, procession avec «Plashchanycia»<br>(<strong>Remarque</strong>: embrasser et toucher le «Plashchanycia» n'est pas autorisé)","Вечірня   з виносом  Плащениці<br>(<strong>заувага</strong>: не дозволяється цілування і доторкання до Плащениці)");
     $e_4d = array("Saturday, April 27th<br/>5:00 PM","Samedi le 27 avril<br/>17:00h","СУБОТА, 27 квітня<br/>17:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, April 28th<br/>Ressurection of Our Lord","Dimanche le 28 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 28 квітня</br>Воскресіння Господнє – Пасха");
-    $e_5t = array("7:15 AM - Ressurectional Matins</br>8:00 AM - Paschal Divine Liturgy","7:15 - Résurrection Matins</br>8:00 -- Liturgie divine Pascale","7:15 Надгробне.  Утрення</br>8:00 Пасхальна Служба Божа");
+    $e_5d = array("Sunday, April 4th<br/>Ressurection of Our Lord","Dimanche le 4 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 4 квітня</br>Воскресіння Господнє – Пасха");
+    $e_5t = array("11:00 AM - Paschal Divine Liturgy and blessing of \"Paska\" in church","11:00 -- Liturgie divine Pascale et Bénédiction des «Pacha» à l'église","11:00 Пасхальна Служба Божа і свячення пасочок в храмі");
     $e_6d = array("Monday, April 29th<br/>9:00 AM","Lundi le 29 avril</br>9:00h","ПОНЕДІЛОК, 29 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
@@ -479,35 +479,23 @@
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2021-03-21)", "Mises à jour du coronavirus (2021-03-21)", "Згідно деректив та порад з причини коронавірусу (2021-03-21)");
+    $corona2_title = array("Coronavirus Updates (2021-03-27)", "Mises à jour du coronavirus (2021-03-27)", "Згідно деректив та порад з причини коронавірусу (2021-03-27)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
-            Going over this limit puts us at risk of incurring 
-            a fine of 6 000$ per person.
-            For this reason after we have reached this number 
-            our front door will be locked.
-            We ask for your understanding and apologize for 
-            any inconvenience.
+            The Quebec Government has lifted the restrictions attendance in places of worship for the Easter period to 250 persons.<br>
+            *Quarantine directives remain in force: wearing of masks, social distancing of 2 meters, filling out of form at entrance, no choral singing.
         </p>
     ", "
         <p class=\"corona_update\">
-            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
-            Dépasser cette limite nous expose à un risque
-            une amende de 6 000 $ par personne.
-            Pour cette raison, après avoir atteint ce nombre
-            notre porte d'entrée sera verrouillée.
-            Nous vous demandons votre compréhension et nous nous excusons
-            tout les inconvénients.
+            Le gouvernement du Québec a autorisé jusqu'à 250 personnes à fréquenter les églises lors des célébrations de Pâques<br>
+            * Les exigences de quarantaine restent en vigueur: le port de masques, le maintien d'une distance de 2 mètres, le remplissage de questionnaires à l'entrée, l'interdiction du chant choral.
+        
         </p>
     ", "
         <p class=\"corona_update\">
-            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
-            Перевищення цього ліміту нам загрожує штраф – 
-            6 тисяч доларів за кожну особу.
-            Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
-            Просимо вашого вирозуміння і дуже вибачаємося за незручність.
+            * Квебецький уряд на період Пасхальних святкувань дозволив присутність в храмах до 250 осіб<br>
+            *Карантинні вимоги залишаються в силі:   ношення масок, дотримання дистанції     2 метрів, заповнення анкет при вході, заборона хорового співу.
         </p>
     ");
 	
