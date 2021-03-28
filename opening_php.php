@@ -484,17 +484,20 @@
     $corona2_content = array("
         <p class=\"corona_update\">
             The Quebec Government has lifted the restrictions attendance in places of worship for the Easter period to 250 persons.<br>
+            Our church can accommodate 80 persons during Liturgical services.<br>
             *Quarantine directives remain in force: wearing of masks, social distancing of 2 meters, filling out of form at entrance, no choral singing.
         </p>
     ", "
         <p class=\"corona_update\">
             Le gouvernement du Québec a autorisé jusqu'à 250 personnes à fréquenter les églises lors des célébrations de Pâques<br>
+            Le nombre maximum de personnes admise est de 80 personnes durant la messe.<br>
             * Les exigences de quarantaine restent en vigueur: le port de masques, le maintien d'une distance de 2 mètres, le remplissage de questionnaires à l'entrée, l'interdiction du chant choral.
         
         </p>
     ", "
         <p class=\"corona_update\">
             * Квебецький уряд на період Пасхальних святкувань дозволив присутність в храмах до 250 осіб<br>
+            В нашім храмі може поміститися 80 осіб підчас Літургійних Богослужінь.<br>
             *Карантинні вимоги залишаються в силі:   ношення масок, дотримання дистанції     2 метрів, заповнення анкет при вході, заборона хорового співу.
         </p>
     ");
@@ -528,6 +531,8 @@
 	");
 	
 	$vine_video = array("Prayer for the blessing of the \"Loza\" for Palm Sunday (2021-03-28)","Prière pour la bénédiction des «Loza» le dimanche des Rameaux (2021-03-28)","молитва на освячення лози в Квітну Неділю (2021-03-28)");
+
+    $p_video = array("Pysanki Master class in Montreal","Cours de Pysanky à Montréal","Курс писанки в Монреалі");
 	
 	$paska_video = array("Тhe blessing of the \"Paska\" Holy Ghost Church (2020-04-18)","La bénédiction des «Paska» Èglise Saint-Esprit (2020-04-18)","свячення Пасок . Парафія Святого Духа (2020-04-18)");
 	

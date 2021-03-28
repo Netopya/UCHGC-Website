@@ -109,7 +109,16 @@
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $vine_video[$refined_laguage]; ?></h1>
                         <div style="text-align: center;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xS0Bbd0AhRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/xS0Bbd0AhRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $p_video[$refined_laguage]; ?></h1>
+                        <div style="text-align: center;">
+                            <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/-0aqxAcOk74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
