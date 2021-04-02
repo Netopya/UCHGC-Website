@@ -485,20 +485,22 @@
         <p class=\"corona_update\">
             The Quebec Government has lifted the restrictions attendance in places of worship for the Easter period to 250 persons.<br>
             Our church can accommodate 80 persons during Liturgical services.<br>
-            *Quarantine directives remain in force: wearing of masks, social distancing of 2 meters, filling out of form at entrance, no choral singing.
+            *Quarantine directives remain in force: wearing of masks, social distancing of 2 meters, filling out of form at entrance, no choral singing.<br><br>
+            IT IS OBLIGATORY TO WEAR MASKS DURING LITURGY!
         </p>
     ", "
         <p class=\"corona_update\">
             Le gouvernement du Québec a autorisé jusqu'à 250 personnes à fréquenter les églises lors des célébrations de Pâques<br>
             Le nombre maximum de personnes admise est de 80 personnes durant la messe.<br>
-            * Les exigences de quarantaine restent en vigueur: le port de masques, le maintien d'une distance de 2 mètres, le remplissage de questionnaires à l'entrée, l'interdiction du chant choral.
-        
+            * Les exigences de quarantaine restent en vigueur: le port de masques, le maintien d'une distance de 2 mètres, le remplissage de questionnaires à l'entrée, l'interdiction du chant choral.<br><br>
+            IL EST OBLIGATOIRE DE PORTER LE MASQUE PENDANT LA LITURGIE
         </p>
     ", "
         <p class=\"corona_update\">
             * Квебецький уряд на період Пасхальних святкувань дозволив присутність в храмах до 250 осіб<br>
             В нашім храмі може поміститися 80 осіб підчас Літургійних Богослужінь.<br>
-            *Карантинні вимоги залишаються в силі:   ношення масок, дотримання дистанції     2 метрів, заповнення анкет при вході, заборона хорового співу.
+            *Карантинні вимоги залишаються в силі:   ношення масок, дотримання дистанції     2 метрів, заповнення анкет при вході, заборона хорового співу.<br><br>
+            ОБОВЯЗКОВО НОСИТИ МАСКИ ПІДЧАС БОГОСЛУЖЕННЯ!
         </p>
     ");
 	
