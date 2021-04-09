@@ -479,26 +479,39 @@
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2021-03-27)", "Mises à jour du coronavirus (2021-03-27)", "Згідно деректив та порад з причини коронавірусу (2021-03-27)");
+    $corona2_title = array("Coronavirus Updates (2021-04-08)", "Mises à jour du coronavirus (2021-04-08)", "Згідно деректив та порад з причини коронавірусу (2021-04-08)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            The Quebec Government has lifted the restrictions attendance in places of worship for the Easter period to 250 persons.<br>
-            Our church can accommodate 80 persons during Liturgical services.<br>
+            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
+            Going over this limit puts us at risk of incurring 
+            a fine of 6 000$ per person.
+            For this reason after we have reached this number 
+            our front door will be locked.
+            We ask for your understanding and apologize for 
+            any inconvenience.<br>
             *Quarantine directives remain in force: wearing of masks, social distancing of 2 meters, filling out of form at entrance, no choral singing.<br><br>
             IT IS OBLIGATORY TO WEAR MASKS DURING LITURGY!
         </p>
     ", "
         <p class=\"corona_update\">
-            Le gouvernement du Québec a autorisé jusqu'à 250 personnes à fréquenter les églises lors des célébrations de Pâques<br>
-            Le nombre maximum de personnes admise est de 80 personnes durant la messe.<br>
+            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
+            Dépasser cette limite nous expose à un risque
+            une amende de 6 000 $ par personne.
+            Pour cette raison, après avoir atteint ce nombre
+            notre porte d'entrée sera verrouillée.
+            Nous vous demandons votre compréhension et nous nous excusons
+            tout les inconvénients.<br>
             * Les exigences de quarantaine restent en vigueur: le port de masques, le maintien d'une distance de 2 mètres, le remplissage de questionnaires à l'entrée, l'interdiction du chant choral.<br><br>
             IL EST OBLIGATOIRE DE PORTER LE MASQUE PENDANT LA LITURGIE
         </p>
     ", "
         <p class=\"corona_update\">
-            * Квебецький уряд на період Пасхальних святкувань дозволив присутність в храмах до 250 осіб<br>
-            В нашім храмі може поміститися 80 осіб підчас Літургійних Богослужінь.<br>
+            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
+            Перевищення цього ліміту нам загрожує штраф – 
+            6 тисяч доларів за кожну особу.
+            Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
+            Просимо вашого вирозуміння і дуже вибачаємося за незручність.<br>
             *Карантинні вимоги залишаються в силі:   ношення масок, дотримання дистанції     2 метрів, заповнення анкет при вході, заборона хорового співу.<br><br>
             ОБОВЯЗКОВО НОСИТИ МАСКИ ПІДЧАС БОГОСЛУЖЕННЯ!
         </p>

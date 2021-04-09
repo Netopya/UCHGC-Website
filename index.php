@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
                         <div class="row">
@@ -89,39 +89,30 @@
                             <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_3d[$refined_laguage]; ?></b></center></br><?php echo $e_3t[$refined_laguage]; ?>
                             </div>
-                            <!-- <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_4d[$refined_laguage]; ?></b></center></br><?php echo $e_4t[$refined_laguage]; ?>
-                            </div> -->
+                            </div>
                             <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_5d[$refined_laguage]; ?></b></center></br><?php echo $e_5t[$refined_laguage]; ?>
                             </div>
-                            <!-- <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_6d[$refined_laguage]; ?></b></center></br><?php echo $e_6t[$refined_laguage]; ?>
-                            </div> -->
+                            </div>
                             <div class="col-md-4 col-sm-6">
                                 <center><a href="images/C2011TorEasterAround-the-World-012.jpg"><img src="images/thumbnails/thb_C2011TorEasterAround-the-World-012.jpg"/></a></center>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $vine_video[$refined_laguage]; ?></h1>
                         <div style="text-align: center;">
                             <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/xS0Bbd0AhRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $p_video[$refined_laguage]; ?></h1>
-                        <div style="text-align: center;">
-                            <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/-0aqxAcOk74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
