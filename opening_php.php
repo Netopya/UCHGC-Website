@@ -263,9 +263,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>March - 9:00am</li><li>April - 11:00am</li><li>May - 9:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mars - 9h</li><li>Avril - 11h</li><li>Mai - 9h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березня – 9 година</li><li>Квітня – 11 година</li><li>Травень – 9 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>June - 11:00am</li><li>July - 9:00am</li><li>August - 11:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Juin - 11h</li><li>Juillet - 9h</li><li>Août - 11h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Червень – 11 година</li><li>Липень – 9 година</li><li>Серпня – 11 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
@@ -495,11 +495,11 @@
 	
     $screen_form = array("Screening Form", "Formulaire de dépistage", "анкета.pdf");
     
-    $corona2_title = array("Coronavirus Updates (2021-04-08)", "Mises à jour du coronavirus (2021-04-08)", "Згідно деректив та порад з причини коронавірусу (2021-04-08)");
+    $corona2_title = array("Coronavirus Updates (2021-06-09)", "Mises à jour du coronavirus (2021-06-09)", "Згідно деректив та порад з причини коронавірусу (2021-06-09)");
 
     $corona2_content = array("
         <p class=\"corona_update\">
-            Because of the pandemic we are permitted to have a maximum of 25 persons in church during Liturgy.
+            Because of the pandemic we are permitted to have a maximum of 89 persons in church during Liturgy.
             Going over this limit puts us at risk of incurring 
             a fine of 6 000$ per person.
             For this reason after we have reached this number 
@@ -511,7 +511,7 @@
         </p>
     ", "
         <p class=\"corona_update\">
-            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 25 personnes à l'église pendant la liturgie.
+            En raison de la pandémie, nous sommes autorisés à avoir un maximum de 89 personnes à l'église pendant la liturgie.
             Dépasser cette limite nous expose à un risque
             une amende de 6 000 $ par personne.
             Pour cette raison, après avoir atteint ce nombre
@@ -523,7 +523,7 @@
         </p>
     ", "
         <p class=\"corona_update\">
-            З причини епідемії  нам дозволено мати в храмі максимально 25 осіб в час Богослужіння.
+            З причини епідемії  нам дозволено мати в храмі максимально 89 осіб в час Богослужіння.
             Перевищення цього ліміту нам загрожує штраф – 
             6 тисяч доларів за кожну особу.
             Тому після наповнення цього числа ми змушені зачинити вхідні двері. 
