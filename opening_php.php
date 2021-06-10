@@ -265,7 +265,7 @@
 	$schedual_text_new = array(
 		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>March - 9:00am</li><li>April - 11:00am</li><li>May - 9:00am</li></ul>",
 		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mars - 9h</li><li>Avril - 11h</li><li>Mai - 9h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березня – 9 година</li><li>Квітня – 11 година</li><li>Травень – 11 година</li><li>і так далі</li></ul>"
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Березня – 9 година</li><li>Квітня – 11 година</li><li>Травень – 9 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
@@ -380,7 +380,23 @@
     $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 5th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 5 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 5 травень по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
-	$gr2013_content = array("Sunday, June 19, 2015 at 2:00 p.m at the Notre-Dame-des-Neiges Cemetery. Procession from the administration building to the Ukrainian monument","Dimanche 19 juin, 2015 à 14 h au cimetière Notre-Dame-des-Neiges. Procession du bâtiment de l'administration au monument ukrainien","Неділя, 19 червня 2015 о. 2:00 на цвинтарі. Процесія від і адміністрації будинок до українського пам'ятник");
+	$gr2013_content = array("As of Monday, May 17 to Saturday May 22, inclusive, the priests of the Montreal deanery will be celebrating \"panachydas\" at the Ukrainian section of the Notre Dame de Neiges cemetery.<br>
+        Fr. V. Vitt will be at the cemetery  ready to serve you every day from 10:00 AM.<br>
+        request - please wear masks and keep a social distance of 2 m<br><br>
+        On <strong>Pentecost Sunday, May 23</strong> (Zelenij Sviata) there will be no procession or general \"panachyda\" due to the restriction by the provincial government to limit gatherings to 25 people.  Because of this  controlling the presence and behaviour  of people at the cemetery would be practically impossible, therefore we must cancel the usual celebration on this day.<br>
+        We ask you to accept this decision with understanding and we remind you of the obligatory wearing of masks during the services at the cemetery. Thank you, with our best wishes for your good health and please be careful.",
+        "Du lundi 17 au samedi 22 mai inclusivement, les prêtres du doyenné de Montréal fêteront les «panachydas» dans la section ukrainienne du cimetière Notre-Dame de Neiges.<br>
+        Fr. V. Vitt sera au cimetière prêt à vous servir tous les jours à partir de 10h00.<br>
+        demande - veuillez porter des masques et garder une distance sociale de 2 m<br><br>
+        Le <strong>dimanche de Pentecôte, 23 mai</strong> (Zelenij Sviata), il n'y aura pas de procession ou de \"panachyda\" générale en raison de la restriction du gouvernement provincial de limiter les rassemblements à 25 personnes. À cause de cela, contrôler la présence et le comportement des personnes au cimetière serait pratiquement impossible, nous devons donc annuler la célébration habituelle ce jour-là.<br>
+        Nous vous demandons d'accepter cette décision avec compréhension et nous vous rappelons le port obligatoire des masques lors des offices au cimetière. Merci, avec nos meilleurs vœux pour votre bonne santé et soyez prudent.",
+        "До уваги всіх вірних Монреальського деканату! Починаючи з понеділка 17 травня до суботи 22 травня включно, священики монреальського деканату будуть відправляти панахиди на українській секції цвинтару Нотр-Дам-де-Нейж.<br>
+        Також і о.Володимир Вітт перебуватиме на цвинтарі кожного дня від 10 години<br>
+        ранку і буде до Ваших послуг.<br>
+        прохання –Зодягати маски і тримати дистанцію не менше 2 м<br><br>
+        <strong>У Неділю П’ятидесятниці 23 травня</strong> не буде ні походу, ані соборної нанахиди на цвинтарі через обмеження встановлене провінційним урядом 25 осіб Через це, що проконтролювати присутність і поведінку людей на цвинтарі буде практично неможливо, тому мусимо відкликати і саму соборну відправу у цей день.<br>
+        Просимо поставитись із зрозумінням до цього рішення і пригадуємо вам про обов’язкове носіння масок підчас відправ на цвинтарі. Дякуємо і бажаємо всім міцного<br>
+        здоров’я та закликаємо всіх до обережності.");
 
 
 
