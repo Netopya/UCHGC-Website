@@ -263,9 +263,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>June - 11:00am</li><li>July - 9:00am</li><li>August - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Juin - 11h</li><li>Juillet - 9h</li><li>Août - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Червень – 11 година</li><li>Липень – 9 година</li><li>Серпня – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>November - 9:00am</li><li>December - 11:00am</li><li>January - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Novembre - 9h</li><li>Décembre - 11h</li><li>Janvrier - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Листопад – 9 година</li><li>Грудень – 11 година</li><li>січень – 9 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
@@ -582,6 +582,8 @@
     $lent2021_title = array("Lenten Mission 2021","Le recueillement du carême 2021","Великопостні Реколекції 2021");
     $lent2021_image = array("http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20-%20Metropolitan%20Gudziak%20-%20Ukrainian%20-%20JPEG%20-%20Feb%2027,%202021.jpg");
     $lent2021_form = array("Lenten Mission Schedule","L'horaire du recueillement du carême","Великопостні Реколекції");
+
+    $philip_feast_retreat = array("PHILLIP’S FAST RETREAT FOR 2021 - ENG.jpg","PHILLIP’S FAST RETREAT FOR 2021 - ENG.jpg","PHILLIP’S FAST RETREAT FOR 2021 - UKR.jpg");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>

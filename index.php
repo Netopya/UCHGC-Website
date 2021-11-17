@@ -130,6 +130,12 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <img class="img-responsive" src="images/<?php echo $philip_feast_retreat[$refined_laguage]; ?>"/>
+                    </div>
+                </div>
+
                 <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
