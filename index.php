@@ -72,18 +72,24 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('covid_dec_2021'); ?>
+                    </div>
+                </div>
+
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
                         <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
                     </div>
                 </div> -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
                         <?php echo $corona2_content[$refined_laguage]; ?>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -120,7 +126,7 @@
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona_title[$refined_laguage]; ?></h1>
                         <?php echo $corona_content[$refined_laguage]; ?>
@@ -128,15 +134,9 @@
 							<a class="btn btn-default" href="attachments/анкета.pdf" role="button"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> <?php echo $screen_form[$refined_laguage]; ?></a>
 						</p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <img class="img-responsive" src="images/<?php echo $philip_feast_retreat[$refined_laguage]; ?>"/>
-                    </div>
-                </div>
-
-                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -144,7 +144,7 @@
                         <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
-                </div>-->
+                </div>
 
 				
 				<!--<div class="row">

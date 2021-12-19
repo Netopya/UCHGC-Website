@@ -18,19 +18,15 @@
             $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			switch ($lang){
 				case "en":
-					//echo "PAGE FR";
 					$language = 1;
 					break;
 				case "fr":
-					//echo "PAGE IT";
 					$language = 2;
 					break;
 				case "uk":
-					//echo "PAGE EN";
 					$language = 3;
-					break;        
+					break;
 				default:
-					//echo "PAGE EN - Setting Default";
 					$language = 1;
 					break;
 			}
@@ -48,12 +44,25 @@
         }
     }
 
+    switch ($language) {
+        case 1:
+            $file = "en.html";
+            break;
+        case 2:
+            $file = "fr.html";
+            break;
+        case 3:
+            $file = "uk.html";
+            break;
+    }
+
+    function getContent($key) {
+        global $file;
+        echo file_get_contents('./content/' . $key . '/' . $file);
+    }
+
     
     $refined_laguage = $language - 1;
-    //if(!($language === 1) or !($language === 2) or !($language === 3))
-    //{
-    //    $language = 1;
-    //}
     
     $home_button = array("Home","Accueil","Головна");
     $about_button = array("About","À propos","Про");
@@ -268,71 +277,56 @@
 		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Листопад – 9 година</li><li>Грудень – 11 година</li><li>січень – 9 година</li><li>і так далі</li></ul>"
 	);
     
-    $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2021","Calendrier des messes pour la période de Noël et théologique de 2021","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2021 Року");
+    $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2022","Calendrier des messes pour la période de Noël et théologique de 2022","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2022 Року");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Friday 25 December - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Saturday 25 December - Nativity of Jesus Christ
                 <ul>
                     <li>11:00am - Christmas Divine Liturgy</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Friday 1 January - New Year
+            <li class=\"nobulletli\">Saturday 1 January - New Year
                 <ul>
                     <li>9:00am - St. Basil the Great</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Wednesday 6 January
+            <li class=\"nobulletli\">Thursday 6 January
                 <ul>
                     <li>9:00am - Epiphany</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Thursday 7 January
-                <ul>
-                    <li>9:00am - Julian Calender Christmas</li>
-                </ul>
-            </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Vendredi le 25 Décembre - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Samedi le 25 Décembre - Nativité de Jésus-Christ
                 <ul>
                     <li>11h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Vendredi le 1 Janvier - Nouvel An
+            <li class=\"nobulletli\">Samedi le 1 Janvier - Nouvel An
                 <ul>
                     <li>9h00 - Saint Basile le Grand</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Mercredi le 6 Janvier
+            <li class=\"nobulletli\">Jeudi le 6 Janvier
                 <ul>
                     <li>9h00 - Épiphanie</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Jeudi le 7 Janvier
-                <ul>
-                    <li>9h00 - Noël du calendrier julien</li>
-                </ul>
-            </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">П’ятниця 25 Грудень - Різво Христове
+            <li class=\"nobulletli\">субота 25 Грудень - Різво Христове
                 <ul>
                     <li>11:00 - Святкова Служба Божа</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">П’ятниця 1 Січня - Новий Рік
+            <li class=\"nobulletli\">субота 1 Січня - Новий Рік
                 <ul>
                     <li>9:00 - Св. Василія Великого</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Середа 6 Січня
+            <li class=\"nobulletli\">Четвер 6 Січня
                 <ul>
                     <li>9:00 - Богоявлення</li>
-                </ul>
-            </li>
-            <li class=\"nobulletli\">Четвер 7 Січня
-                <ul>
-                    <li>9:00 - Різдво за  Юліанським календарем</li>
                 </ul>
             </li>
         </ul>"
@@ -583,7 +577,6 @@
     $lent2021_image = array("http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20-%20Metropolitan%20Gudziak%20-%20Ukrainian%20-%20JPEG%20-%20Feb%2027,%202021.jpg");
     $lent2021_form = array("Lenten Mission Schedule","L'horaire du recueillement du carême","Великопостні Реколекції");
 
-    $philip_feast_retreat = array("PHILLIP’S FAST RETREAT FOR 2021 - ENG.jpg","PHILLIP’S FAST RETREAT FOR 2021 - ENG.jpg","PHILLIP’S FAST RETREAT FOR 2021 - UKR.jpg");
 ?>
 
 <?php //echo $language_urlprefix[$refined_laguage]; ?>
