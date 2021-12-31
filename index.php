@@ -74,7 +74,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('covid_dec_2021'); ?>
+                        <?php getContent('covid_new_years'); ?>
                     </div>
                 </div>
 
