@@ -78,6 +78,12 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('peace_mass'); ?>
+                    </div>
+                </div>
+
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
@@ -136,7 +142,7 @@
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -144,7 +150,7 @@
                         <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
-                </div>
+                </div>-->
 
 				
 				<!--<div class="row">
