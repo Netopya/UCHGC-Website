@@ -80,7 +80,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('peace_mass'); ?>
+                        <?php getContent('peace_mass_2'); ?>
                     </div>
                 </div>
 
