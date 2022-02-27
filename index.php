@@ -74,13 +74,13 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('covid_2022_jan'); ?>
+                        <?php getContent('covid_2022_feb'); ?>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('peace_mass_2'); ?>
+                        <?php getContent('uk_help'); ?>
                     </div>
                 </div>
 
