@@ -26,7 +26,8 @@ include("opening_php.php");
                             <p>
                                 <?php echo $link1[$refined_laguage]; ?><br/> <a href="http://www.ugcc.org.ua">http://www.ugcc.org.ua</a></br></br>
                                 <?php echo $link2[$refined_laguage]; ?><br/> <a href="http://www.ucet.ca/">http://www.ucet.ca/</a></br></br>
-                                <?php echo $link3[$refined_laguage]; ?><br/> <a href="http://www.ukrainiantime.com">http://www.ukrainiantime.com</a>
+                                <?php echo $link3[$refined_laguage]; ?><br/> <a href="http://www.ukrainiantime.com">http://www.ukrainiantime.com</a><br /><br />
+                                <?php echo $link4[$refined_laguage]; ?><br/> <a href="https://www.facebook.com/UkrainianCatholicHolyGhostChurch">https://www.facebook.com/UkrainianCatholicHolyGhostChurch</a>
                             </p>
                         </div>
                     </div>

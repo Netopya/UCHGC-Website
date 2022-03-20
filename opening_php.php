@@ -72,6 +72,7 @@
     $location_button = array("Location","Lieu","розташування");
     $contact_button = array("Contact","Contact","контакти");
     $link_button = array("Links","Liens","лінк");
+    $fb_button = array("Like on Facebook", "Aimez sur Facebook", "Поставити лайк на Facebook");
     
     $language_label = array("Language","Langage","мова");
     
@@ -353,6 +354,7 @@
     $link1 = array("Ukrainian Greek Catholic Church <br/>Lviv, Ukraine","Eglise Ukrainienne gréco-catholique Eglise <br/>Lviv, Ukraine","Українська Греко-Католицька Церква </br>Львів Україна");
     $link2 = array("The Ukrainian Catholic Eparchy of Toronto and Eastern Canada","Le diocèse catholique ukrainienne de Toronto et l'Est du Canada","Українська католицька єпархія Торонто і Східної Канади");
     $link3 = array("Ukrainian Time<br/>Ukrainian radio program in Montreal, Canada","Le Temps Ukrainien<br/>Émission radiophonique ukrainienne à Montréal, Canada","Український Час<br/>Українськa радіопрограмa в Монреалі, Канада");
+    $link4 = array("Facebook Page", "Page Facebook", "Сторінка Facebook");
 
     $lent2013_title = array("Lenten Mission","Le recueillement du carême","Великопостні Реколекції");
     $lent2013_text = array("Schedule of Lenten Mission in our parish:<br/>Thursday March 15th - 10am<br/>Friday March 16th – 7pm<br/>Saturday March 17th – 10am<br/>Our guest speaker will be Fr. Ihor Oshchipko","Le recueillement du carême dans notre paroisse aura lieu selon l'horaire suivant:<br/>Jeudi 15 mars - 10:00<br/>Vendredi 16 mars – 19:00<br/>Samedi 17 mars 10:00<br/>Le recueillement va se faire par le père Ihor Oshchipko","Великопостні Реколекції в нашій парафії відбудуться за наступним розпорядком:<br/>четвер 15 березень - 10 год. рано<br/>пятниця 17 березень - 7  год.Вечора<br/>Субота 18 березень - 10 год.рано.<br/>Реколекції буде провадити о. Ігор Ощіпко");
