@@ -359,21 +359,21 @@
     $lent2013_title = array("Lenten Mission","Le recueillement du carême","Великопостні Реколекції");
     $lent2013_text = array("Schedule of Lenten Mission in our parish:<br/>Thursday March 15th - 10am<br/>Friday March 16th – 7pm<br/>Saturday March 17th – 10am<br/>Our guest speaker will be Fr. Ihor Oshchipko","Le recueillement du carême dans notre paroisse aura lieu selon l'horaire suivant:<br/>Jeudi 15 mars - 10:00<br/>Vendredi 16 mars – 19:00<br/>Samedi 17 mars 10:00<br/>Le recueillement va se faire par le père Ihor Oshchipko","Великопостні Реколекції в нашій парафії відбудуться за наступним розпорядком:<br/>четвер 15 березень - 10 год. рано<br/>пятниця 17 березень - 7  год.Вечора<br/>Субота 18 березень - 10 год.рано.<br/>Реколекції буде провадити о. Ігор Ощіпко");
 
-    $e_t = array("Easter Weekend Schedule","Calendrier de la fin de semaine Pascale","Великодній тиждень розклад");
+    $e_t = array("Easter Week Schedule","Calendrier de la semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Sunday, March 28th<br/>9:00 AM","Dimanche le 28 mars</br>9:00h","НЕДІЛЯ,25 березня</br>9:00");
+    $e_2d = array("Sunday, April 10th<br/>11:00 AM","Dimanche le 10 avril</br>11:00h","НЕДІЛЯ,10 квітня</br>11:00");
     $e_2t = array("Divine Liturgy and blessing of \"Loza\"","Liturgie divine et la bénédiction des «Loza»","Святкова Служба Божа і освячення лози");
-    $e_3d = array("Friday, April 2nd<br/>5:00 PM","Vendredi le 2 avril</br>17:00","П‘ЯТНИЦЯ, 2 квітня</br>17:00");
+    $e_3d = array("Friday, April 15th<br/>5:00 PM","Vendredi le 15 avril</br>17:00","П‘ЯТНИЦЯ, 15 квітня</br>17:00");
     $e_3t = array("Vespers,  procession with \"Plashchanycia\"<br>(<strong>attention</strong>: kissing and touching of \"Plashchanytsia\" is not allowed)"," Vêpres, procession avec «Plashchanycia»<br>(<strong>Remarque</strong>: embrasser et toucher le «Plashchanycia» n'est pas autorisé)","Вечірня   з виносом  Плащениці<br>(<strong>заувага</strong>: не дозволяється цілування і доторкання до Плащениці)");
     $e_4d = array("Saturday, April 27th<br/>5:00 PM","Samedi le 27 avril<br/>17:00h","СУБОТА, 27 квітня<br/>17:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, April 4th<br/>Ressurection of Our Lord","Dimanche le 4 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 4 квітня</br>Воскресіння Господнє – Пасха");
+    $e_5d = array("Sunday, April 17th<br/>Ressurection of Our Lord","Dimanche le 17 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 17 квітня</br>Воскресіння Господнє – Пасха");
     $e_5t = array("11:00 AM - Paschal Divine Liturgy and blessing of \"Paska\" in church","11:00 -- Liturgie divine Pascale et Bénédiction des «Pacha» à l'église","11:00 Пасхальна Служба Божа і свячення пасочок в храмі");
     $e_6d = array("Monday, April 29th<br/>9:00 AM","Lundi le 29 avril</br>9:00h","ПОНЕДІЛОК, 29 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
     $eb_h = array("Easter Banquet","Banquet Pâques","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ");
-    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 5th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 5 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 5 травень по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
+    $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 1st, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 1 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 1 травня по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
 	$gr2013_content = array("As of Monday, May 17 to Saturday May 22, inclusive, the priests of the Montreal deanery will be celebrating \"panachydas\" at the Ukrainian section of the Notre Dame de Neiges cemetery.<br>

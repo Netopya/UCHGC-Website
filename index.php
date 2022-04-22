@@ -78,55 +78,6 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('peace_prayer'); ?>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('uk_help'); ?>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('roof'); ?>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img class="img-responsive" src="images/thub_20220315_115315.jpg" style="margin-bottom: 30px;"/>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img class="img-responsive" src="images/thub_20220315_115419.jpg" />
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('lenten_mission_2022'); ?>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('aid'); ?>
-                    </div>
-                </div>
-
-                <!-- <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
-                        <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
-                    </div>
-                </div> -->
-                <!-- <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
-                        <?php echo $corona2_content[$refined_laguage]; ?>
-                    </div>
-                </div> -->
-
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
@@ -151,7 +102,54 @@
                             </div>
                         </div>
                     </div>
+                </div>  -->
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
+                        <p><?php echo $eb_t[$refined_laguage]; ?></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <img class="img-responsive" src="images/Centredaccueilukrainien_dons-1.png" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('uk_help'); ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('roof'); ?>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img class="img-responsive" src="images/thub_20220315_115315.jpg" style="margin-bottom: 30px;"/>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img class="img-responsive" src="images/thub_20220315_115419.jpg" />
+                    </div>
+                </div>
+                
+
+                <!-- <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
+                        <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
+                    </div>
                 </div> -->
+                <!-- <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
+                        <?php echo $corona2_content[$refined_laguage]; ?>
+                    </div>
+                </div> -->
+
+
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -260,13 +258,7 @@
                         <p style="text-indent: 0px;text-align: center;"><?php echo $lent2013_text[$refined_laguage]; ?></p>
                     </div>
                 </div>-->
-                <!--
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
-                        <p><?php echo $eb_t[$refined_laguage]; ?></p>
-                    </div>
-                </div>-->
+
             </div>
         </div>
         <div id="footer">
