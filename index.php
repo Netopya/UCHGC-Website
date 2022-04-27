@@ -113,7 +113,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <img class="img-responsive" src="images/Centredaccueilukrainien_dons-1.png" />
+                        <img class="img-responsive" style="margin:0 auto;" src="images/Centredaccueilukrainien_dons-1.png" />
                     </div>
                 </div>
 
