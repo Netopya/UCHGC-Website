@@ -273,9 +273,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>February - 11:00am</li><li>March - 9:00am</li><li>April - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Février - 11h</li><li>Mars - 9h</li><li>Avril - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>лютий – 11 година</li><li>березень – 9 година</li><li>квітень – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>May - 9:00am</li><li>June - 11:00am</li><li>July - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mai - 9h</li><li>Juin - 11h</li><li>Juillet - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>травневий – 9 година</li><li>червень – 11 година</li><li>липень – 11 година</li><li>і так далі</li></ul>"
 	);
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2022","Calendrier des messes pour la période de Noël et théologique de 2022","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2022 Року");
@@ -376,23 +376,25 @@
     $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, May 1st, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 1 mai, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 1 травня по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
-	$gr2013_content = array("As of Monday, May 17 to Saturday May 22, inclusive, the priests of the Montreal deanery will be celebrating \"panachydas\" at the Ukrainian section of the Notre Dame de Neiges cemetery.<br>
-        Fr. V. Vitt will be at the cemetery  ready to serve you every day from 10:00 AM.<br>
-        request - please wear masks and keep a social distance of 2 m<br><br>
-        On <strong>Pentecost Sunday, May 23</strong> (Zelenij Sviata) there will be no procession or general \"panachyda\" due to the restriction by the provincial government to limit gatherings to 25 people.  Because of this  controlling the presence and behaviour  of people at the cemetery would be practically impossible, therefore we must cancel the usual celebration on this day.<br>
-        We ask you to accept this decision with understanding and we remind you of the obligatory wearing of masks during the services at the cemetery. Thank you, with our best wishes for your good health and please be careful.",
-        "Du lundi 17 au samedi 22 mai inclusivement, les prêtres du doyenné de Montréal fêteront les «panachydas» dans la section ukrainienne du cimetière Notre-Dame de Neiges.<br>
-        Fr. V. Vitt sera au cimetière prêt à vous servir tous les jours à partir de 10h00.<br>
-        demande - veuillez porter des masques et garder une distance sociale de 2 m<br><br>
-        Le <strong>dimanche de Pentecôte, 23 mai</strong> (Zelenij Sviata), il n'y aura pas de procession ou de \"panachyda\" générale en raison de la restriction du gouvernement provincial de limiter les rassemblements à 25 personnes. À cause de cela, contrôler la présence et le comportement des personnes au cimetière serait pratiquement impossible, nous devons donc annuler la célébration habituelle ce jour-là.<br>
-        Nous vous demandons d'accepter cette décision avec compréhension et nous vous rappelons le port obligatoire des masques lors des offices au cimetière. Merci, avec nos meilleurs vœux pour votre bonne santé et soyez prudent.",
-        "До уваги всіх вірних Монреальського деканату! Починаючи з понеділка 17 травня до суботи 22 травня включно, священики монреальського деканату будуть відправляти панахиди на українській секції цвинтару Нотр-Дам-де-Нейж.<br>
-        Також і о.Володимир Вітт перебуватиме на цвинтарі кожного дня від 10 години<br>
-        ранку і буде до Ваших послуг.<br>
-        прохання –Зодягати маски і тримати дистанцію не менше 2 м<br><br>
-        <strong>У Неділю П’ятидесятниці 23 травня</strong> не буде ні походу, ані соборної нанахиди на цвинтарі через обмеження встановлене провінційним урядом 25 осіб Через це, що проконтролювати присутність і поведінку людей на цвинтарі буде практично неможливо, тому мусимо відкликати і саму соборну відправу у цей день.<br>
-        Просимо поставитись із зрозумінням до цього рішення і пригадуємо вам про обов’язкове носіння масок підчас відправ на цвинтарі. Дякуємо і бажаємо всім міцного<br>
-        здоров’я та закликаємо всіх до обережності.");
+	$gr2013_content = array("\"Zelenyj Swiata\" this year falls on Sunday June 5th</br>
+    During the week before \"Zelenyj Swiata\", that is, from Monday, May 30th to Saturday June 4th, every day from 11:00 to 2:00</br>
+    Fr. Volodymyr Vitt will perform \"Panachydy\" at Cote des Neiges cemetery for the faithful who request them.</br>
+    Parishioners who live far from Montreal or because of other reasons cannot be present, may request \"Panachydy\" on the graves of their departed family members by Father's email.</br>
+    <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>",
+        "Cette année, \"Zelenyj Swiata\" tombe le dimanche 5 juin.</br>
+        Pendant la semaine précédant \"Zelenyj Swiata\", c'est-à-dire du lundi 30 mai au samedi 4 juin, tous les jours de 11h00 à 14h00.</br>
+        Le Père Volodymyr Vitt servira des \"Panachydy\" au cimetière de la Côte des Neiges pour les fidèles qui en feront la demande.</br>
+        Les paroissiens qui habitent loin de Montréal ou qui, pour d'autres raisons, ne peuvent pas être présents, peuvent demander des \"Panachydy\" sur les tombes des membres de leur famille décédés en envoyant un courriel au Père.</br>
+        <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>
+        ",
+        "Зелені Свята цього року припадають на неділю 5 червня.</br>
+        На протязі тижня перед Зеленими Святами а саме від понеділка 30 травня і до суботи 4 червня кожного дня від 11 до 14 години</br>
+        о.Володимир Вітт буде служити Панахиди на  цвинтарі Кот-де-Неж</br>
+        на замовлення вірних.
+        Парафіяни, котрі проживають далеко від Мотреаля або з інших причин не можуть</br>
+        бути присутні, можуть замовити Панахиди на могилі членів своєї родини через електронічну пошту священика:</br>
+        <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>
+        ");
 
 
 

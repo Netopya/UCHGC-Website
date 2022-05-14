@@ -104,10 +104,17 @@
                     </div>
                 </div>  -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
                         <p><?php echo $eb_t[$refined_laguage]; ?></p>
+                    </div>
+                </div> -->
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
+                        <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
                     </div>
                 </div>
 
@@ -134,14 +141,7 @@
                         <img class="img-responsive" src="images/thub_20220315_115419.jpg" />
                     </div>
                 </div>
-                
 
-                <!-- <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
-                        <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
-                    </div>
-                </div> -->
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $corona2_title[$refined_laguage]; ?></h1>
