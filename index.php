@@ -74,7 +74,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('covid_2022_feb'); ?>
+                        <?php getContent('installation'); ?>
                     </div>
                 </div>
 
@@ -111,16 +111,16 @@
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
                         <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <img class="img-responsive" style="margin:0 auto;" src="images/Centredaccueilukrainien_dons-1.png" />
+                        <img class="img-responsive" style="margin:0 auto;" src="images/Welcome Summer 20221024_1 (1).png" />
                     </div>
                 </div>
 
