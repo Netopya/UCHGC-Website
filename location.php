@@ -30,7 +30,7 @@ include("opening_php.php");
                             <address>
                                 <strong>Ukrainian Catholic Holy Ghost Church</strong><br>
                                 1795 Rue Grand Trunk<br>
-                                Montréal, QC, H3K 2J5
+                                Montréal, QC, H3K 1M1
                             </address>
                         </div>
                         <div class="col-lg-5 col-md-6">
