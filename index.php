@@ -72,12 +72,6 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <?php getContent('installation'); ?>
-                    </div>
-                </div>
-
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
@@ -120,7 +114,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <img class="img-responsive" style="margin:0 auto;" src="images/Welcome Summer 20221024_1 (1).png" />
+                        <img class="img-responsive" style="margin:0 auto;" src="images/Welcome UCHGC Oct 20221024_1.jpg" />
                     </div>
                 </div>
 
