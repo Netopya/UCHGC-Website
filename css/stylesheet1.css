@@ -146,7 +146,17 @@ body {
 
 #schedual_container {
     background-color: #E0FFFF;
+}
 
+.donate_container {
+    background-color: #E0FFFF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 26px;
+}
+
+.donate_container p {
+    margin: 0;
 }
 
 .nobulletli {

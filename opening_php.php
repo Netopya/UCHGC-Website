@@ -277,6 +277,12 @@
 		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Octobre - 11h</li><li>Novembre - 9h</li><li>Décembre - 11h</li></ul>",
 		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>жовтень – 11 година</li><li>Листопад – 9 година</li><li>Грудень – 11 година</li><li>і так далі</li></ul>"
 	);
+
+    $donation_button = array(
+        "<a class=\"btn btn-default btn-lg\" href=\"https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/\" role=\"button\">Support Our Parish Online <span class=\"glyphicon glyphicon-new-window\" aria-hidden=\"true\"></span></a>",
+        "<a class=\"btn btn-default btn-lg\" href=\"https://www.canadahelps.org/fr/organismesdebienfaisance/ukrainian-catholic-holy-ghost-church/\" role=\"button\">Soutenir notre paroisse en ligne <span class=\"glyphicon glyphicon-new-window\" aria-hidden=\"true\"></span></a>",
+        "<a class=\"btn btn-default btn-lg\" href=\"https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/\" role=\"button\">Підтримайте нашу парафію в Інтернеті <span class=\"glyphicon glyphicon-new-window\" aria-hidden=\"true\"></span></a>"
+    );
     
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2022","Calendrier des messes pour la période de Noël et théologique de 2022","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2022 Року");
     $xmas2013_content = array(

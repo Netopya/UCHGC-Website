@@ -68,6 +68,14 @@
                     <div class="col-lg-10 col-lg-offset-1">
                         <div class="jumbotron" id="schedual_container">
                             <p><?php echo $schedual_text_new[$refined_laguage]; ?></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="donate_container">
+                            <p><?php echo $donation_button[$refined_laguage]; ?></p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +122,7 @@
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <img class="img-responsive" style="margin:0 auto;" src="images/Welcome UCHGC Oct 20221024_1.jpg" />
+                        <img class="img-responsive" style="margin:0 auto;" src="images/Welcome UCHGC Dec 2022-1.png" />
                     </div>
                 </div>
 
@@ -133,6 +141,12 @@
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <img class="img-responsive" src="images/thub_20220315_115419.jpg" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('community_aid'); ?>
                     </div>
                 </div>
 
