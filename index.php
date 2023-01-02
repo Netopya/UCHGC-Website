@@ -120,9 +120,35 @@
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <img class="img-responsive" style="margin:0 auto;" src="images/Welcome UCHGC Dec 2022-1.png" />
+                    </div>
+                </div> -->
+
+                
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
+                        <a href="images/xmas.jpg">
+                        <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
+                        <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
+                        <div class="clear_float"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <?php getContent('theophany'); ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>
+                        <a href="images/kutia.jpg"><img style="float: right" src="images/thumbnails/thb_kutia.jpg" height="133" width="200"/></a>
+                        <p><?php echo $kutia_text[$refined_laguage]; ?></p>
+                        <div class="clear_float"></div>
                     </div>
                 </div>
 
@@ -178,15 +204,6 @@
                     </div>
                 </div> -->
 
-                <!--<div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
-                        <a href="images/xmas.jpg">
-                        <img style="float: right" src="images/thumbnails/xmas_thb.jpg"/></a>
-                        <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
-                        <div class="clear_float"></div>
-                    </div>
-                </div>-->
 
 				
 				<!--<div class="row">
@@ -250,15 +267,7 @@
                     </div>
                 </div>
 
-                <!--
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>
-                        <a href="images/kutia.jpg"><img style="float: right" src="images/thumbnails/thb_kutia.jpg" height="133" width="200"/></a>
-                        <p><?php echo $kutia_text[$refined_laguage]; ?></p>
-                        <div class="clear_float"></div>
-                    </div>
-                </div>-->
+
                 
                 <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">

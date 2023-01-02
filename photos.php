@@ -32,6 +32,20 @@ include("opening_php.php");
                         </div>
                     </div>
 					
+
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <h1><?php echo $n_video[$refined_laguage]; ?></h1>
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="853" height="480" src="https://www.youtube.com/embed/3smm-u9IbuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1">
                             <h1><?php echo $p_video[$refined_laguage]; ?></h1>

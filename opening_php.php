@@ -287,51 +287,51 @@
     $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2022","Calendrier des messes pour la période de Noël et théologique de 2022","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2022 Року");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Saturday 25 December - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Sunday 25 December - Nativity of Jesus Christ
                 <ul>
                     <li>11:00am - Christmas Divine Liturgy</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Saturday 1 January - New Year
+            <li class=\"nobulletli\">Sunday 1 January - New Year
                 <ul>
                     <li>9:00am - St. Basil the Great</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Thursday 6 January
+            <li class=\"nobulletli\">Friday 6 January
                 <ul>
                     <li>9:00am - Epiphany</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Samedi le 25 Décembre - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Dimanche le 25 Décembre - Nativité de Jésus-Christ
                 <ul>
                     <li>11h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
             <li class=\"nobulletli\">Samedi le 1 Janvier - Nouvel An
                 <ul>
-                    <li>9h00 - Saint Basile le Grand</li>
+                    <li>9h00 - Saint Dimanche le Grand</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Jeudi le 6 Janvier
+            <li class=\"nobulletli\">Vendredi le 6 Janvier
                 <ul>
                     <li>9h00 - Épiphanie</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">субота 25 Грудень - Різво Христове
+            <li class=\"nobulletli\">неділя 25 Грудень - Різво Христове
                 <ul>
                     <li>11:00 - Святкова Служба Божа</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">субота 1 Січня - Новий Рік
+            <li class=\"nobulletli\">неділя 1 Січня - Новий Рік
                 <ul>
                     <li>9:00 - Св. Василія Великого</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Четвер 6 Січня
+            <li class=\"nobulletli\">П'ятниця 6 Січня
                 <ul>
                     <li>9:00 - Богоявлення</li>
                 </ul>
@@ -339,14 +339,12 @@
         </ul>"
     );
     
-    $kutia_title = array("Our traditional Kutia 2020","Notre Kutia traditionnelle 2020","Наша спільна парафіяльна Кутя 2020");
+    $kutia_title = array("Our traditional Kutia 2023","Notre Kutia traditionnelle 2023","Наша спільна парафіяльна Кутя 2023");
     $kutia_text = array(
-    "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <strong>Sunday, Jan 12th</strong>; on that day Divine Liturgy will begin at 11:00 am",
-    "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <strong>dimanche 12 janvier</strong>, ce jour-là la Divine Liturgie débutera à 11h00",
-    "Відвудетьс по Службі Божій в Неділю, 12 січня 2020. В цей день Служба Божа почнеться о 11.00 год."
-                  
-                    
-                        );
+        "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <strong>Sunday, Jan 15th</strong>; on that day Divine Liturgy will begin at 11:00 am<br>Tickets for the traditional Kutia are 35$ per adult, children, student are free and are available now.<br>Please reserve your tickets as soon as possible; they can be purchase from Maria Hruszowski +1 514 604 6946 or during Sunday masses, there will be no tickets sold at the door.",
+        "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <strong>dimanche 15 janvier</strong>, ce jour-là la Divine Liturgie débutera à 11h00<br>Les billets pour la traditionnelle Kutia sont à 35$ par adulte, les enfants ,étudiants sont gratuits et sont disponibles dès maintenant.<br>Veuillez réserver vos billets le plus tôt possible ; ils peuvent être achetés auprès de Maria Hruszowski  +1 514 604 6946 ou pendant les messes dominicales, il n'y aura pas de billets vendus à la porte.",
+        "Відвудетьс по Службі Божій в Неділю, 15 січня 2023. В цей день Служба Божа почнеться о 11.00 год.<br>Квитки можете придбати вже зарас. Прохання бронювати квитки заздалегідь.<br>За квитками звертайтеся до Марії Грушовськоі. +1 514 604 6946<br>$35 за дорослого. Діти та студенти безкоштовно!"
+    );
     
     
     $indexh = array("Ukrainian Catholic Holy Ghost Church in Montreal","L'église catholique ukrainienne Saint-Esprit à Montréal","Українська Католицька Церква Святого Духа в Монреалі");
@@ -570,6 +568,8 @@
     $p_video = array("Pysanki Master class in Montreal","Cours de Pysanky à Montréal","Курс писанки в Монреалі");
 	
 	$paska_video = array("Тhe blessing of the \"Paska\" Holy Ghost Church (2020-04-18)","La bénédiction des «Paska» Èglise Saint-Esprit (2020-04-18)","свячення Пасок . Парафія Святого Духа (2020-04-18)");
+
+	$n_video = array("St. Nicholas 2022","Saint Nicolas 2022","Святого Миколая 2022");
 	
 	$eastergreeting_content = array("Sincere Greetings to all my parishioners on the occasion of Christ's Resurrection - Pascha!  May the joy of this great Holy Day, in spite the current severe circumstances, visit your home and bring you hope for a speedy end to all our trials.  May the Risen Christ strengthen your Faith and protect all of you and your families from all sickness and sorrow.  Peace to all!  CHRYSTOS VOSKRES!","Salutations sincères à tous mes paroissiens à l'occasion de la résurrection du Christ - Pascha! Puisse la joie de ce grand Jour Saint, malgré les circonstances graves actuelles, visiter votre maison et vous apporter l'espoir d'une fin rapide à toutes nos épreuves. Que le Christ ressuscité renforce votre foi et vous protège, vous et vos familles, de toutes les maladies et de la douleur. Paix à tous! CHRYSTOS VOSKRES!","Всіх моїх парафіян сердечно вітаю зі святом Пасхи Христової. Нехай радість цього великого свята, незважаючи на суворі виклики сьогодення, завітає у ваші домівки і принесе вам надію на скоре закінчення наших випробовувань. Нехай воскреслий Ісус укріпить вашу віру і охоронить всіх вас і ваші родини від усякої хвороби і всякої скорботи. Мир вам ! Христос Воскрес !");
 	
