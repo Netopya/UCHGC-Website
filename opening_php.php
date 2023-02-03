@@ -273,9 +273,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>October - 11:00am</li><li>November - 9:00am</li><li>December - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Octobre - 11h</li><li>Novembre - 9h</li><li>Décembre - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>жовтень – 11 година</li><li>Листопад – 9 година</li><li>Грудень – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>February - 11:00am</li><li>March - 9:00am</li><li>April - 11:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Février - 11h</li><li>Mars - 9h</li><li>Avril - 11h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Лютий – 11 година</li><li>березень – 9 година</li><li>квітень – 11 година</li><li>і так далі</li></ul>"
 	);
 
     $donation_button = array(
