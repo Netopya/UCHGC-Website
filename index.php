@@ -120,6 +120,18 @@
                     </div>
                 </div> -->
 
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $psy2013_title[$refined_laguage]; ?></h1>
+                        <p><?php echo $psy2013_content[$refined_laguage]; ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <img class="img-responsive" src="images/easter_thub.jpg" />
+                    </div>
+                </div>
+
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <img class="img-responsive" style="margin:0 auto;" src="images/Welcome UCHGC Dec 2022-1.png" />

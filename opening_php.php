@@ -349,8 +349,8 @@
     
     $indexh = array("Ukrainian Catholic Holy Ghost Church in Montreal","L'église catholique ukrainienne Saint-Esprit à Montréal","Українська Католицька Церква Святого Духа в Монреалі");
     
-    $psy2013_title = array("Pysanky courses 2016","Cours de Pysanky","Kурси Pysanky");
-    $psy2013_content = array("Pysanky courses are being held on the following Fridays at 7:00pm: February 26<sup>th</sup>, March 4<sup>th</sup>, 11<sup>th</sup>, and 18<sup>th</sup>, and April 1<sup>st</sup>, 8<sup>th</sup>, 15<sup>th</sup>, and 22<sup>nd</sup>.","Les cours de Pysanky sont offerts les vendredis suivant à 7h du soir: Le 26 Fevrier, les 4, 11, 18 Mars, et les 1, 8, 15, 22 Avril.","Курси Писанкарства відбуватимуться о 7 год. вечера в наші церковні залі в наступні дні: 26 лютого; 4,11,18 берзня; 1,8,15,22 квітня.");
+    $psy2013_title = array("Pysanky courses 2023","Cours de Pysanky 2023","Kурси Pysanky 2023");
+    $psy2013_content = array("Pysanky courses are being held on the following Fridays at 7:00pm: March 3<sup>rd</sup>, to March 31<sup>st</sup> in the Church","Les cours de Pysanky sont offerts les vendredis suivant à 7h du soir: Le 3 Mars au 31 Mars au sous-sol de l'église","Курси Писанкарства відбуватимуться о 7 год. вечера в наші церковні залі в наступні дні: 3 берзня до 31 берзня у церковному підвалі");
     
 	
 	$psy2013_old_title = array("Pysanky courses 2014","Cours de Pysanky 2014","Kурси Pysanky 2014");
