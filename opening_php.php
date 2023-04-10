@@ -365,13 +365,13 @@
 
     $e_t = array("Easter Week Schedule","Calendrier de la semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Sunday, April 10th<br/>11:00 AM","Dimanche le 10 avril</br>11:00h","НЕДІЛЯ,10 квітня</br>11:00");
+    $e_2d = array("Sunday, April 2nd<br/>11:00 AM","Dimanche le 2 avril</br>11:00h","НЕДІЛЯ,2 квітня</br>11:00");
     $e_2t = array("Divine Liturgy and blessing of \"Loza\"","Liturgie divine et la bénédiction des «Loza»","Святкова Служба Божа і освячення лози");
-    $e_3d = array("Friday, April 15th<br/>5:00 PM","Vendredi le 15 avril</br>17:00","П‘ЯТНИЦЯ, 15 квітня</br>17:00");
+    $e_3d = array("Friday, April 7th<br/>5:00 PM","Vendredi le 7 avril</br>17:00","П‘ЯТНИЦЯ, 7 квітня</br>17:00");
     $e_3t = array("Vespers,  procession with \"Plashchanycia\"<br>(<strong>attention</strong>: kissing and touching of \"Plashchanytsia\" is not allowed)"," Vêpres, procession avec «Plashchanycia»<br>(<strong>Remarque</strong>: embrasser et toucher le «Plashchanycia» n'est pas autorisé)","Вечірня   з виносом  Плащениці<br>(<strong>заувага</strong>: не дозволяється цілування і доторкання до Плащениці)");
     $e_4d = array("Saturday, April 27th<br/>5:00 PM","Samedi le 27 avril<br/>17:00h","СУБОТА, 27 квітня<br/>17:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, April 17th<br/>Ressurection of Our Lord","Dimanche le 17 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 17 квітня</br>Воскресіння Господнє – Пасха");
+    $e_5d = array("Sunday, April 9th<br/>Ressurection of Our Lord","Dimanche le 9 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 9 квітня</br>Воскресіння Господнє – Пасха");
     $e_5t = array("11:00 AM - Paschal Divine Liturgy and blessing of \"Paska\" in church","11:00 -- Liturgie divine Pascale et Bénédiction des «Pacha» à l'église","11:00 Пасхальна Служба Божа і свячення пасочок в храмі");
     $e_6d = array("Monday, April 29th<br/>9:00 AM","Lundi le 29 avril</br>9:00h","ПОНЕДІЛОК, 29 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
@@ -586,6 +586,15 @@
     $lent2021_title = array("Lenten Mission 2021","Le recueillement du carême 2021","Великопостні Реколекції 2021");
     $lent2021_image = array("http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20with%20Metropolitan%20Gudziak%20-%20English%20-%20JPEG%20-%20Feb%2027,2021.jpg","http://uchgc.com/images/Lenten%20Mission%20-%20Metropolitan%20Gudziak%20-%20Ukrainian%20-%20JPEG%20-%20Feb%2027,%202021.jpg");
     $lent2021_form = array("Lenten Mission Schedule","L'horaire du recueillement du carême","Великопостні Реколекції");
+
+    $lent2023 = array("<h1>Lenten  Retreat</h1>
+    <p class=\"centeredpost\">Saturday  1  April -  6:00 PM<br/>
+    </p>","
+    <h1>Retraite de Carême</h1>
+    <p class=\"centeredpost\">Samedi 1 Avril - 18:00<br/></p>",
+    "<h1>Великопостні  Реколекції</h1>
+    <p class=\"centeredpost\">субота  1  квітня - 6 вечора<br/>
+        </p>")
 
 ?>
 
