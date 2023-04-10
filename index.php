@@ -82,19 +82,12 @@
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
-                        <p><?php echo $eb_t[$refined_laguage]; ?></p>
-                    </div>
-                </div> -->
-
-                <!-- <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
                         <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $psy2013_title[$refined_laguage]; ?></h1>
                         <p><?php echo $psy2013_content[$refined_laguage]; ?></p>
@@ -104,7 +97,7 @@
                     <div class="col-lg-6 col-lg-offset-3">
                         <img class="img-responsive" src="images/easter_thub.jpg" />
                     </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -132,11 +125,11 @@
                     </div>
                 </div> -->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <?php echo $lent2023[$refined_laguage]; ?>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -163,6 +156,13 @@
                         </div>
                     </div>
                 </div> 
+
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
+                        <p><?php echo $eb_t[$refined_laguage]; ?></p>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
