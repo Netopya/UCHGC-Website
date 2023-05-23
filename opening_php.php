@@ -273,9 +273,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>February - 11:00am</li><li>March - 9:00am</li><li>April - 11:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Février - 11h</li><li>Mars - 9h</li><li>Avril - 11h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Лютий – 11 година</li><li>березень – 9 година</li><li>квітень – 11 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>May - 9:00am</li><li>June - 11:00am</li><li>July - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mai - 9h</li><li>Juin - 11h</li><li>Juillet - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>травень – 9 година</li><li>червень – 11 година</li><li>липень – 9 година</li><li>і так далі</li></ul>"
 	);
 
     $donation_button = array(
@@ -379,7 +379,7 @@
     $eb_h = array("Easter Banquet","Banquet Pâques","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ");
     $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, April 23rd, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 23 avril, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 23 квітень по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
-	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа похід і соборна панахида на цвинтарі");
+	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа");
 	$gr2013_content = array("\"Zelenyj Swiata\" this year falls on Sunday June 5th</br>
     During the week before \"Zelenyj Swiata\", that is, from Monday, May 30th to Saturday June 4th, every day from 11:00 to 2:00</br>
     Fr. Volodymyr Vitt will perform \"Panachydy\" at Cote des Neiges cemetery for the faithful who request them.</br>
@@ -400,6 +400,16 @@
         <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>
         ");
 
+    $gr2023_content = array("Due to the fact that there is no safe access to the graves at the Côte des Neiges cemetery due to fallen trees, the traditional prayers on Green Holidays are canceled this year.
+    Instead, on Sunday, May 28, our churches will hold joint memorial services after the Divine Liturgy.
+    If you would like us to commemorate the deceased in your family at these services, please submit their names BEFORE the service.",
+            "En raison de l'impossibilité d'accéder en toute sécurité aux tombes du cimetière de la Côte des Neiges à cause des arbres tombés, les prières traditionnelles pour les Fêtes Vertes sont annulées cette année.
+            Au lieu de cela, le dimanche 28 mai, nos églises organiseront des services commémoratifs communs après la Divine Liturgie.
+            Si vous souhaitez que nous fassions mémoire des défunts de votre famille lors de ces services, veuillez nous communiquer leurs noms AVANT le service.",
+            "З тої причини, що на цвинтарі Кот-де-Неж з причини повалених дерев нема безпечного доступу до могил, традиційні молитви на Зелені Свята цього року відміняються.
+            Замість того в Неділю 28 травня у наших храмах по Службі Божій будуть служитися спільні Панахиди.
+            Якщо ви бажаєте, щоб на цих Панахидах ми поминалих померлих у вашій родині, просимо подати їх імена  ПЕРЕД ПОЧАТКОМ СЛУЖБИ БОЖ
+            ");
 
 
 	$sch2013_title = array("Catechism Classes","Classes de catéchisme","Yроки катехизму");

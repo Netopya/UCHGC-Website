@@ -80,12 +80,12 @@
                     </div>
                 </div>
 
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
-                        <p><?php echo $gr2013_content[$refined_laguage]; ?></p>
+                        <p><?php echo $gr2023_content[$refined_laguage]; ?></p>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -131,6 +131,7 @@
                     </div>
                 </div> -->
 
+                <?php /*
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
@@ -163,7 +164,7 @@
                         <p><?php echo $eb_t[$refined_laguage]; ?></p>
                     </div>
                 </div>
-
+                */ ?>
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <?php getContent('uk_help'); ?>
