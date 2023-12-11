@@ -97,6 +97,7 @@
     $priestresidence = array("Residence","Presbytère","проживання");
     $telephone = array("Telephone","Téléphone","Телефон");
     $email = array("E-mail","Courriel","E-mail");
+    $administration = array("Administration","Administration","Адміністрація");
     
     $photo1 = array("Church Exterior","Extérieur de l'église","зовнішній вигляд церкви");
     $photo2 = array("Church Altar","Autel de l'église","внутрішній вигляд церкви");
@@ -273,9 +274,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>May - 9:00am</li><li>June - 11:00am</li><li>July - 9:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mai - 9h</li><li>Juin - 11h</li><li>Juillet - 9h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>травень – 9 година</li><li>червень – 11 година</li><li>липень – 9 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>December - 11:00am</li><li>January - 9:00am</li><li>February - 11:00am</li><li>March - 9:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Décembre - 11h</li><li>Janvier - 9h</li><li>Février - 11h</li><li>Mars - 9h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Грудень – 11 година</li><li>січня – 9 година</li><li>Лютий – 11 година</li><li>березень – 9 година</li><li>і так далі</li></ul>"
 	);
 
     $donation_button = array(
@@ -284,54 +285,54 @@
         "<a class=\"btn btn-default btn-lg\" href=\"https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/\" role=\"button\">Підтримайте нашу парафію в Інтернеті <span class=\"glyphicon glyphicon-new-window\" aria-hidden=\"true\"></span></a>"
     );
     
-    $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2022","Calendrier des messes pour la période de Noël et théologique de 2022","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2022 Року");
+    $xmas2013_title = array("Schedule of worship for the Christmas and Theological Period of 2023","Calendrier des messes pour la période de Noël et théologique de 2023","Розпорядок Богослужінь на Різдвяно-Богоявленський Період 2023 Року");
     $xmas2013_content = array(
         "<ul>
-            <li class=\"nobulletli\">Sunday 25 December - Nativity of Jesus Christ
+            <li class=\"nobulletli\">Monday 25 December - Nativity of Jesus Christ
                 <ul>
                     <li>11:00am - Christmas Divine Liturgy</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Sunday 1 January - New Year
+            <li class=\"nobulletli\">Monday 1 January - New Year
                 <ul>
                     <li>9:00am - St. Basil the Great</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Friday 6 January
+            <li class=\"nobulletli\">Saturday 6 January
                 <ul>
                     <li>9:00am - Epiphany</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">Dimanche le 25 Décembre - Nativité de Jésus-Christ
+            <li class=\"nobulletli\">Lundi le 25 Décembre - Nativité de Jésus-Christ
                 <ul>
                     <li>11h00 - Divine Liturgie de Noël</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Samedi le 1 Janvier - Nouvel An
+            <li class=\"nobulletli\">Lundi le 1 Janvier - Nouvel An
                 <ul>
                     <li>9h00 - Saint Dimanche le Grand</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">Vendredi le 6 Janvier
+            <li class=\"nobulletli\">Samedi le 6 Janvier
                 <ul>
                     <li>9h00 - Épiphanie</li>
                 </ul>
             </li>
         </ul>"
         ,"<ul>
-            <li class=\"nobulletli\">неділя 25 Грудень - Різво Христове
+            <li class=\"nobulletli\">понеділок 25 Грудень - Різво Христове
                 <ul>
                     <li>11:00 - Святкова Служба Божа</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">неділя 1 Січня - Новий Рік
+            <li class=\"nobulletli\">понеділок 1 Січня - Новий Рік
                 <ul>
                     <li>9:00 - Св. Василія Великого</li>
                 </ul>
             </li>
-            <li class=\"nobulletli\">П'ятниця 6 Січня
+            <li class=\"nobulletli\">Субота 6 Січня
                 <ul>
                     <li>9:00 - Богоявлення</li>
                 </ul>

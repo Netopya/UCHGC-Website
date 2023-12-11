@@ -29,7 +29,8 @@ include("opening_php.php");
                                     <h3><?php echo $priestname[$refined_laguage]; ?></h3>
                                     <?php echo $priestresidence[$refined_laguage]; ?>: 7345 Churchill Verdun Qc <br>
                                     <?php echo $telephone[$refined_laguage]; ?>: 514-769-3804<br>
-                                    <?php echo $email[$refined_laguage]; ?>: <a href="mailto:v.vitt@hotmail.com">v.vitt@hotmail.com</a>
+                                    <?php echo $email[$refined_laguage]; ?>: <a href="mailto:v.vitt@hotmail.com">v.vitt@hotmail.com</a><br>
+                                    <?php echo $administration[$refined_laguage]; ?>: 514-935-9732<br>
                                 </address>
                             </div>
                         </div>

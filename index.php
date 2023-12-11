@@ -80,12 +80,12 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $gr2013_title[$refined_laguage]; ?></h1>
                         <p><?php echo $gr2023_content[$refined_laguage]; ?></p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -106,7 +106,7 @@
                 </div> -->
 
                 
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -114,7 +114,7 @@
                         <p><?php echo $xmas2013_content[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
