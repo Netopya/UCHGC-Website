@@ -106,7 +106,7 @@
                 </div> -->
 
                 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $xmas2013_title[$refined_laguage]; ?></h1>
                         <a href="images/xmas.jpg">
@@ -116,14 +116,14 @@
                     </div>
                 </div>
 
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $kutia_title[$refined_laguage]; ?></h1>
                         <a href="images/kutia.jpg"><img style="float: right" src="images/thumbnails/thb_kutia.jpg" height="133" width="200"/></a>
                         <p><?php echo $kutia_text[$refined_laguage]; ?></p>
                         <div class="clear_float"></div>
                     </div>
-                </div> -->
+                </div>-->
 
                 <!-- <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
@@ -131,7 +131,7 @@
                     </div>
                 </div> -->
 
-                <?php /*
+
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $e_t[$refined_laguage]; ?></h1>
@@ -142,9 +142,9 @@
                             <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_3d[$refined_laguage]; ?></b></center></br><?php echo $e_3t[$refined_laguage]; ?>
                             </div>
-                            <!-- <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_4d[$refined_laguage]; ?></b></center></br><?php echo $e_4t[$refined_laguage]; ?>
-                            </div> -->
+                            </div>
                             <div class="col-md-4 col-sm-6">
                                 <center><b><?php echo $e_5d[$refined_laguage]; ?></b></center></br><?php echo $e_5t[$refined_laguage]; ?>
                             </div>
@@ -158,13 +158,14 @@
                     </div>
                 </div> 
 
+                <!--
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h1><?php echo $eb_h[$refined_laguage]; ?></h1>
                         <p><?php echo $eb_t[$refined_laguage]; ?></p>
                     </div>
-                </div>
-                */ ?>
+                </div> -->
+
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <?php getContent('uk_help'); ?>

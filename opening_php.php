@@ -340,11 +340,11 @@
         </ul>"
     );
     
-    $kutia_title = array("Our traditional Kutia 2023","Notre Kutia traditionnelle 2023","Наша спільна парафіяльна Кутя 2023");
+    $kutia_title = array("Our traditional Kutia 2024","Notre Kutia traditionnelle 2024","Наша спільна парафіяльна Кутя 2024");
     $kutia_text = array(
-        "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <strong>Sunday, Jan 15th</strong>; on that day Divine Liturgy will begin at 11:00 am<br>Tickets for the traditional Kutia are 35$ per adult, children, student are free and are available now.<br>Please reserve your tickets as soon as possible; they can be purchase from Maria Hruszowski +1 514 604 6946 or during Sunday masses, there will be no tickets sold at the door.",
-        "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <strong>dimanche 15 janvier</strong>, ce jour-là la Divine Liturgie débutera à 11h00<br>Les billets pour la traditionnelle Kutia sont à 35$ par adulte, les enfants ,étudiants sont gratuits et sont disponibles dès maintenant.<br>Veuillez réserver vos billets le plus tôt possible ; ils peuvent être achetés auprès de Maria Hruszowski  +1 514 604 6946 ou pendant les messes dominicales, il n'y aura pas de billets vendus à la porte.",
-        "Відвудетьс по Службі Божій в Неділю, 15 січня 2023. В цей день Служба Божа почнеться о 11.00 год.<br>Квитки можете придбати вже зарас. Прохання бронювати квитки заздалегідь.<br>За квитками звертайтеся до Марії Грушовськоі. +1 514 604 6946<br>$35 за дорослого. Діти та студенти безкоштовно!"
+        "Our traditional parish \"Kutia\" will take place after Divine Liturgy on <strong>Sunday, Jan 14th</strong>; on that day Divine Liturgy will begin at 11:00 am.<br>Tickets for the traditional Kutia are $35 per adult and are currently available. Children and students can attend for free.<br>Please reserve your tickets as soon as possible; they can be purchase from Maria Hruszowski +1 514 604 6946 or during Sunday masses, there will be no tickets sold at the door.",
+        "Notre Kutia de paroisse traditionnelle aura lieu après la Divine Liturgie le <strong>dimanche 14 janvier</strong>, ce jour-là la Divine Liturgie débutera à 11h00.<br>Les billets pour la traditionnelle Kutia sont à 35$ par adulte, les enfants, étudiants sont gratuits et sont disponibles dès maintenant.<br>Veuillez réserver vos billets le plus tôt possible ; ils peuvent être achetés auprès de Maria Hruszowski  +1 514 604 6946 ou pendant les messes dominicales, il n'y aura pas de billets vendus à la porte.",
+        "Відвудетьс по Службі Божій в Неділю, 14 січня 2024. В цей день Служба Божа почнеться о 11.00 год.<br>Квитки можете придбати вже зарас. Прохання бронювати квитки заздалегідь.<br>За квитками звертайтеся до Марії Грушовськоі. +1 514 604 6946<br>$35 за дорослого. Діти та студенти безкоштовно!"
     );
     
     
@@ -366,14 +366,14 @@
 
     $e_t = array("Easter Week Schedule","Calendrier de la semaine Pascale","Великодній тиждень розклад");
     
-    $e_2d = array("Sunday, April 2nd<br/>11:00 AM","Dimanche le 2 avril</br>11:00h","НЕДІЛЯ,2 квітня</br>11:00");
+    $e_2d = array("Sunday, March 24th<br/>9:00 AM","Dimanche le 24 mars</br>9:00h","НЕДІЛЯ,24 березень</br>9:00");
     $e_2t = array("Divine Liturgy and blessing of \"Loza\"","Liturgie divine et la bénédiction des «Loza»","Святкова Служба Божа і освячення лози");
-    $e_3d = array("Friday, April 7th<br/>5:00 PM","Vendredi le 7 avril</br>17:00","П‘ЯТНИЦЯ, 7 квітня</br>17:00");
-    $e_3t = array("Vespers,  procession with \"Plashchanycia\"<br>(<strong>attention</strong>: kissing and touching of \"Plashchanytsia\" is not allowed)"," Vêpres, procession avec «Plashchanycia»<br>(<strong>Remarque</strong>: embrasser et toucher le «Plashchanycia» n'est pas autorisé)","Вечірня   з виносом  Плащениці<br>(<strong>заувага</strong>: не дозволяється цілування і доторкання до Плащениці)");
-    $e_4d = array("Saturday, April 27th<br/>5:00 PM","Samedi le 27 avril<br/>17:00h","СУБОТА, 27 квітня<br/>17:00");
+    $e_3d = array("Friday, March 29th<br/>5:00 PM","Vendredi le 29 mars</br>17:00","П‘ЯТНИЦЯ, 29 березень</br>17:00");
+    $e_3t = array("Vespers,  procession with \"Plashchanycia\""," Vêpres, procession avec «Plashchanycia»","Вечірня   з виносом  Плащениці");
+    $e_4d = array("Saturday, March 30th<br/>4:00 PM","Samedi le 30 mars<br/>16:00h","СУБОТА, 30 березень<br/>16:00");
     $e_4t = array("Blessing of \"Pascha\"  (Easter Baskets) *one time only...in our parish hall, 1770 Centre St.","Bénédiction des «Pacha» (Paniers de Pâques), 1770 rue Centre","свячення Пасок  (один раз ! ),1770 Centre St.");
-    $e_5d = array("Sunday, April 9th<br/>Ressurection of Our Lord","Dimanche le 9 avril</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 9 квітня</br>Воскресіння Господнє – Пасха");
-    $e_5t = array("11:00 AM - Paschal Divine Liturgy and blessing of \"Paska\" in church","11:00 -- Liturgie divine Pascale et Bénédiction des «Pacha» à l'église","11:00 Пасхальна Служба Божа і свячення пасочок в храмі");
+    $e_5d = array("Sunday, March 31st<br/>Ressurection of Our Lord","Dimanche le 31 mars</br>Résurrection de Notre-Seigneur","НЕДІЛЯ, 31 березень</br>Воскресіння Господнє – Пасха");
+    $e_5t = array("9:00 AM - Paschal Divine Liturgy","9:00 -- Liturgie divine Pascale","9:00 Пасхальна Служба Божа");
     $e_6d = array("Monday, April 29th<br/>9:00 AM","Lundi le 29 avril</br>9:00h","ПОНЕДІЛОК, 29 квітня</br>9:00");
     $e_6t = array("Bright Monday -- Divine Liturgy","Lumineux Lundi - liturgie divine","СВІТЛИЙ ПОНЕДІЛОК");
 
