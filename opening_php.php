@@ -274,9 +274,9 @@
     );
 	
 	$schedual_text_new = array(
-		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>December - 11:00am</li><li>January - 9:00am</li><li>February - 11:00am</li><li>March - 9:00am</li></ul>",
-		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Décembre - 11h</li><li>Janvier - 9h</li><li>Février - 11h</li><li>Mars - 9h</li></ul>",
-		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>Грудень – 11 година</li><li>січня – 9 година</li><li>Лютий – 11 година</li><li>березень – 9 година</li><li>і так далі</li></ul>"
+		"Sunday Worship is held at 9:00am or 11:00am depending on the month. The schedule for the next 3 month is as follows:<ul><li>May - 9:00am</li><li>June - 11:00am</li><li>July - 9:00am</li><li>August - 11:00am</li></ul>",
+		"Les messes dominicales auront lieu soie à 9h ou 11h dependant du mois. L'horaire pour les prochains 3 mois est le suivant:<ul><li>Mai - 9h</li><li>Juin - 11h</li><li>Juillet - 9h</li><li>Août - 11h</li></ul>",
+		"Кожного місяця нелільні і святкові Богослужби будуть починатвися почергво О 9 або 11 годині <ul><li>травень – 9 година</li><li>червень – 11 година</li><li>липень – 9 година</li><li>серпень – 11 година</li><li>і так далі</li></ul>"
 	);
 
     $donation_button = array(
@@ -381,24 +381,18 @@
     $eb_t = array("Our traditional \"Sviatchene\" (Easter Banquet) will be held on Sunday, April 14th, after Divine Liturgy, which on that day will commence at 11:00 AM.","Notre traditionnelle «Sviatchene» (Banquet Pâques) aura lieu le dimanche 14 avril, après la divine liturgie qui commencera cette journée, à 11 h.","СПІЛЬНЕ ПАРАФІЯЛЬНЕ СВЯЧЕНЕ  відбудеться  в  Неділю, 14 квітень по Службі Божій. В цей день Служба Божа служитиметься о 11:00");
 
 	$gr2013_title = array("Ukrainian Catholic Green Sunday Memorial Service","Service commémoratif catholique du dimanche vert ukrainien","Неділя Зіслання Святого Духа");
-	$gr2013_content = array("\"Zelenyj Swiata\" this year falls on Sunday June 5th</br>
-    During the week before \"Zelenyj Swiata\", that is, from Monday, May 30th to Saturday June 4th, every day from 11:00 to 2:00</br>
-    Fr. Volodymyr Vitt will perform \"Panachydy\" at Cote des Neiges cemetery for the faithful who request them.</br>
-    Parishioners who live far from Montreal or because of other reasons cannot be present, may request \"Panachydy\" on the graves of their departed family members by Father's email.</br>
-    <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>",
-        "Cette année, \"Zelenyj Swiata\" tombe le dimanche 5 juin.</br>
-        Pendant la semaine précédant \"Zelenyj Swiata\", c'est-à-dire du lundi 30 mai au samedi 4 juin, tous les jours de 11h00 à 14h00.</br>
-        Le Père Volodymyr Vitt servira des \"Panachydy\" au cimetière de la Côte des Neiges pour les fidèles qui en feront la demande.</br>
-        Les paroissiens qui habitent loin de Montréal ou qui, pour d'autres raisons, ne peuvent pas être présents, peuvent demander des \"Panachydy\" sur les tombes des membres de leur famille décédés en envoyant un courriel au Père.</br>
-        <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>
+	$gr2013_content = array("\"Zelenyj Swiata\" this year falls on Sunday May 19th</br>
+    During the week before \"Zelenyj Swiata\", that is, from Thursday, May 16th to Saturday May 18th, every day from 10:00 to 2:00</br>
+    Fr. Volodymyr Vitt will perform \"Panachydy\" at Cote des Neiges cemetery for the faithful who request them.",
+        "Cette année, \"Zelenyj Swiata\" tombe le dimanche 19 mai.</br>
+        Pendant la semaine précédant \"Zelenyj Swiata\", c'est-à-dire du jeudi 16 mai au samedi 18 mai, tous les jours de 10h00 à 14h00.</br>
+        Le Père Volodymyr Vitt servira des \"Panachydy\" au cimetière de la Côte des Neiges pour les fidèles qui en feront la demande.
         ",
-        "Зелені Свята цього року припадають на неділю 5 червня.</br>
-        На протязі тижня перед Зеленими Святами а саме від понеділка 30 травня і до суботи 4 червня кожного дня від 11 до 14 години</br>
+        "Зелені Свята цього року припадають на неділю 19 травень.</br>
+        На протязі тижня перед Зеленими Святами а саме від четвер 16 травня і до суботи 18 травня кожного дня від 10 до 14 години</br>
         о.Володимир Вітт буде служити Панахиди на  цвинтарі Кот-де-Неж</br>
         на замовлення вірних.
-        Парафіяни, котрі проживають далеко від Мотреаля або з інших причин не можуть</br>
-        бути присутні, можуть замовити Панахиди на могилі членів своєї родини через електронічну пошту священика:</br>
-        <a href=\"mailto:v.vitt@hotmail.com\">v.vitt@hotmail.com</a>
+        Парафіяни, котрі проживають далеко від Мотреаля або з інших причин не можуть
         ");
 
     $gr2023_content = array("Due to the fact that there is no safe access to the graves at the Côte des Neiges cemetery due to fallen trees, the traditional prayers on Green Holidays are canceled this year.
